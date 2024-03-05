@@ -1,0 +1,2269 @@
+AvgTicketPrice,Cancelled,Dest,DestAirportID,DestCityName,DestCountry,DestLocation,DestRegion,DestWeather,DistanceKilometers,DistanceMiles,FlightDelay,FlightDelayMin,FlightDelayType,FlightNum,FlightTimeHour,FlightTimeMin,Origin,OriginAirportID,OriginCityName,OriginCountry,OriginLocation,OriginRegion,OriginWeather,dayOfWeek,hour_of_day
+$668.22 ,FALSE,San Francisco International Airport,SFO,San Francisco,US,"{
+  ""lat"": ""37.61899948"",
+  ""lon"": ""-122.375""
+}",US-CA,Sunny,"10,260.84","6,375.79",FALSE,0,No Delay,TY74105,8.143523822,488.611,Naples International Airport,NA01,Naples,IT,"{
+  ""lat"": ""40.886002"",
+  ""lon"": ""14.2908""
+}",IT-72,Sunny,5,16
+$519.25 ,FALSE,Tulsa International Airport,TUL,Tulsa,US,"{
+  ""lat"": ""36.19839859"",
+  ""lon"": ""-95.88809967""
+}",US-OK,Sunny,"4,137.26","2,570.78",FALSE,0,No Delay,95NFX0P,6.268580384,376.115,El Dorado International Airport,BOG,Bogota,CO,"{
+  ""lat"": ""4.70159"",
+  ""lon"": ""-74.1469""
+}",SE-BD,Rain,5,16
+$847.82 ,FALSE,Winnipeg / James Armstrong Richardson International Airport,YWG,Winnipeg,CA,"{
+  ""lat"": ""49.90999985"",
+  ""lon"": ""-97.23989868""
+}",CA-MB,Sunny,"11,251.57","6,991.40",FALSE,0,No Delay,Y61ST9M,10.41811649,625.087,Dubai International Airport,DXB,Dubai,AE,"{
+  ""lat"": ""25.25279999"",
+  ""lon"": ""55.36439896""
+}",SE-BD,Sunny,5,16
+$572.58 ,FALSE,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Clear,"3,566.19","2,215.93",FALSE,0,No Delay,K4BI402,2.83030614,169.818,Rajiv Gandhi International Airport,HYD,Hyderabad,IN,"{
+  ""lat"": ""17.23131752"",
+  ""lon"": ""78.42985535""
+}",SE-BD,Clear,5,16
+"$1,146.29 ",FALSE,Malpensa International Airport,MI12,Milan,IT,"{
+  ""lat"": ""45.6306"",
+  ""lon"": ""8.72811""
+}",IT-25,Rain,"6,629.76","4,119.54",TRUE,285,Late Aircraft Delay,9KM3JYX,14.79508578,887.705,Lester B. Pearson International Airport,YYZ,Toronto,CA,"{
+  ""lat"": ""43.67720032"",
+  ""lon"": ""-79.63059998""
+}",CA-ON,Rain,5,16
+"$1,150.82 ",FALSE,Verona Villafranca Airport,VR10,Verona,IT,"{
+  ""lat"": ""45.395699"",
+  ""lon"": ""10.8885""
+}",IT-34,Hail,"7,699.46","4,784.22",FALSE,0,No Delay,A3JXOW3,8.020270183,481.216,Savannah Hilton Head International Airport,SAV,Savannah,US,"{
+  ""lat"": ""32.12760162"",
+  ""lon"": ""-81.20210266""
+}",US-GA,Sunny,5,15
+$526.94 ,FALSE,OR Tambo International Airport,JNB,Johannesburg,ZA,"{
+  ""lat"": ""-26.1392"",
+  ""lon"": ""28.246""
+}",SE-BD,Rain,"9,004.51","5,595.14",TRUE,15,NAS Delay,S9LMOSW,8.587510171,515.251,London Gatwick Airport,LGW,London,GB,"{
+  ""lat"": ""51.14810181"",
+  ""lon"": ""-0.190277994""
+}",GB-ENG,Cloudy,5,15
+$746.93 ,FALSE,London Luton Airport,LTN,London,GB,"{
+  ""lat"": ""51.87469864"",
+  ""lon"": ""-0.368333012""
+}",GB-ENG,Cloudy,"9,687.89","6,019.77",FALSE,0,No Delay,02EKPYM,12.42036774,745.222,Cape Town International Airport,CPT,Cape Town,ZA,"{
+  ""lat"": ""-33.96480179"",
+  ""lon"": ""18.60169983""
+}",SE-BD,Cloudy,5,15
+$953.91 ,FALSE,Ukrainka Air Base,XHBU,Belogorsk,RU,"{
+  ""lat"": ""51.169997"",
+  ""lon"": ""128.445007""
+}",RU-AMU,Sunny,"9,152.06","5,686.83",FALSE,0,No Delay,1NH90MS,8.972610279,538.357,Lester B. Pearson International Airport,YYZ,Toronto,CA,"{
+  ""lat"": ""43.67720032"",
+  ""lon"": ""-79.63059998""
+}",CA-ON,Thunder & Lightning,5,15
+"$1,044.08 ",FALSE,Lester B. Pearson International Airport,YYZ,Toronto,CA,"{
+  ""lat"": ""43.67720032"",
+  ""lon"": ""-79.63059998""
+}",CA-ON,Sunny,"11,056.26","6,870.04",TRUE,330,Late Aircraft Delay,KJFLSXC,16.33946584,980.368,Jeju International Airport,CJU,Jeju City,KR,"{
+  ""lat"": ""33.51129913"",
+  ""lon"": ""126.4929962""
+}",SE-BD,Rain,5,15
+$957.51 ,TRUE,Naples International Airport,NA01,Naples,IT,"{
+  ""lat"": ""40.886002"",
+  ""lon"": ""14.2908""
+}",IT-72,Cloudy,"10,244.08","6,365.38",TRUE,330,Weather Delay,YN6459A,19.72788794,"1,183.67",Mariscal Sucre International Airport,UIO,Quito,EC,"{
+  ""lat"": ""-0.129166667"",
+  ""lon"": ""-78.3575""
+}",EC-P,Thunder & Lightning,5,15
+$882.63 ,FALSE,Melbourne International Airport,MEL,Melbourne,AU,"{
+  ""lat"": ""-37.673302"",
+  ""lon"": ""144.843002""
+}",SE-BD,Cloudy,"16,342.69","10,154.88",TRUE,210,Late Aircraft Delay,X972PJN,22.9555884,"1,377.34",Luis Munoz Marin International Airport,SJU,San Juan,PR,"{
+  ""lat"": ""18.43939972"",
+  ""lon"": ""-66.00180054""
+}",PR-U-A,Sunny,5,15
+$900.56 ,FALSE,Warsaw Chopin Airport,WAW,Warsaw,PL,"{
+  ""lat"": ""52.16569901"",
+  ""lon"": ""20.96710014""
+}",PL-MZ,Damaging Wind,"8,206.03","5,098.99",FALSE,0,No Delay,W6E986Z,12.43337047,746.002,Luis Munoz Marin International Airport,SJU,San Juan,PR,"{
+  ""lat"": ""18.43939972"",
+  ""lon"": ""-66.00180054""
+}",PR-U-A,Clear,5,15
+$604.17 ,FALSE,Itami Airport,ITM,Osaka,JP,"{
+  ""lat"": ""34.78549957"",
+  ""lon"": ""135.4380035""
+}",SE-BD,Sunny,861.608,535.379,FALSE,0,No Delay,4H2KUBH,0.755796905,45.348,Incheon International Airport,ICN,Seoul,KR,"{
+  ""lat"": ""37.46910095"",
+  ""lon"": ""126.4509964""
+}",SE-BD,Damaging Wind,5,15
+$895.14 ,FALSE,Turin Airport,TO11,Torino,IT,"{
+  ""lat"": ""45.200802"",
+  ""lon"": ""7.64963""
+}",IT-21,Cloudy,"8,142.41","5,059.46",FALSE,0,No Delay,5ES35KN,9.693349764,581.601,Billings Logan International Airport,BIL,Billings,US,"{
+  ""lat"": ""45.80770111"",
+  ""lon"": ""-108.5429993""
+}",US-MT,Cloudy,5,15
+$832.98 ,FALSE,Montreal / Pierre Elliott Trudeau International Airport,YUL,Montreal,CA,"{
+  ""lat"": ""45.47060013"",
+  ""lon"": ""-73.74079895""
+}",CA-QC,Rain,"6,177.84","3,838.73",FALSE,0,No Delay,7QQDFOZ,6.435253317,386.115,Milano Linate Airport,MI11,Milan,IT,"{
+  ""lat"": ""45.445099"",
+  ""lon"": ""9.27674""
+}",IT-25,Heavy Fog,5,15
+$366.06 ,FALSE,San Francisco International Airport,SFO,San Francisco,US,"{
+  ""lat"": ""37.61899948"",
+  ""lon"": ""-122.375""
+}",US-CA,Rain,"2,385.11","1,482.04",FALSE,0,No Delay,9VIYU7K,2.208432106,132.506,San Antonio International Airport,SAT,San Antonio,US,"{
+  ""lat"": ""29.53370094"",
+  ""lon"": ""-98.46980286""
+}",US-TX,Rain,5,15
+$605.66 ,FALSE,Wichita Mid Continent Airport,ICT,Wichita,US,"{
+  ""lat"": ""37.64989853"",
+  ""lon"": ""-97.43309784""
+}",US-KS,Heavy Fog,"8,487.05","5,273.61",FALSE,0,No Delay,2ZTUP7Y,10.10362956,606.218,Vienna International Airport,VIE,Vienna,AT,"{
+  ""lat"": ""48.11029816"",
+  ""lon"": ""16.56970024""
+}",AT-9,Cloudy,5,15
+$599.39 ,TRUE,Stockholm-Arlanda Airport,ARN,Stockholm,SE,"{
+  ""lat"": ""59.65190125"",
+  ""lon"": ""17.91860008""
+}",SE-AB,Rain,"8,350.74","5,188.91",FALSE,0,No Delay,8ABZBRH,12.65263242,759.158,Reno Tahoe International Airport,RNO,Reno,US,"{
+  ""lat"": ""39.49909973"",
+  ""lon"": ""-119.7679977""
+}",US-NV,Hail,5,15
+$714.30 ,FALSE,Turin Airport,TO11,Torino,IT,"{
+  ""lat"": ""45.200802"",
+  ""lon"": ""7.64963""
+}",IT-21,Heavy Fog,"7,747.40","4,814.01",FALSE,0,No Delay,5XPQI9G,7.595492169,455.73,Edmonton International Airport,CYEG,Edmonton,CA,"{
+  ""lat"": ""53.30970001"",
+  ""lon"": ""-113.5800018""
+}",CA-AB,Damaging Wind,5,15
+$575.25 ,FALSE,Oslo Gardermoen Airport,OSL,Oslo,NO,"{
+  ""lat"": ""60.19390106"",
+  ""lon"": ""11.10039997""
+}",NO-02,Rain,"7,240.73","4,499.18",FALSE,0,No Delay,UA9DRO9,6.704377412,402.263,Birmingham-Shuttlesworth International Airport,BHM,Birmingham,US,"{
+  ""lat"": ""33.56290054"",
+  ""lon"": ""-86.75350189""
+}",US-AL,Rain,5,15
+"$1,120.73 ",FALSE,Winnipeg / James Armstrong Richardson International Airport,YWG,Winnipeg,CA,"{
+  ""lat"": ""49.90999985"",
+  ""lon"": ""-97.23989868""
+}",CA-MB,Clear,"7,222.97","4,488.14",FALSE,0,No Delay,U060W04,10.94388666,656.633,Turin Airport,TO11,Torino,IT,"{
+  ""lat"": ""45.200802"",
+  ""lon"": ""7.64963""
+}",IT-21,Clear,5,15
+$999.31 ,FALSE,Genoa Cristoforo Colombo Airport,GE01,Genova,IT,"{
+  ""lat"": ""44.4133"",
+  ""lon"": ""8.8375""
+}",IT-42,Damaging Wind,"7,005.90","4,353.26",TRUE,150,NAS Delay,AZS5EW8,13.11499346,786.9,Cleveland Hopkins International Airport,CLE,Cleveland,US,"{
+  ""lat"": ""41.4117012"",
+  ""lon"": ""-81.84980011""
+}",US-OH,Rain,5,15
+$399.24 ,FALSE,Rochester International Airport,RST,Rochester,US,"{
+  ""lat"": ""43.90829849"",
+  ""lon"": ""-92.5""
+}",US-MN,Cloudy,"1,583.65",984.035,FALSE,0,No Delay,1MAEYXT,1.466343657,87.981,Norfolk International Airport,ORF,Norfolk,US,"{
+  ""lat"": ""36.89459991"",
+  ""lon"": ""-76.20120239""
+}",US-VA,Heavy Fog,5,15
+"$1,113.95 ",FALSE,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Sunny,"10,316.16","6,410.16",FALSE,0,No Delay,BP2ELNS,14.32799426,859.68,Winnipeg / James Armstrong Richardson International Airport,YWG,Winnipeg,CA,"{
+  ""lat"": ""49.90999985"",
+  ""lon"": ""-97.23989868""
+}",CA-MB,Rain,5,15
+$677.26 ,FALSE,Treviso-Sant'Angelo Airport,TV01,Treviso,IT,"{
+  ""lat"": ""45.648399"",
+  ""lon"": ""12.1944""
+}",IT-34,Rain,"6,818.16","4,236.61",FALSE,0,No Delay,109CUFD,6.313107729,378.786,Rajiv Gandhi International Airport,HYD,Hyderabad,IN,"{
+  ""lat"": ""17.23131752"",
+  ""lon"": ""78.42985535""
+}",SE-BD,Cloudy,5,15
+$784.74 ,FALSE,Minneapolis-St Paul International/Wold-Chamberlain Airport,MSP,Minneapolis,US,"{
+  ""lat"": ""44.88199997"",
+  ""lon"": ""-93.22180176""
+}",US-MN,Clear,"9,840.61","6,114.67",FALSE,0,No Delay,RIVNUT1,13.66751209,820.051,Chubu Centrair International Airport,NGO,Tokoname,JP,"{
+  ""lat"": ""34.85839844"",
+  ""lon"": ""136.8049927""
+}",SE-BD,Cloudy,5,15
+$616.69 ,FALSE,Vienna International Airport,VIE,Vienna,AT,"{
+  ""lat"": ""48.11029816"",
+  ""lon"": ""16.56970024""
+}",AT-9,Thunder & Lightning,"1,447.06",899.161,FALSE,0,No Delay,NGZ1V5U,1.41868526,85.121,Manchester Airport,MAN,Manchester,GB,"{
+  ""lat"": ""53.35369873"",
+  ""lon"": ""-2.274950027""
+}",GB-ENG,Cloudy,5,14
+$922.53 ,FALSE,OR Tambo International Airport,JNB,Johannesburg,ZA,"{
+  ""lat"": ""-26.1392"",
+  ""lon"": ""28.246""
+}",SE-BD,Sunny,"12,963.02","8,054.85",FALSE,0,No Delay,YYA3O1X,16.61925572,997.155,Newport News Williamsburg International Airport,PHF,Newport News,US,"{
+  ""lat"": ""37.13190079"",
+  ""lon"": ""-76.49299622""
+}",US-VA,Rain,5,14
+$957.28 ,FALSE,Warsaw Chopin Airport,WAW,Warsaw,PL,"{
+  ""lat"": ""52.16569901"",
+  ""lon"": ""20.96710014""
+}",PL-MZ,Clear,"8,624.18","5,358.82",FALSE,0,No Delay,7BHP9JT,7.186819929,431.209,Tokyo Haneda International Airport,HND,Tokyo,JP,"{
+  ""lat"": ""35.552299"",
+  ""lon"": ""139.779999""
+}",SE-BD,Hail,5,14
+$221.14 ,FALSE,Zurich Airport,ZRH,Zurich,CH,"{
+  ""lat"": ""47.464699"",
+  ""lon"": ""8.54917""
+}",CH-ZH,Sunny,0,0,FALSE,0,No Delay,3QCO6IE,0,0,Zurich Airport,ZRH,Zurich,CH,"{
+  ""lat"": ""47.464699"",
+  ""lon"": ""8.54917""
+}",CH-ZH,Thunder & Lightning,5,14
+$651.82 ,FALSE,Shanghai Hongqiao International Airport,SHA,Shanghai,CN,"{
+  ""lat"": ""31.19790077"",
+  ""lon"": ""121.3359985""
+}",SE-BD,Rain,"11,952.78","7,427.11",FALSE,0,No Delay,52T3F16,14.22949668,853.77,Philadelphia International Airport,PHL,Philadelphia,US,"{
+  ""lat"": ""39.87189865"",
+  ""lon"": ""-75.2410965""
+}",US-PA,Clear,5,14
+$391.06 ,FALSE,OR Tambo International Airport,JNB,Johannesburg,ZA,"{
+  ""lat"": ""-26.1392"",
+  ""lon"": ""28.246""
+}",SE-BD,Cloudy,477.858,296.927,TRUE,195,Carrier Delay,5CD66NR,3.669173604,220.15,King Shaka International Airport,DUR,Durban,ZA,"{
+  ""lat"": ""-29.61444444"",
+  ""lon"": ""31.11972222""
+}",SE-BD,Damaging Wind,5,14
+$814.04 ,FALSE,Licenciado Benito Juarez International Airport,AICM,Mexico City,MX,"{
+  ""lat"": ""19.4363"",
+  ""lon"": ""-99.072098""
+}",MX-DIF,Sunny,"10,264.74","6,378.21",TRUE,360,Carrier Delay,JG56A92,14.14661637,848.797,Ciampino___G. B. Pastine International Airport,RM12,Rome,IT,"{
+  ""lat"": ""41.7994"",
+  ""lon"": ""12.5949""
+}",IT-62,Thunder & Lightning,5,14
+$567.11 ,FALSE,Dubai International Airport,DXB,Dubai,AE,"{
+  ""lat"": ""25.25279999"",
+  ""lon"": ""55.36439896""
+}",SE-BD,Sunny,"5,658.30","3,515.91",FALSE,0,No Delay,AR9OTDM,6.287002885,377.22,Adolfo Suarez Madrid— Barajas Airport,MAD,Madrid,ES,"{
+  ""lat"": ""40.471926"",
+  ""lon"": ""-3.56264""
+}",ES-M,Hail,5,14
+$726.19 ,FALSE,Oslo Gardermoen Airport,OSL,Oslo,NO,"{
+  ""lat"": ""60.19390106"",
+  ""lon"": ""11.10039997""
+}",NO-02,Rain,"6,494.71","4,035.62",FALSE,0,No Delay,6NRNLBV,7.731794408,463.908,Edmonton International Airport,CYEG,Edmonton,CA,"{
+  ""lat"": ""53.30970001"",
+  ""lon"": ""-113.5800018""
+}",CA-AB,Clear,5,14
+$873.10 ,FALSE,London Luton Airport,LTN,London,GB,"{
+  ""lat"": ""51.87469864"",
+  ""lon"": ""-0.368333012""
+}",GB-ENG,Cloudy,"6,925.37","4,303.23",FALSE,0,No Delay,OWKSWAM,7.213930344,432.836,Birmingham-Shuttlesworth International Airport,BHM,Birmingham,US,"{
+  ""lat"": ""33.56290054"",
+  ""lon"": ""-86.75350189""
+}",US-AL,Heavy Fog,5,14
+$730.77 ,FALSE,Shanghai Hongqiao International Airport,SHA,Shanghai,CN,"{
+  ""lat"": ""31.19790077"",
+  ""lon"": ""121.3359985""
+}",SE-BD,Clear,"19,601.82","12,180.01",FALSE,0,No Delay,VDD8J9D,16.33484977,980.091,Ministro Pistarini International Airport,EZE,Buenos Aires,AR,"{
+  ""lat"": ""-34.8222"",
+  ""lon"": ""-58.5358""
+}",SE-BD,Damaging Wind,5,14
+$356.45 ,FALSE,Scott AFB/Midamerica Airport,BLV,Belleville,US,"{
+  ""lat"": ""38.5452"",
+  ""lon"": ""-89.835197""
+}",US-IL,Rain,"1,911.09","1,187.49",FALSE,0,No Delay,ZGLD72A,1.873613269,112.417,Salt Lake City International Airport,SLC,Salt Lake City,US,"{
+  ""lat"": ""40.78839874"",
+  ""lon"": ""-111.9779968""
+}",US-UT,Hail,5,14
+$203.33 ,FALSE,Pisa International Airport,PI05,Pisa,IT,"{
+  ""lat"": ""43.683899"",
+  ""lon"": ""10.3927""
+}",IT-52,Thunder & Lightning,595.307,369.907,TRUE,90,NAS Delay,H5OVG6D,2.401980673,144.119,Bari Karol Wojty__a Airport,BA02,Bari,IT,"{
+  ""lat"": ""41.138901"",
+  ""lon"": ""16.760599""
+}",IT-75,Clear,5,14
+"$1,011.39 ",FALSE,Leonardo da Vinci___Fiumicino Airport,RM11,Rome,IT,"{
+  ""lat"": ""41.8002778"",
+  ""lon"": ""12.2388889""
+}",IT-62,Rain,"9,365.55","5,819.48",FALSE,0,No Delay,L6VXXIV,9.755777238,585.347,El Dorado International Airport,BOG,Bogota,CO,"{
+  ""lat"": ""4.70159"",
+  ""lon"": ""-74.1469""
+}",CO-CUN,Rain,5,14
+$379.08 ,TRUE,Narita International Airport,NRT,Tokyo,JP,"{
+  ""lat"": ""35.76470184"",
+  ""lon"": ""140.3860016""
+}",SE-BD,Thunder & Lightning,463.041,287.72,FALSE,0,No Delay,G5FNH2J,0.514490008,30.869,Itami Airport,ITM,Osaka,JP,"{
+  ""lat"": ""34.78549957"",
+  ""lon"": ""135.4380035""
+}",SE-BD,Clear,5,14
+$687.46 ,FALSE,Verona Villafranca Airport,VR10,Verona,IT,"{
+  ""lat"": ""45.395699"",
+  ""lon"": ""10.8885""
+}",IT-34,Rain,"16,426.77","10,207.12",FALSE,0,No Delay,CY7W89I,13.03711989,782.227,Sydney Kingsford Smith International Airport,SYD,Sydney,AU,"{
+  ""lat"": ""-33.94609833"",
+  ""lon"": ""151.177002""
+}",SE-BD,Cloudy,5,13
+$754.24 ,TRUE,Olenya Air Base,XLMO,Olenegorsk,RU,"{
+  ""lat"": ""68.15180206"",
+  ""lon"": ""33.46390152""
+}",RU-MUR,Thunder & Lightning,"10,463.97","6,502.01",FALSE,0,No Delay,9ETZNNE,9.17892306,550.735,OR Tambo International Airport,JNB,Johannesburg,ZA,"{
+  ""lat"": ""-26.1392"",
+  ""lon"": ""28.246""
+}",SE-BD,Cloudy,5,13
+$632.84 ,FALSE,Turin Airport,TO11,Torino,IT,"{
+  ""lat"": ""45.200802"",
+  ""lon"": ""7.64963""
+}",IT-21,Heavy Fog,"9,260.23","5,754.04",TRUE,105,Carrier Delay,C18LNQD,15.78065793,946.839,Shanghai Pudong International Airport,PVG,Shanghai,CN,"{
+  ""lat"": ""31.14340019"",
+  ""lon"": ""121.8050003""
+}",SE-BD,Cloudy,5,13
+$964.30 ,TRUE,Newport News Williamsburg International Airport,PHF,Newport News,US,"{
+  ""lat"": ""37.13190079"",
+  ""lon"": ""-76.49299622""
+}",US-VA,Damaging Wind,"16,877.26","10,487.04",FALSE,0,No Delay,CTV03W5,20.09197258,"1,205.52",Adelaide International Airport,ADL,Adelaide,AU,"{
+  ""lat"": ""-34.945"",
+  ""lon"": ""138.531006""
+}",SE-BD,Cloudy,5,13
+$317.84 ,FALSE,Quad City International Airport,MLI,Moline,US,"{
+  ""lat"": ""41.44850159"",
+  ""lon"": ""-90.50749969""
+}",US-IL,Rain,870.825,541.105,FALSE,0,No Delay,YJ3J3X1,0.725687233,43.541,Pittsburgh International Airport,PIT,Pittsburgh,US,"{
+  ""lat"": ""40.49150085"",
+  ""lon"": ""-80.23290253""
+}",US-PA,Sunny,5,13
+$476.17 ,FALSE,Zurich Airport,ZRH,Zurich,CH,"{
+  ""lat"": ""47.464699"",
+  ""lon"": ""8.54917""
+}",CH-ZH,Sunny,0,0,TRUE,180,Late Aircraft Delay,J8N1BS5,3,180,Zurich Airport,ZRH,Zurich,CH,"{
+  ""lat"": ""47.464699"",
+  ""lon"": ""8.54917""
+}",CH-ZH,Clear,5,13
+$511.58 ,FALSE,Ukrainka Air Base,XHBU,Belogorsk,RU,"{
+  ""lat"": ""51.169997"",
+  ""lon"": ""128.445007""
+}",RU-AMU,Rain,"9,064.27","5,632.27",TRUE,270,NAS Delay,QJBLZU7,13.38653522,803.192,Ottawa Macdonald-Cartier International Airport,YOW,Ottawa,CA,"{
+  ""lat"": ""45.32249832"",
+  ""lon"": ""-75.66919708""
+}",CA-ON,Thunder & Lightning,5,13
+$960.05 ,FALSE,Venice Marco Polo Airport,VE05,Venice,IT,"{
+  ""lat"": ""45.505299"",
+  ""lon"": ""12.3519""
+}",IT-34,Rain,"16,311.65","10,135.59",FALSE,0,No Delay,U8JILWG,22.65507259,"1,359.30",Sydney Kingsford Smith International Airport,SYD,Sydney,AU,"{
+  ""lat"": ""-33.94609833"",
+  ""lon"": ""151.177002""
+}",SE-BD,Cloudy,5,13
+"$1,188.22 ",FALSE,Treviso-Sant'Angelo Airport,TV01,Treviso,IT,"{
+  ""lat"": ""45.648399"",
+  ""lon"": ""12.1944""
+}",IT-34,Clear,"8,840.38","5,493.16",FALSE,0,No Delay,0O7Y2MC,9.20873168,552.524,Cape Town International Airport,CPT,Cape Town,ZA,"{
+  ""lat"": ""-33.96480179"",
+  ""lon"": ""18.60169983""
+}",SE-BD,Clear,5,13
+"$1,156.49 ",FALSE,Warsaw Chopin Airport,WAW,Warsaw,PL,"{
+  ""lat"": ""52.16569901"",
+  ""lon"": ""20.96710014""
+}",PL-MZ,Sunny,972.607,604.35,FALSE,0,No Delay,N2JAT6F,0.953536312,57.212,Venice Marco Polo Airport,VE05,Venice,IT,"{
+  ""lat"": ""45.505299"",
+  ""lon"": ""12.3519""
+}",IT-34,Rain,5,12
+$715.43 ,FALSE,Ukrainka Air Base,XHBU,Belogorsk,RU,"{
+  ""lat"": ""51.169997"",
+  ""lon"": ""128.445007""
+}",RU-AMU,Heavy Fog,"13,450.98","8,358.05",FALSE,0,No Delay,CAY05LK,14.01144189,840.687,El Dorado International Airport,BOG,Bogota,CO,"{
+  ""lat"": ""4.70159"",
+  ""lon"": ""-74.1469""
+}",SE-BD,Sunny,5,12
+"$1,068.59 ",TRUE,San Francisco International Airport,SFO,San Francisco,US,"{
+  ""lat"": ""37.61899948"",
+  ""lon"": ""-122.375""
+}",US-CA,Heavy Fog,"8,246.27","5,123.99",FALSE,0,No Delay,238Q02Q,8.084577462,485.075,Narita International Airport,NRT,Tokyo,JP,"{
+  ""lat"": ""35.76470184"",
+  ""lon"": ""140.3860016""
+}",SE-BD,Damaging Wind,5,12
+"$1,009.99 ",FALSE,Wichita Mid Continent Airport,ICT,Wichita,US,"{
+  ""lat"": ""37.64989853"",
+  ""lon"": ""-97.43309784""
+}",US-KS,Clear,"8,164.93","5,073.45",FALSE,0,No Delay,PMKXWHZ,8.505130929,510.308,Turin Airport,TO11,Torino,IT,"{
+  ""lat"": ""45.200802"",
+  ""lon"": ""7.64963""
+}",IT-21,Cloudy,5,12
+$933.27 ,FALSE,OR Tambo International Airport,JNB,Johannesburg,ZA,"{
+  ""lat"": ""-26.1392"",
+  ""lon"": ""28.246""
+}",SE-BD,Sunny,"9,179.01","5,703.57",FALSE,0,No Delay,JRXLBRY,12.7486294,764.918,Copenhagen Kastrup Airport,CPH,Copenhagen,DK,"{
+  ""lat"": ""55.61790085"",
+  ""lon"": ""12.65600014""
+}",DK-84,Damaging Wind,5,12
+$657.33 ,FALSE,Gimpo International Airport,GMP,Seoul,KR,"{
+  ""lat"": ""37.5583"",
+  ""lon"": ""126.791""
+}",SE-BD,Cloudy,"8,998.39","5,591.34",FALSE,0,No Delay,A6XHTIO,8.82195298,529.317,Genoa Cristoforo Colombo Airport,GE01,Genova,IT,"{
+  ""lat"": ""44.4133"",
+  ""lon"": ""8.8375""
+}",IT-42,Thunder & Lightning,5,12
+$733.98 ,FALSE,Lester B. Pearson International Airport,YYZ,Toronto,CA,"{
+  ""lat"": ""43.67720032"",
+  ""lon"": ""-79.63059998""
+}",CA-ON,Hail,"6,036.89","3,751.15",FALSE,0,No Delay,NQV92KI,7.739604331,464.376,Charles de Gaulle International Airport,CDG,Paris,FR,"{
+  ""lat"": ""49.01279831"",
+  ""lon"": ""2.549999952""
+}",FR-J,Heavy Fog,5,12
+$669.96 ,TRUE,Shanghai Hongqiao International Airport,SHA,Shanghai,CN,"{
+  ""lat"": ""31.19790077"",
+  ""lon"": ""121.3359985""
+}",SE-BD,Damaging Wind,"17,169.74","10,668.78",TRUE,330,NAS Delay,TSN71NF,23.38514021,"1,403.11",Jorge Chavez International Airport,LIM,Lima,PE,"{
+  ""lat"": ""-12.0219"",
+  ""lon"": ""-77.114304""
+}",SE-BD,Hail,5,12
+$984.66 ,FALSE,Turin Airport,TO11,Torino,IT,"{
+  ""lat"": ""45.200802"",
+  ""lon"": ""7.64963""
+}",IT-21,Sunny,"9,852.22","6,121.89",FALSE,0,No Delay,4USJHT0,8.210185702,492.611,Tokyo Haneda International Airport,HND,Tokyo,JP,"{
+  ""lat"": ""35.552299"",
+  ""lon"": ""139.779999""
+}",SE-BD,Hail,5,12
+"$1,070.04 ",FALSE,Ministro Pistarini International Airport,EZE,Buenos Aires,AR,"{
+  ""lat"": ""-34.8222"",
+  ""lon"": ""-58.5358""
+}",AR-B,Clear,"6,900.96","4,288.06",TRUE,255,Late Aircraft Delay,YMCU96B,10.00079714,600.048,Cape Town International Airport,CPT,Cape Town,ZA,"{
+  ""lat"": ""-33.96480179"",
+  ""lon"": ""18.60169983""
+}",SE-BD,Sunny,5,12
+$474.22 ,TRUE,Zurich Airport,ZRH,Zurich,CH,"{
+  ""lat"": ""47.464699"",
+  ""lon"": ""8.54917""
+}",CH-ZH,Cloudy,0,0,FALSE,0,No Delay,5CSLMLT,0,0,Zurich Airport,ZRH,Zurich,CH,"{
+  ""lat"": ""47.464699"",
+  ""lon"": ""8.54917""
+}",CH-ZH,Heavy Fog,5,12
+$826.36 ,FALSE,San Antonio International Airport,SAT,San Antonio,US,"{
+  ""lat"": ""29.53370094"",
+  ""lon"": ""-98.46980286""
+}",US-TX,Damaging Wind,"8,329.64","5,175.80",TRUE,150,Late Aircraft Delay,100720F,9.806703369,588.402,Charles de Gaulle International Airport,CDG,Paris,FR,"{
+  ""lat"": ""49.01279831"",
+  ""lon"": ""2.549999952""
+}",FR-J,Cloudy,5,11
+"$1,012.11 ",TRUE,Zurich Airport,ZRH,Zurich,CH,"{
+  ""lat"": ""47.464699"",
+  ""lon"": ""8.54917""
+}",CH-ZH,Sunny,603.346,374.902,FALSE,0,No Delay,B1AE1C0,0.773520552,46.411,Amsterdam Airport Schiphol,AMS,Amsterdam,NL,"{
+  ""lat"": ""52.30860138"",
+  ""lon"": ""4.76388979""
+}",NL-NH,Thunder & Lightning,5,11
+$823.28 ,FALSE,Tokyo Haneda International Airport,HND,Tokyo,JP,"{
+  ""lat"": ""35.552299"",
+  ""lon"": ""139.779999""
+}",SE-BD,Clear,"7,784.50","4,837.07",TRUE,195,Carrier Delay,MC8POW0,9.428175681,565.691,Sydney Kingsford Smith International Airport,SYD,Sydney,AU,"{
+  ""lat"": ""-33.94609833"",
+  ""lon"": ""151.177002""
+}",SE-BD,Damaging Wind,5,11
+$320.58 ,FALSE,Genoa Cristoforo Colombo Airport,GE01,Genova,IT,"{
+  ""lat"": ""44.4133"",
+  ""lon"": ""8.8375""
+}",IT-42,Sunny,573.604,356.421,FALSE,0,No Delay,PZMQ2FJ,0.682861823,40.972,Cagliari Elmas Airport,CA07,Cagliari,IT,"{
+  ""lat"": ""39.251499"",
+  ""lon"": ""9.05428""
+}",IT-88,Sunny,5,11
+"$1,019.12 ",FALSE,Savannah Hilton Head International Airport,SAV,Savannah,US,"{
+  ""lat"": ""32.12760162"",
+  ""lon"": ""-81.20210266""
+}",US-GA,Clear,"7,779.03","4,833.67",TRUE,45,Carrier Delay,V9PSO2P,6.923834646,415.43,Helsinki Vantaa Airport,HEL,Helsinki,FI,"{
+  ""lat"": ""60.31719971"",
+  ""lon"": ""24.9633007""
+}",FI-ES,Cloudy,5,11
+$664.83 ,TRUE,Falcone Borsellino Airport,PA03,Palermo,IT,"{
+  ""lat"": ""38.175999"",
+  ""lon"": ""13.091""
+}",IT-82,Heavy Fog,"1,598.66",993.362,FALSE,0,No Delay,66S0AQ8,1.665272861,99.916,Berlin-Tegel Airport,TXL,Berlin,DE,"{
+  ""lat"": ""52.5597"",
+  ""lon"": ""13.2877""
+}",DE-BE,Rain,5,11
+"$1,158.19 ",FALSE,Pisa International Airport,PI05,Pisa,IT,"{
+  ""lat"": ""43.683899"",
+  ""lon"": ""10.3927""
+}",IT-52,Heavy Fog,"6,496.17","4,036.54",FALSE,0,No Delay,AASIGDB,6.766848039,406.011,Ottawa Macdonald-Cartier International Airport,YOW,Ottawa,CA,"{
+  ""lat"": ""45.32249832"",
+  ""lon"": ""-75.66919708""
+}",CA-ON,Hail,5,11
+"$1,064.81 ",FALSE,London Gatwick Airport,LGW,London,GB,"{
+  ""lat"": ""51.14810181"",
+  ""lon"": ""-0.190277994""
+}",GB-ENG,Clear,365.748,227.265,FALSE,0,No Delay,0T02JVU,0.435414094,26.125,Amsterdam Airport Schiphol,AMS,Amsterdam,NL,"{
+  ""lat"": ""52.30860138"",
+  ""lon"": ""4.76388979""
+}",NL-NH,Cloudy,5,11
+$759.08 ,FALSE,Venice Marco Polo Airport,VE05,Venice,IT,"{
+  ""lat"": ""45.505299"",
+  ""lon"": ""12.3519""
+}",IT-34,Sunny,"1,636.67","1,016.98",FALSE,0,No Delay,YJ9SCNW,1.948420179,116.905,Oslo Gardermoen Airport,OSL,Oslo,NO,"{
+  ""lat"": ""60.19390106"",
+  ""lon"": ""11.10039997""
+}",NO-02,Damaging Wind,5,11
+"$1,048.92 ",FALSE,Shanghai Pudong International Airport,PVG,Shanghai,CN,"{
+  ""lat"": ""31.14340019"",
+  ""lon"": ""121.8050003""
+}",SE-BD,Sunny,"9,188.98","5,709.77",TRUE,180,Security Delay,9YVBZKZ,12.57185567,754.311,Pisa International Airport,PI05,Pisa,IT,"{
+  ""lat"": ""43.683899"",
+  ""lon"": ""10.3927""
+}",IT-52,Sunny,5,11
+$286.25 ,FALSE,Scott AFB/Midamerica Airport,BLV,Belleville,US,"{
+  ""lat"": ""38.5452"",
+  ""lon"": ""-89.835197""
+}",US-IL,Hail,"1,143.23",710.367,FALSE,0,No Delay,C6ETY2A,1.465673411,87.94,Greater Rochester International Airport,ROC,Rochester,US,"{
+  ""lat"": ""43.1189003"",
+  ""lon"": ""-77.67240143""
+}",US-NY,Cloudy,5,11
+$599.57 ,FALSE,Spokane International Airport,GEG,Spokane,US,"{
+  ""lat"": ""47.61989975"",
+  ""lon"": ""-117.5339966""
+}",US-WA,Rain,"3,544.99","2,202.75",FALSE,0,No Delay,VE4FS5I,5.37119261,322.272,Licenciado Benito Juarez International Airport,AICM,Mexico City,MX,"{
+  ""lat"": ""19.4363"",
+  ""lon"": ""-99.072098""
+}",MX-DIF,Cloudy,5,11
+$762.23 ,TRUE,Olenya Air Base,XLMO,Olenegorsk,RU,"{
+  ""lat"": ""68.15180206"",
+  ""lon"": ""33.46390152""
+}",RU-MUR,Hail,"2,618.50","1,627.06",FALSE,0,No Delay,P0AAZPA,3.636808757,218.209,London Gatwick Airport,LGW,London,GB,"{
+  ""lat"": ""51.14810181"",
+  ""lon"": ""-0.190277994""
+}",GB-ENG,Sunny,5,11
+"$1,017.91 ",FALSE,Dublin Airport,DUB,Dublin,IE,"{
+  ""lat"": ""53.42129898"",
+  ""lon"": ""-6.270070076""
+}",IE-D,Rain,"7,610.33","4,728.84",FALSE,0,No Delay,MO8OCJQ,9.756834443,585.41,Chhatrapati Shivaji International Airport,BOM,Mumbai,IN,"{
+  ""lat"": ""19.08869934"",
+  ""lon"": ""72.86789703""
+}",SE-BD,Cloudy,5,11
+$456.24 ,FALSE,Stockholm-Arlanda Airport,ARN,Stockholm,SE,"{
+  ""lat"": ""59.65190125"",
+  ""lon"": ""17.91860008""
+}",SE-AB,Clear,0,0,FALSE,0,No Delay,NTDZ9S2,0,0,Stockholm-Arlanda Airport,ARN,Stockholm,SE,"{
+  ""lat"": ""59.65190125"",
+  ""lon"": ""17.91860008""
+}",SE-AB,Hail,5,11
+$988.67 ,TRUE,Portland International Airport,PDX,Portland,US,"{
+  ""lat"": ""45.58869934"",
+  ""lon"": ""-122.5979996""
+}",US-OR,Hail,"12,156.80","7,553.89",FALSE,0,No Delay,Y4ECHTZ,14.47238453,868.343,Dubai International Airport,DXB,Dubai,AE,"{
+  ""lat"": ""25.25279999"",
+  ""lon"": ""55.36439896""
+}",SE-BD,Damaging Wind,5,11
+$881.80 ,FALSE,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Cloudy,"13,358.24","8,300.43",FALSE,0,No Delay,YIXHPCU,14.84249356,890.55,Licenciado Benito Juarez International Airport,AICM,Mexico City,MX,"{
+  ""lat"": ""19.4363"",
+  ""lon"": ""-99.072098""
+}",MX-DIF,Sunny,5,11
+$583.92 ,FALSE,Tokyo Haneda International Airport,HND,Tokyo,JP,"{
+  ""lat"": ""35.552299"",
+  ""lon"": ""139.779999""
+}",SE-BD,Damaging Wind,"10,645.43","6,614.76",FALSE,0,No Delay,8A7ZKYK,11.82825085,709.695,Memphis International Airport,MEM,Memphis,US,"{
+  ""lat"": ""35.04240036"",
+  ""lon"": ""-89.97669983""
+}",US-TN,Cloudy,5,11
+$559.57 ,FALSE,Warsaw Chopin Airport,WAW,Warsaw,PL,"{
+  ""lat"": ""52.16569901"",
+  ""lon"": ""20.96710014""
+}",PL-MZ,Thunder & Lightning,"9,163.28","5,693.80",FALSE,0,No Delay,3UNFMV9,8.037966295,482.278,Reno Tahoe International Airport,RNO,Reno,US,"{
+  ""lat"": ""39.49909973"",
+  ""lon"": ""-119.7679977""
+}",US-NV,Cloudy,5,10
+$922.10 ,FALSE,Zurich Airport,ZRH,Zurich,CH,"{
+  ""lat"": ""47.464699"",
+  ""lon"": ""8.54917""
+}",CH-ZH,Rain,862.673,536.04,FALSE,0,No Delay,PEBWQMJ,0.75673067,45.404,Naples International Airport,NA01,Naples,IT,"{
+  ""lat"": ""40.886002"",
+  ""lon"": ""14.2908""
+}",IT-72,Clear,5,10
+"$1,106.97 ",FALSE,Warsaw Chopin Airport,WAW,Warsaw,PL,"{
+  ""lat"": ""52.16569901"",
+  ""lon"": ""20.96710014""
+}",PL-MZ,Clear,"6,694.68","4,159.88",FALSE,0,No Delay,NQRN0TI,9.298165895,557.89,Ukrainka Air Base,XHBU,Belogorsk,RU,"{
+  ""lat"": ""51.169997"",
+  ""lon"": ""128.445007""
+}",RU-AMU,Heavy Fog,5,10
+$620.05 ,FALSE,Syracuse Hancock International Airport,SYR,Syracuse,US,"{
+  ""lat"": ""43.11119843"",
+  ""lon"": ""-76.10630035""
+}",US-NY,Clear,"6,208.73","3,857.92",FALSE,0,No Delay,RDACWYZ,5.446250354,326.775,Stockholm-Arlanda Airport,ARN,Stockholm,SE,"{
+  ""lat"": ""59.65190125"",
+  ""lon"": ""17.91860008""
+}",SE-AB,Cloudy,5,10
+$652.44 ,FALSE,Raleigh Durham International Airport,RDU,Raleigh/Durham,US,"{
+  ""lat"": ""35.87760162"",
+  ""lon"": ""-78.78749847""
+}",US-NC,Rain,"7,906.78","4,913.05",FALSE,0,No Delay,U2JTQ4U,7.751749399,465.105,Bari Karol Wojty__a Airport,BA02,Bari,IT,"{
+  ""lat"": ""41.138901"",
+  ""lon"": ""16.760599""
+}",IT-75,Hail,5,10
+$788.02 ,FALSE,Incheon International Airport,ICN,Seoul,KR,"{
+  ""lat"": ""37.46910095"",
+  ""lon"": ""126.4509964""
+}",SE-BD,Sunny,"10,286.51","6,391.74",FALSE,0,No Delay,4DT043K,8.572092119,514.326,Austin Straubel International Airport,GRB,Green Bay,US,"{
+  ""lat"": ""44.48509979"",
+  ""lon"": ""-88.12960052""
+}",US-WI,Sunny,5,10
+"$1,156.50 ",FALSE,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Clear,"17,451.54","10,843.88",FALSE,0,No Delay,C5HYT4B,17.10935078,"1,026.56",Jorge Chavez International Airport,LIM,Lima,PE,"{
+  ""lat"": ""-12.0219"",
+  ""lon"": ""-77.114304""
+}",SE-BD,Clear,5,10
+"$1,134.06 ",FALSE,Guangzhou Baiyun International Airport,CAN,Guangzhou,CN,"{
+  ""lat"": ""23.39240074"",
+  ""lon"": ""113.2990036""
+}",SE-BD,Clear,"12,710.48","7,897.93",FALSE,0,No Delay,3U9QSVG,11.14954698,668.973,General Edward Lawrence Logan International Airport,BOS,Boston,US,"{
+  ""lat"": ""42.36429977"",
+  ""lon"": ""-71.00520325""
+}",US-MA,Clear,5,10
+$906.36 ,TRUE,OR Tambo International Airport,JNB,Johannesburg,ZA,"{
+  ""lat"": ""-26.1392"",
+  ""lon"": ""28.246""
+}",SE-BD,Heavy Fog,"15,624.01","9,708.31",TRUE,330,Carrier Delay,F9H0EXM,18.52000622,"1,111.20",Albuquerque International Sunport Airport,ABQ,Albuquerque,US,"{
+  ""lat"": ""35.040199"",
+  ""lon"": ""-106.609001""
+}",US-NM,Cloudy,5,10
+"$1,019.53 ",FALSE,King Shaka International Airport,DUR,Durban,ZA,"{
+  ""lat"": ""-29.61444444"",
+  ""lon"": ""31.11972222""
+}",SE-BD,Damaging Wind,"8,504.61","5,284.52",FALSE,0,No Delay,BY67PPZ,7.874638744,472.478,Genoa Cristoforo Colombo Airport,GE01,Genova,IT,"{
+  ""lat"": ""44.4133"",
+  ""lon"": ""8.8375""
+}",IT-42,Rain,5,10
+$346.11 ,FALSE,San Diego International Airport,SAN,San Diego,US,"{
+  ""lat"": ""32.73360062"",
+  ""lon"": ""-117.1900024""
+}",US-CA,Cloudy,"3,389.68","2,106.25",FALSE,0,No Delay,LGDA7P5,3.530912032,211.855,Pittsburgh International Airport,PIT,Pittsburgh,US,"{
+  ""lat"": ""40.49150085"",
+  ""lon"": ""-80.23290253""
+}",US-PA,Sunny,5,10
+$565.37 ,FALSE,Narita International Airport,NRT,Tokyo,JP,"{
+  ""lat"": ""35.76470184"",
+  ""lon"": ""140.3860016""
+}",SE-BD,Sunny,"18,304.41","11,373.84",TRUE,30,NAS Delay,6NWI7JE,20.83823656,"1,250.29",Ministro Pistarini International Airport,EZE,Buenos Aires,AR,"{
+  ""lat"": ""-34.8222"",
+  ""lon"": ""-58.5358""
+}",SE-BD,Damaging Wind,5,10
+$979.81 ,FALSE,Warsaw Chopin Airport,WAW,Warsaw,PL,"{
+  ""lat"": ""52.16569901"",
+  ""lon"": ""20.96710014""
+}",PL-MZ,Rain,"1,054.28",655.096,FALSE,0,No Delay,IEQFKCP,1.597386254,95.843,Verona Villafranca Airport,VR10,Verona,IT,"{
+  ""lat"": ""45.395699"",
+  ""lon"": ""10.8885""
+}",IT-34,Clear,5,10
+"$1,028.01 ",FALSE,Ottawa Macdonald-Cartier International Airport,YOW,Ottawa,CA,"{
+  ""lat"": ""45.32249832"",
+  ""lon"": ""-75.66919708""
+}",CA-ON,Hail,"8,731.06","5,425.23",FALSE,0,No Delay,AGD55X1,11.19366886,671.62,Comodoro Arturo Merino Benitez International Airport,SCL,Santiago,CL,"{
+  ""lat"": ""-33.39300156"",
+  ""lon"": ""-70.78579712""
+}",SE-BD,Rain,5,10
+$891.71 ,FALSE,Mariscal Sucre International Airport,UIO,Quito,EC,"{
+  ""lat"": ""-0.129166667"",
+  ""lon"": ""-78.3575""
+}",EC-P,Rain,"8,841.01","5,493.55",TRUE,195,Carrier Delay,1PMAE0A,14.584631,875.078,Dublin Airport,DUB,Dublin,IE,"{
+  ""lat"": ""53.42129898"",
+  ""lon"": ""-6.270070076""
+}",IE-D,Cloudy,5,10
+"$1,163.37 ",FALSE,Winnipeg / James Armstrong Richardson International Airport,YWG,Winnipeg,CA,"{
+  ""lat"": ""49.90999985"",
+  ""lon"": ""-97.23989868""
+}",CA-MB,Rain,"1,981.14","1,231.02",FALSE,0,No Delay,5GO6Y3T,1.737838613,104.27,Washington Dulles International Airport,IAD,Washington,US,"{
+  ""lat"": ""38.94449997"",
+  ""lon"": ""-77.45580292""
+}",US-DC,Hail,5,10
+"$1,037.30 ",TRUE,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Thunder & Lightning,"10,316.16","6,410.16",FALSE,0,No Delay,AIMVL6C,10.1138783,606.833,Winnipeg / James Armstrong Richardson International Airport,YWG,Winnipeg,CA,"{
+  ""lat"": ""49.90999985"",
+  ""lon"": ""-97.23989868""
+}",CA-MB,Sunny,5,10
+"$1,086.53 ",FALSE,El Dorado International Airport,BOG,Bogota,CO,"{
+  ""lat"": ""4.70159"",
+  ""lon"": ""-74.1469""
+}",SE-BD,Clear,"16,094.61","10,000.73",FALSE,0,No Delay,MHPO6X7,14.1180775,847.085,Chengdu Shuangliu International Airport,CTU,Chengdu,CN,"{
+  ""lat"": ""30.57850075"",
+  ""lon"": ""103.9469986""
+}",SE-BD,Thunder & Lightning,5,10
+$438.41 ,FALSE,Milano Linate Airport,MI11,Milan,IT,"{
+  ""lat"": ""45.445099"",
+  ""lon"": ""9.27674""
+}",IT-25,Heavy Fog,470.184,292.159,FALSE,0,No Delay,I2AN7XR,0.391820282,23.509,Leonardo da Vinci___Fiumicino Airport,RM11,Rome,IT,"{
+  ""lat"": ""41.8002778"",
+  ""lon"": ""12.2388889""
+}",IT-62,Clear,5,10
+$832.26 ,FALSE,Ministro Pistarini International Airport,EZE,Buenos Aires,AR,"{
+  ""lat"": ""-34.8222"",
+  ""lon"": ""-58.5358""
+}",AR-B,Heavy Fog,"7,909.06","4,914.46",FALSE,0,No Delay,HCSLCVW,8.238605822,494.316,Louis Armstrong New Orleans International Airport,MSY,New Orleans,US,"{
+  ""lat"": ""29.99340057"",
+  ""lon"": ""-90.25800323""
+}",US-LA,Clear,5,10
+$575.37 ,FALSE,Munich Airport,MUC,Munich,DE,"{
+  ""lat"": ""48.353802"",
+  ""lon"": ""11.7861""
+}",DE-BY,Sunny,375.61,233.393,TRUE,15,Security Delay,JPASNLR,0.667344749,40.041,Milano Linate Airport,MI11,Milan,IT,"{
+  ""lat"": ""45.445099"",
+  ""lon"": ""9.27674""
+}",IT-25,Sunny,5,10
+"$1,107.24 ",FALSE,Munich Airport,MUC,Munich,DE,"{
+  ""lat"": ""48.353802"",
+  ""lon"": ""11.7861""
+}",DE-BY,Hail,"5,910.22","3,672.44",TRUE,195,Carrier Delay,2TM70P1,9.044329673,542.66,Indira Gandhi International Airport,DEL,New Delhi,IN,"{
+  ""lat"": ""28.5665"",
+  ""lon"": ""77.103104""
+}",SE-BD,Cloudy,5,9
+$590.74 ,FALSE,Tokyo Haneda International Airport,HND,Tokyo,JP,"{
+  ""lat"": ""35.552299"",
+  ""lon"": ""139.779999""
+}",SE-BD,Rain,"7,784.50","4,837.07",FALSE,0,No Delay,HE0N3NA,6.828509963,409.711,Sydney Kingsford Smith International Airport,SYD,Sydney,AU,"{
+  ""lat"": ""-33.94609833"",
+  ""lon"": ""151.177002""
+}",SE-BD,Cloudy,5,9
+$531.48 ,FALSE,Washington Dulles International Airport,IAD,Washington,US,"{
+  ""lat"": ""38.94449997"",
+  ""lon"": ""-77.45580292""
+}",US-DC,Clear,"11,407.03","7,088.00",FALSE,0,No Delay,VW03Z3U,10.56206358,633.724,Abu Dhabi International Airport,AUH,Abu Dhabi,AE,"{
+  ""lat"": ""24.43300056"",
+  ""lon"": ""54.65110016""
+}",SE-BD,Clear,5,9
+"$1,105.09 ",FALSE,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Clear,"18,861.02","11,719.69",FALSE,0,No Delay,XM041QE,17.46390727,"1,047.83",Ministro Pistarini International Airport,EZE,Buenos Aires,AR,"{
+  ""lat"": ""-34.8222"",
+  ""lon"": ""-58.5358""
+}",AR-B,Sunny,5,9
+"$1,071.26 ",FALSE,New Chitose Airport,CTS,Chitose / Tomakomai,JP,"{
+  ""lat"": ""42.77519989"",
+  ""lon"": ""141.6920013""
+}",SE-BD,Clear,"8,093.51","5,029.08",FALSE,0,No Delay,TQUISY3,6.423423578,385.405,Copenhagen Kastrup Airport,CPH,Copenhagen,DK,"{
+  ""lat"": ""55.61790085"",
+  ""lon"": ""12.65600014""
+}",DK-84,Rain,5,9
+$949.02 ,FALSE,Tampa International Airport,TPA,Tampa,US,"{
+  ""lat"": ""27.97550011"",
+  ""lon"": ""-82.53320313""
+}",US-FL,Damaging Wind,"14,588.65","9,064.97",TRUE,225,NAS Delay,3EFH9WU,22.45339832,"1,347.20",Brisbane International Airport,BNE,Brisbane,AU,"{
+  ""lat"": ""-27.38419914"",
+  ""lon"": ""153.1170044""
+}",SE-BD,Thunder & Lightning,5,9
+"$1,125.62 ",FALSE,London Luton Airport,LTN,London,GB,"{
+  ""lat"": ""51.87469864"",
+  ""lon"": ""-0.368333012""
+}",GB-ENG,Damaging Wind,"1,848.96","1,148.89",FALSE,0,No Delay,ELP8W05,2.201139425,132.068,Falcone Borsellino Airport,PA03,Palermo,IT,"{
+  ""lat"": ""38.175999"",
+  ""lon"": ""13.091""
+}",IT-82,Clear,5,9
+$780.12 ,FALSE,OR Tambo International Airport,JNB,Johannesburg,ZA,"{
+  ""lat"": ""-26.1392"",
+  ""lon"": ""28.246""
+}",SE-BD,Thunder & Lightning,"14,153.98","8,794.87",FALSE,0,No Delay,TT2KMW4,11.23331462,673.999,General Wayne A. Downing Peoria International Airport,PIA,Peoria,US,"{
+  ""lat"": ""40.66419983"",
+  ""lon"": ""-89.69329834""
+}",US-IL,Hail,5,9
+"$1,167.25 ",FALSE,Vienna International Airport,VIE,Vienna,AT,"{
+  ""lat"": ""48.11029816"",
+  ""lon"": ""16.56970024""
+}",AT-9,Clear,"8,305.50","5,160.80",FALSE,0,No Delay,8G90IAN,12.58408539,755.045,OR Tambo International Airport,JNB,Johannesburg,ZA,"{
+  ""lat"": ""-26.1392"",
+  ""lon"": ""28.246""
+}",SE-BD,Thunder & Lightning,5,9
+"$1,146.56 ",FALSE,Narita International Airport,NRT,Tokyo,JP,"{
+  ""lat"": ""35.76470184"",
+  ""lon"": ""140.3860016""
+}",SE-BD,Rain,"9,928.88","6,169.52",FALSE,0,No Delay,8WFEA5T,8.709543818,522.573,Leonardo da Vinci - Fiumicino Airport,FCO,Rome,IT,"{
+  ""lat"": ""41.8002778"",
+  ""lon"": ""12.2388889""
+}",SE-BD,Rain,5,9
+$360.24 ,FALSE,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Sunny,0,0,TRUE,60,Security Delay,HH1GF3V,1,60,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Clear,5,9
+$764.07 ,TRUE,Wichita Mid Continent Airport,ICT,Wichita,US,"{
+  ""lat"": ""37.64989853"",
+  ""lon"": ""-97.43309784""
+}",US-KS,Heavy Fog,"9,009.01","5,597.94",FALSE,0,No Delay,WS3Z5B1,12.5125065,750.75,Falcone Borsellino Airport,PA03,Palermo,IT,"{
+  ""lat"": ""38.175999"",
+  ""lon"": ""13.091""
+}",IT-82,Clear,5,9
+$317.44 ,FALSE,Portland International Airport,PDX,Portland,US,"{
+  ""lat"": ""45.58869934"",
+  ""lon"": ""-122.5979996""
+}",US-OR,Rain,"3,872.46","2,406.23",FALSE,0,No Delay,AJXW1EG,3.396893457,203.814,Philadelphia International Airport,PHL,Philadelphia,US,"{
+  ""lat"": ""39.87189865"",
+  ""lon"": ""-75.2410965""
+}",US-PA,Sunny,5,9
+$950.09 ,FALSE,London Gatwick Airport,LGW,London,GB,"{
+  ""lat"": ""51.14810181"",
+  ""lon"": ""-0.190277994""
+}",GB-ENG,Rain,485.676,301.785,FALSE,0,No Delay,XW6SZXV,0.674549741,40.473,Dublin Airport,DUB,Dublin,IE,"{
+  ""lat"": ""53.42129898"",
+  ""lon"": ""-6.270070076""
+}",IE-D,Clear,5,9
+$741.30 ,FALSE,Rajiv Gandhi International Airport,HYD,Hyderabad,IN,"{
+  ""lat"": ""17.23131752"",
+  ""lon"": ""78.42985535""
+}",SE-BD,Sunny,"9,220.79","5,729.53",FALSE,0,No Delay,HI595RC,7.683988313,461.039,Melbourne International Airport,MEL,Melbourne,AU,"{
+  ""lat"": ""-37.673302"",
+  ""lon"": ""144.843002""
+}",SE-BD,Hail,5,9
+$912.04 ,FALSE,Minneapolis-St Paul International/Wold-Chamberlain Airport,MSP,Minneapolis,US,"{
+  ""lat"": ""44.88199997"",
+  ""lon"": ""-93.22180176""
+}",US-MN,Rain,"7,888.99","4,901.99",TRUE,105,NAS Delay,DS2YASD,9.054615585,543.277,Leonardo da Vinci___Fiumicino Airport,RM11,Rome,IT,"{
+  ""lat"": ""41.8002778"",
+  ""lon"": ""12.2388889""
+}",IT-62,Sunny,5,9
+$917.69 ,FALSE,Warsaw Chopin Airport,WAW,Warsaw,PL,"{
+  ""lat"": ""52.16569901"",
+  ""lon"": ""20.96710014""
+}",PL-MZ,Sunny,"9,946.88","6,180.71",FALSE,0,No Delay,GQHN39K,10.36133368,621.68,El Dorado International Airport,BOG,Bogota,CO,"{
+  ""lat"": ""4.70159"",
+  ""lon"": ""-74.1469""
+}",CO-CUN,Clear,5,9
+$820.43 ,FALSE,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Heavy Fog,"10,316.16","6,410.16",FALSE,0,No Delay,WZKO0S1,13.22584085,793.55,Winnipeg / James Armstrong Richardson International Airport,YWG,Winnipeg,CA,"{
+  ""lat"": ""49.90999985"",
+  ""lon"": ""-97.23989868""
+}",CA-MB,Sunny,5,9
+"$1,186.65 ",TRUE,Montreal / Pierre Elliott Trudeau International Airport,YUL,Montreal,CA,"{
+  ""lat"": ""45.47060013"",
+  ""lon"": ""-73.74079895""
+}",CA-QC,Damaging Wind,"6,626.21","4,117.34",FALSE,0,No Delay,IHDNFPL,6.496283399,389.777,Ciampino___G. B. Pastine International Airport,RM12,Rome,IT,"{
+  ""lat"": ""41.7994"",
+  ""lon"": ""12.5949""
+}",IT-62,Rain,5,9
+"$1,048.97 ",TRUE,Manchester Airport,MAN,Manchester,GB,"{
+  ""lat"": ""53.35369873"",
+  ""lon"": ""-2.274950027""
+}",GB-ENG,Clear,"9,452.99","5,873.82",FALSE,0,No Delay,K8M07W3,7.877493949,472.65,Kansai International Airport,KIX,Osaka,JP,"{
+  ""lat"": ""34.4272995"",
+  ""lon"": ""135.2440033""
+}",SE-BD,Thunder & Lightning,5,8
+$605.92 ,FALSE,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Rain,"6,818.53","4,236.84",FALSE,0,No Delay,HU52Y11,6.313456445,378.807,Stockholm-Arlanda Airport,ARN,Stockholm,SE,"{
+  ""lat"": ""59.65190125"",
+  ""lon"": ""17.91860008""
+}",SE-AB,Clear,5,8
+"$1,089.99 ",FALSE,Seattle Tacoma International Airport,SEA,Seattle,US,"{
+  ""lat"": ""47.44900131"",
+  ""lon"": ""-122.3089981""
+}",US-WA,Rain,"7,064.51","4,389.68",FALSE,0,No Delay,ET3168F,9.057063926,543.424,New Chitose Airport,CTS,Chitose / Tomakomai,JP,"{
+  ""lat"": ""42.77519989"",
+  ""lon"": ""141.6920013""
+}",SE-BD,Clear,5,8
+$582.95 ,FALSE,London Luton Airport,LTN,London,GB,"{
+  ""lat"": ""51.87469864"",
+  ""lon"": ""-0.368333012""
+}",GB-ENG,Sunny,"9,227.59","5,733.76",FALSE,0,No Delay,WLRC9T3,9.046654743,542.799,Jeju International Airport,CJU,Jeju City,KR,"{
+  ""lat"": ""33.51129913"",
+  ""lon"": ""126.4929962""
+}",SE-BD,Clear,5,8
+$591.25 ,FALSE,Sydney Kingsford Smith International Airport,SYD,Sydney,AU,"{
+  ""lat"": ""-33.94609833"",
+  ""lon"": ""151.177002""
+}",SE-BD,Clear,"15,869.95","9,861.13",TRUE,255,Security Delay,F7ROWI0,17.47495825,"1,048.50",Ottawa Macdonald-Cartier International Airport,YOW,Ottawa,CA,"{
+  ""lat"": ""45.32249832"",
+  ""lon"": ""-75.66919708""
+}",CA-ON,Sunny,5,8
+"$1,049.73 ",TRUE,Verona Villafranca Airport,VR10,Verona,IT,"{
+  ""lat"": ""45.395699"",
+  ""lon"": ""10.8885""
+}",IT-34,Rain,"9,525.30","5,918.75",FALSE,0,No Delay,PDJFCZX,12.21191871,732.715,Itami Airport,ITM,Osaka,JP,"{
+  ""lat"": ""34.78549957"",
+  ""lon"": ""135.4380035""
+}",SE-BD,Thunder & Lightning,5,8
+$974.67 ,FALSE,Il Caravaggio International Airport,BG01,Bergamo,IT,"{
+  ""lat"": ""45.673901"",
+  ""lon"": ""9.70417""
+}",IT-25,Clear,"9,628.46","5,982.85",FALSE,0,No Delay,CP8FYS7,12.34418318,740.651,Chubu Centrair International Airport,NGO,Tokoname,JP,"{
+  ""lat"": ""34.85839844"",
+  ""lon"": ""136.8049927""
+}",SE-BD,Sunny,5,8
+$918.47 ,FALSE,Edmonton International Airport,CYEG,Edmonton,CA,"{
+  ""lat"": ""53.30970001"",
+  ""lon"": ""-113.5800018""
+}",CA-AB,Rain,"7,962.87","4,947.90",FALSE,0,No Delay,11QD22O,7.373023541,442.381,Bologna Guglielmo Marconi Airport,BO08,Bologna,IT,"{
+  ""lat"": ""44.5354"",
+  ""lon"": ""11.2887""
+}",IT-45,Rain,5,8
+$756.22 ,FALSE,Leonardo da Vinci___Fiumicino Airport,RM11,Rome,IT,"{
+  ""lat"": ""41.8002778"",
+  ""lon"": ""12.2388889""
+}",IT-62,Clear,"7,089.19","4,405.02",FALSE,0,No Delay,IJ1XAM9,8.439516323,506.371,Buffalo Niagara International Airport,BUF,Buffalo,US,"{
+  ""lat"": ""42.94049835"",
+  ""lon"": ""-78.73220062""
+}",US-NY,Cloudy,5,8
+"$1,140.73 ",FALSE,Oslo Gardermoen Airport,OSL,Oslo,NO,"{
+  ""lat"": ""60.19390106"",
+  ""lon"": ""11.10039997""
+}",NO-02,Clear,"7,739.23","4,808.94",FALSE,0,No Delay,SXWKP9P,6.449358953,386.962,New Chitose Airport,CTS,Chitose / Tomakomai,JP,"{
+  ""lat"": ""42.77519989"",
+  ""lon"": ""141.6920013""
+}",SE-BD,Sunny,5,7
+$904.08 ,FALSE,Dubai International Airport,DXB,Dubai,AE,"{
+  ""lat"": ""25.25279999"",
+  ""lon"": ""55.36439896""
+}",SE-BD,Rain,"12,232.17","7,600.72",FALSE,0,No Delay,L0Y1WIQ,9.708068784,582.484,Casper-Natrona County International Airport,CPR,Casper,US,"{
+  ""lat"": ""42.90800095"",
+  ""lon"": ""-106.4639969""
+}",US-WY,Rain,5,7
+$652.32 ,FALSE,Ottawa Macdonald-Cartier International Airport,YOW,Ottawa,CA,"{
+  ""lat"": ""45.32249832"",
+  ""lon"": ""-75.66919708""
+}",CA-ON,Cloudy,"10,571.05","6,568.55",FALSE,0,No Delay,KN1SH0B,9.788012685,587.281,Incheon International Airport,ICN,Seoul,KR,"{
+  ""lat"": ""37.46910095"",
+  ""lon"": ""126.4509964""
+}",SE-BD,Sunny,5,7
+"$1,037.23 ",FALSE,San Francisco International Airport,SFO,San Francisco,US,"{
+  ""lat"": ""37.61899948"",
+  ""lon"": ""-122.375""
+}",US-CA,Rain,"8,204.31","5,097.92",FALSE,0,No Delay,H014GS8,6.511354228,390.681,Dublin Airport,DUB,Dublin,IE,"{
+  ""lat"": ""53.42129898"",
+  ""lon"": ""-6.270070076""
+}",IE-D,Clear,5,7
+$782.95 ,FALSE,Winnipeg / James Armstrong Richardson International Airport,YWG,Winnipeg,CA,"{
+  ""lat"": ""49.90999985"",
+  ""lon"": ""-97.23989868""
+}",CA-MB,Clear,"7,379.45","4,585.38",FALSE,0,No Delay,NC6B300,5.856704778,351.402,Verona Villafranca Airport,VR10,Verona,IT,"{
+  ""lat"": ""45.395699"",
+  ""lon"": ""10.8885""
+}",IT-34,Rain,5,7
+$917.65 ,FALSE,Sheremetyevo International Airport,SVO,Moscow,RU,"{
+  ""lat"": ""55.972599"",
+  ""lon"": ""37.4146""
+}",RU-MOS,Thunder & Lightning,"2,541.87","1,579.44",TRUE,360,Carrier Delay,APKKF69,9.026030073,541.562,Manchester Airport,MAN,Manchester,GB,"{
+  ""lat"": ""53.35369873"",
+  ""lon"": ""-2.274950027""
+}",GB-ENG,Damaging Wind,5,7
+$547.84 ,FALSE,Olenya Air Base,XLMO,Olenegorsk,RU,"{
+  ""lat"": ""68.15180206"",
+  ""lon"": ""33.46390152""
+}",RU-MUR,Hail,"6,962.97","4,326.59",TRUE,150,Weather Delay,DRQMZMR,9.326436646,559.586,Kansai International Airport,KIX,Osaka,JP,"{
+  ""lat"": ""34.4272995"",
+  ""lon"": ""135.2440033""
+}",SE-BD,Damaging Wind,5,7
+$802.48 ,FALSE,Luis Munoz Marin International Airport,SJU,San Juan,PR,"{
+  ""lat"": ""18.43939972"",
+  ""lon"": ""-66.00180054""
+}",PR-U-A,Cloudy,"6,749.84","4,194.16",FALSE,0,No Delay,GZGY5XF,7.499826578,449.99,London Gatwick Airport,LGW,London,GB,"{
+  ""lat"": ""51.14810181"",
+  ""lon"": ""-0.190277994""
+}",GB-ENG,Cloudy,5,7
+$835.63 ,FALSE,Turin Airport,TO11,Torino,IT,"{
+  ""lat"": ""45.200802"",
+  ""lon"": ""7.64963""
+}",IT-21,Damaging Wind,"7,629.68","4,740.87",FALSE,0,No Delay,8VHWP0T,7.480080292,448.805,St Louis Lambert International Airport,STL,St Louis,US,"{
+  ""lat"": ""38.748697"",
+  ""lon"": ""-90.370003""
+}",US-MO,Damaging Wind,5,7
+$928.48 ,TRUE,Licenciado Benito Juarez International Airport,AICM,Mexico City,MX,"{
+  ""lat"": ""19.4363"",
+  ""lon"": ""-99.072098""
+}",MX-DIF,Heavy Fog,"9,435.60","5,863.01",FALSE,0,No Delay,ZCE3JHF,9.250583012,555.035,Cologne Bonn Airport,CGN,Cologne,DE,"{
+  ""lat"": ""50.86589813"",
+  ""lon"": ""7.142739773""
+}",DE-NW,Clear,5,7
+$865.48 ,FALSE,Falcone Borsellino Airport,PA03,Palermo,IT,"{
+  ""lat"": ""38.175999"",
+  ""lon"": ""13.091""
+}",IT-82,Rain,"15,197.01","9,442.98",FALSE,0,No Delay,6U3RJ94,13.33070744,799.842,Adelaide International Airport,ADL,Adelaide,AU,"{
+  ""lat"": ""-34.945"",
+  ""lon"": ""138.531006""
+}",SE-BD,Rain,5,7
+$783.03 ,FALSE,Shanghai Hongqiao International Airport,SHA,Shanghai,CN,"{
+  ""lat"": ""31.19790077"",
+  ""lon"": ""121.3359985""
+}",SE-BD,Thunder & Lightning,"8,764.56","5,446.05",TRUE,315,Late Aircraft Delay,XNGVI4W,12.20600145,732.36,Munich Airport,MUC,Munich,DE,"{
+  ""lat"": ""48.353802"",
+  ""lon"": ""11.7861""
+}",DE-BY,Thunder & Lightning,5,7
+$513.97 ,FALSE,San Diego International Airport,SAN,San Diego,US,"{
+  ""lat"": ""32.73360062"",
+  ""lon"": ""-117.1900024""
+}",US-CA,Rain,"9,399.72","5,840.71",FALSE,0,No Delay,GVD8IM0,9.215409587,552.925,Frankfurt am Main Airport,FRA,Frankfurt am Main,DE,"{
+  ""lat"": ""50.033333"",
+  ""lon"": ""8.570556""
+}",DE-HE,Damaging Wind,5,7
+"$1,075.39 ",FALSE,Milano Linate Airport,MI11,Milan,IT,"{
+  ""lat"": ""45.445099"",
+  ""lon"": ""9.27674""
+}",IT-25,Rain,"7,433.12","4,618.73",TRUE,315,NAS Delay,KWEGV9W,11.77028324,706.217,Luis Munoz Marin International Airport,SJU,San Juan,PR,"{
+  ""lat"": ""18.43939972"",
+  ""lon"": ""-66.00180054""
+}",PR-U-A,Rain,5,6
+"$1,185.97 ",FALSE,Zurich Airport,ZRH,Zurich,CH,"{
+  ""lat"": ""47.464699"",
+  ""lon"": ""8.54917""
+}",CH-ZH,Clear,"9,018.51","5,603.84",FALSE,0,No Delay,VJTV73Z,7.515421948,450.925,Shanghai Hongqiao International Airport,SHA,Shanghai,CN,"{
+  ""lat"": ""31.19790077"",
+  ""lon"": ""121.3359985""
+}",SE-BD,Clear,5,6
+$691.52 ,FALSE,Tokyo Haneda International Airport,HND,Tokyo,JP,"{
+  ""lat"": ""35.552299"",
+  ""lon"": ""139.779999""
+}",SE-BD,Heavy Fog,"8,957.50","5,565.93",FALSE,0,No Delay,N4SDMKW,10.66369048,639.821,Berlin-Tegel Airport,TXL,Berlin,DE,"{
+  ""lat"": ""52.5597"",
+  ""lon"": ""13.2877""
+}",DE-BE,Cloudy,5,6
+$695.64 ,FALSE,Dubai International Airport,DXB,Dubai,AE,"{
+  ""lat"": ""25.25279999"",
+  ""lon"": ""55.36439896""
+}",SE-BD,Cloudy,"7,619.77","4,734.70",TRUE,60,Late Aircraft Delay,7SHC4Z0,10.07114892,604.269,Cape Town International Airport,CPT,Cape Town,ZA,"{
+  ""lat"": ""-33.96480179"",
+  ""lon"": ""18.60169983""
+}",SE-BD,Sunny,5,6
+$599.86 ,FALSE,Montreal / Pierre Elliott Trudeau International Airport,YUL,Montreal,CA,"{
+  ""lat"": ""45.47060013"",
+  ""lon"": ""-73.74079895""
+}",CA-QC,Cloudy,"6,602.08","4,102.34",FALSE,0,No Delay,LQ4DQVJ,6.472628198,388.358,Leonardo da Vinci - Fiumicino Airport,FCO,Rome,IT,"{
+  ""lat"": ""41.8002778"",
+  ""lon"": ""12.2388889""
+}",SE-BD,Thunder & Lightning,5,6
+$960.18 ,FALSE,Ottawa Macdonald-Cartier International Airport,YOW,Ottawa,CA,"{
+  ""lat"": ""45.32249832"",
+  ""lon"": ""-75.66919708""
+}",CA-ON,Sunny,"6,689.01","4,156.36",TRUE,255,Carrier Delay,HII53JA,12.82565608,769.539,Cagliari Elmas Airport,CA07,Cagliari,IT,"{
+  ""lat"": ""39.251499"",
+  ""lon"": ""9.05428""
+}",IT-88,Hail,5,6
+$973.20 ,TRUE,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Damaging Wind,"18,861.02","11,719.69",FALSE,0,No Delay,S3QYVNX,22.45359506,"1,347.22",Ministro Pistarini International Airport,EZE,Buenos Aires,AR,"{
+  ""lat"": ""-34.8222"",
+  ""lon"": ""-58.5358""
+}",AR-B,Cloudy,5,6
+$340.58 ,FALSE,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Cloudy,0,0,FALSE,0,No Delay,YNY878U,0,0,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Sunny,5,6
+$277.91 ,FALSE,Shanghai Pudong International Airport,PVG,Shanghai,CN,"{
+  ""lat"": ""31.14340019"",
+  ""lon"": ""121.8050003""
+}",SE-BD,Cloudy,"1,707.29","1,060.86",FALSE,0,No Delay,88013P6,1.497621108,89.857,Chengdu Shuangliu International Airport,CTU,Chengdu,CN,"{
+  ""lat"": ""30.57850075"",
+  ""lon"": ""103.9469986""
+}",SE-BD,Sunny,5,6
+$634.08 ,FALSE,King Shaka International Airport,DUR,Durban,ZA,"{
+  ""lat"": ""-29.61444444"",
+  ""lon"": ""31.11972222""
+}",SE-BD,Thunder & Lightning,"11,748.25","7,300.03",FALSE,0,No Delay,WM99WL1,13.98601305,839.161,El Dorado International Airport,BOG,Bogota,CO,"{
+  ""lat"": ""4.70159"",
+  ""lon"": ""-74.1469""
+}",CO-CUN,Thunder & Lightning,5,6
+"$1,181.42 ",FALSE,Mariscal Sucre International Airport,UIO,Quito,EC,"{
+  ""lat"": ""-0.129166667"",
+  ""lon"": ""-78.3575""
+}",EC-P,Sunny,"14,331.02","8,904.88",TRUE,45,Carrier Delay,8L18ARF,12.12382701,727.43,Dubai International Airport,DXB,Dubai,AE,"{
+  ""lat"": ""25.25279999"",
+  ""lon"": ""55.36439896""
+}",SE-BD,Clear,5,5
+$870.28 ,FALSE,Munich Airport,MUC,Munich,DE,"{
+  ""lat"": ""48.353802"",
+  ""lon"": ""11.7861""
+}",DE-BY,Clear,381.717,237.188,FALSE,0,No Delay,MHGXZZ8,0.3180975,19.086,Malpensa International Airport,MI12,Milan,IT,"{
+  ""lat"": ""45.6306"",
+  ""lon"": ""8.72811""
+}",IT-25,Cloudy,5,5
+"$1,029.30 ",FALSE,Kansai International Airport,KIX,Osaka,JP,"{
+  ""lat"": ""34.4272995"",
+  ""lon"": ""135.2440033""
+}",SE-BD,Cloudy,"7,628.27","4,739.99",FALSE,0,No Delay,LR893SU,6.691462393,401.488,Al Maktoum International Airport,DWC,Jebel Ali,AE,"{
+  ""lat"": ""24.896356"",
+  ""lon"": ""55.161389""
+}",SE-BD,Cloudy,5,5
+$915.06 ,FALSE,Il Caravaggio International Airport,BG01,Bergamo,IT,"{
+  ""lat"": ""45.673901"",
+  ""lon"": ""9.70417""
+}",IT-25,Clear,"8,851.50","5,500.07",FALSE,0,No Delay,HL70QS6,8.195837075,491.75,Gimpo International Airport,GMP,Seoul,KR,"{
+  ""lat"": ""37.5583"",
+  ""lon"": ""126.791""
+}",SE-BD,Rain,5,5
+$561.97 ,FALSE,Sheremetyevo International Airport,SVO,Moscow,RU,"{
+  ""lat"": ""55.972599"",
+  ""lon"": ""37.4146""
+}",RU-MOS,Cloudy,"7,761.56","4,822.81",FALSE,0,No Delay,ATWVHCT,11.75993937,705.596,Austin Straubel International Airport,GRB,Green Bay,US,"{
+  ""lat"": ""44.48509979"",
+  ""lon"": ""-88.12960052""
+}",US-WI,Rain,5,5
+$677.96 ,FALSE,Tokyo Haneda International Airport,HND,Tokyo,JP,"{
+  ""lat"": ""35.552299"",
+  ""lon"": ""139.779999""
+}",SE-BD,Hail,"9,336.57","5,801.47",TRUE,30,Weather Delay,9JJSUMZ,10.87396081,652.438,Phoenix Sky Harbor International Airport,PHX,Phoenix,US,"{
+  ""lat"": ""33.43429947"",
+  ""lon"": ""-112.012001""
+}",US-AZ,Heavy Fog,5,5
+$815.19 ,FALSE,Milano Linate Airport,MI11,Milan,IT,"{
+  ""lat"": ""45.445099"",
+  ""lon"": ""9.27674""
+}",IT-25,Cloudy,"8,881.78","5,518.88",TRUE,180,Weather Delay,IFHG88Z,10.79103171,647.462,Incheon International Airport,ICN,Seoul,KR,"{
+  ""lat"": ""37.46910095"",
+  ""lon"": ""126.4509964""
+}",SE-BD,Cloudy,5,5
+"$1,170.54 ",FALSE,Jorge Chavez International Airport,LIM,Lima,PE,"{
+  ""lat"": ""-12.0219"",
+  ""lon"": ""-77.114304""
+}",SE-BD,Clear,"15,879.83","9,867.27",TRUE,45,Late Aircraft Delay,RWH362V,14.67967693,880.781,Itami Airport,ITM,Osaka,JP,"{
+  ""lat"": ""34.78549957"",
+  ""lon"": ""135.4380035""
+}",SE-BD,Cloudy,5,5
+$792.09 ,TRUE,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Heavy Fog,"11,401.48","7,084.55",TRUE,195,NAS Delay,KFJG3GG,15.12654399,907.593,Syracuse Hancock International Airport,SYR,Syracuse,US,"{
+  ""lat"": ""43.11119843"",
+  ""lon"": ""-76.10630035""
+}",US-NY,Cloudy,5,4
+$922.02 ,FALSE,Sheremetyevo International Airport,SVO,Moscow,RU,"{
+  ""lat"": ""55.972599"",
+  ""lon"": ""37.4146""
+}",RU-MOS,Heavy Fog,"1,609.68","1,000.21",TRUE,180,Late Aircraft Delay,V8Z10LB,4.277521628,256.651,Oslo Gardermoen Airport,OSL,Oslo,NO,"{
+  ""lat"": ""60.19390106"",
+  ""lon"": ""11.10039997""
+}",NO-02,Sunny,5,4
+$897.46 ,FALSE,Ministro Pistarini International Airport,EZE,Buenos Aires,AR,"{
+  ""lat"": ""-34.8222"",
+  ""lon"": ""-58.5358""
+}",SE-BD,Cloudy,"12,242.64","7,607.23",TRUE,105,Late Aircraft Delay,EE8DRC4,13.08578128,785.147,Ataturk International Airport,IST,Istanbul,TR,"{
+  ""lat"": ""40.97689819"",
+  ""lon"": ""28.81459999""
+}",TR-34,Cloudy,5,4
+$820.74 ,FALSE,St Louis Lambert International Airport,STL,St Louis,US,"{
+  ""lat"": ""38.748697"",
+  ""lon"": ""-90.370003""
+}",US-MO,Cloudy,"7,732.64","4,804.84",FALSE,0,No Delay,1AHKSRA,6.137013695,368.221,Il Caravaggio International Airport,BG01,Bergamo,IT,"{
+  ""lat"": ""45.673901"",
+  ""lon"": ""9.70417""
+}",IT-25,Rain,5,4
+$763.56 ,FALSE,London Gatwick Airport,LGW,London,GB,"{
+  ""lat"": ""51.14810181"",
+  ""lon"": ""-0.190277994""
+}",GB-ENG,Cloudy,"1,505.78",935.65,TRUE,300,Carrier Delay,I1SYT93,6.254819317,375.289,Cagliari Elmas Airport,CA07,Cagliari,IT,"{
+  ""lat"": ""39.251499"",
+  ""lon"": ""9.05428""
+}",IT-88,Cloudy,5,4
+"$1,053.30 ",TRUE,Stockholm-Arlanda Airport,ARN,Stockholm,SE,"{
+  ""lat"": ""59.65190125"",
+  ""lon"": ""17.91860008""
+}",SE-AB,Sunny,"2,210.78","1,373.71",FALSE,0,No Delay,RDXM2VY,2.047017098,122.821,Ataturk International Airport,IST,Istanbul,TR,"{
+  ""lat"": ""40.97689819"",
+  ""lon"": ""28.81459999""
+}",TR-34,Hail,5,4
+"$1,107.38 ",FALSE,Il Caravaggio International Airport,BG01,Bergamo,IT,"{
+  ""lat"": ""45.673901"",
+  ""lon"": ""9.70417""
+}",IT-25,Sunny,"11,913.33","7,402.60",TRUE,195,Carrier Delay,NBOA4X7,14.92973934,895.784,Comodoro Arturo Merino Benitez International Airport,SCL,Santiago,CL,"{
+  ""lat"": ""-33.39300156"",
+  ""lon"": ""-70.78579712""
+}",SE-BD,Thunder & Lightning,5,4
+$594.99 ,FALSE,Kempegowda International Airport,BLR,Bangalore,IN,"{
+  ""lat"": ""13.1979"",
+  ""lon"": ""77.706299""
+}",SE-BD,Cloudy,"12,557.27","7,802.73",TRUE,345,Late Aircraft Delay,GJTJ47T,17.37710487,"1,042.63",Edmonton International Airport,CYEG,Edmonton,CA,"{
+  ""lat"": ""53.30970001"",
+  ""lon"": ""-113.5800018""
+}",CA-AB,Thunder & Lightning,5,4
+"$1,171.50 ",FALSE,Jorge Chavez International Airport,LIM,Lima,PE,"{
+  ""lat"": ""-12.0219"",
+  ""lon"": ""-77.114304""
+}",SE-BD,Rain,"11,086.56","6,888.87",FALSE,0,No Delay,5PO0PAE,9.23880181,554.328,Berlin-Tegel Airport,TXL,Berlin,DE,"{
+  ""lat"": ""52.5597"",
+  ""lon"": ""13.2877""
+}",DE-BE,Hail,5,4
+"$1,081.26 ",FALSE,Milano Linate Airport,MI11,Milan,IT,"{
+  ""lat"": ""45.445099"",
+  ""lon"": ""9.27674""
+}",IT-25,Cloudy,"9,839.45","6,113.95",TRUE,270,Carrier Delay,JGGZAS1,13.61059869,816.636,Licenciado Benito Juarez International Airport,AICM,Mexico City,MX,"{
+  ""lat"": ""19.4363"",
+  ""lon"": ""-99.072098""
+}",MX-DIF,Rain,5,4
+$363.27 ,FALSE,Tampa International Airport,TPA,Tampa,US,"{
+  ""lat"": ""27.97550011"",
+  ""lon"": ""-82.53320313""
+}",US-FL,Rain,"3,648.63","2,267.15",FALSE,0,No Delay,8EU0LQG,3.800652771,228.039,Reno Tahoe International Airport,RNO,Reno,US,"{
+  ""lat"": ""39.49909973"",
+  ""lon"": ""-119.7679977""
+}",US-NV,Cloudy,5,4
+"$1,151.94 ",FALSE,Treviso-Sant'Angelo Airport,TV01,Treviso,IT,"{
+  ""lat"": ""45.648399"",
+  ""lon"": ""12.1944""
+}",IT-34,Cloudy,557.768,346.581,FALSE,0,No Delay,BWLV215,0.619742061,37.185,Frankfurt am Main Airport,FRA,Frankfurt am Main,DE,"{
+  ""lat"": ""50.033333"",
+  ""lon"": ""8.570556""
+}",DE-HE,Thunder & Lightning,5,4
+$667.35 ,FALSE,Indira Gandhi International Airport,DEL,New Delhi,IN,"{
+  ""lat"": ""28.5665"",
+  ""lon"": ""77.103104""
+}",SE-BD,Sunny,"5,619.73","3,491.94",FALSE,0,No Delay,YHA9IDT,5.853886491,351.233,Chubu Centrair International Airport,NGO,Tokoname,JP,"{
+  ""lat"": ""34.85839844"",
+  ""lon"": ""136.8049927""
+}",SE-BD,Clear,5,4
+"$1,084.34 ",FALSE,Guangzhou Baiyun International Airport,CAN,Guangzhou,CN,"{
+  ""lat"": ""23.39240074"",
+  ""lon"": ""113.2990036""
+}",SE-BD,Thunder & Lightning,"5,837.05","3,626.97",FALSE,0,No Delay,TRUDCX7,6.485609433,389.137,Dubai International Airport,DXB,Dubai,AE,"{
+  ""lat"": ""25.25279999"",
+  ""lon"": ""55.36439896""
+}",SE-BD,Clear,5,4
+"$1,123.36 ",FALSE,Winnipeg / James Armstrong Richardson International Airport,YWG,Winnipeg,CA,"{
+  ""lat"": ""49.90999985"",
+  ""lon"": ""-97.23989868""
+}",CA-MB,Thunder & Lightning,"7,436.24","4,620.66",TRUE,30,Carrier Delay,HJ43LGN,11.76702363,706.021,Vienna International Airport,VIE,Vienna,AT,"{
+  ""lat"": ""48.11029816"",
+  ""lon"": ""16.56970024""
+}",AT-9,Rain,5,3
+$358.13 ,FALSE,Cape Town International Airport,CPT,Cape Town,ZA,"{
+  ""lat"": ""-33.96480179"",
+  ""lon"": ""18.60169983""
+}",SE-BD,Clear,0,0,FALSE,0,No Delay,UKSGQ07,0,0,Cape Town International Airport,CPT,Cape Town,ZA,"{
+  ""lat"": ""-33.96480179"",
+  ""lon"": ""18.60169983""
+}",SE-BD,Cloudy,5,3
+$719.12 ,FALSE,Kansai International Airport,KIX,Osaka,JP,"{
+  ""lat"": ""34.4272995"",
+  ""lon"": ""135.2440033""
+}",SE-BD,Clear,"9,934.71","6,173.14",FALSE,0,No Delay,KNUOG00,11.03856225,662.314,Catania-Fontanarossa Airport,CT03,Catania,IT,"{
+  ""lat"": ""37.466801"",
+  ""lon"": ""15.0664""
+}",IT-82,Sunny,5,3
+$630.18 ,FALSE,Hartsfield Jackson Atlanta International Airport,ATL,Atlanta,US,"{
+  ""lat"": ""33.63669968"",
+  ""lon"": ""-84.42810059""
+}",US-GA,Sunny,"7,555.80","4,694.96",FALSE,0,No Delay,QLC7RZ8,10.49416972,629.65,Comodoro Arturo Merino Benitez International Airport,SCL,Santiago,CL,"{
+  ""lat"": ""-33.39300156"",
+  ""lon"": ""-70.78579712""
+}",SE-BD,Cloudy,5,3
+$970.55 ,TRUE,Sheremetyevo International Airport,SVO,Moscow,RU,"{
+  ""lat"": ""55.972599"",
+  ""lon"": ""37.4146""
+}",RU-MOS,Rain,"6,865.20","4,265.84",FALSE,0,No Delay,I21FK2L,5.448574637,326.914,Shanghai Pudong International Airport,PVG,Shanghai,CN,"{
+  ""lat"": ""31.14340019"",
+  ""lon"": ""121.8050003""
+}",SE-BD,Damaging Wind,5,3
+$946.14 ,FALSE,Helsinki Vantaa Airport,HEL,Helsinki,FI,"{
+  ""lat"": ""60.31719971"",
+  ""lon"": ""24.9633007""
+}",FI-ES,Thunder & Lightning,"1,530.21",950.826,FALSE,0,No Delay,9LVFN1I,1.416856824,85.011,Cologne Bonn Airport,CGN,Cologne,DE,"{
+  ""lat"": ""50.86589813"",
+  ""lon"": ""7.142739773""
+}",DE-NW,Hail,5,3
+$873.26 ,FALSE,Winnipeg / James Armstrong Richardson International Airport,YWG,Winnipeg,CA,"{
+  ""lat"": ""49.90999985"",
+  ""lon"": ""-97.23989868""
+}",CA-MB,Cloudy,"1,981.14","1,231.02",FALSE,0,No Delay,YBTGR7A,1.650946682,99.057,Washington Dulles International Airport,IAD,Washington,US,"{
+  ""lat"": ""38.94449997"",
+  ""lon"": ""-77.45580292""
+}",US-DC,Rain,5,2
+$738.22 ,FALSE,Tokyo Haneda International Airport,HND,Tokyo,JP,"{
+  ""lat"": ""35.552299"",
+  ""lon"": ""139.779999""
+}",SE-BD,Hail,"9,002.12","5,593.66",FALSE,0,No Delay,77ILHGU,7.501764516,450.106,San Diego International Airport,SAN,San Diego,US,"{
+  ""lat"": ""32.73360062"",
+  ""lon"": ""-117.1900024""
+}",US-CA,Cloudy,5,2
+$856.89 ,TRUE,Mariscal Sucre International Airport,UIO,Quito,EC,"{
+  ""lat"": ""-0.129166667"",
+  ""lon"": ""-78.3575""
+}",EC-P,Damaging Wind,"4,853.89","3,016.07",FALSE,0,No Delay,Q7KP2LX,5.778444799,346.707,Lester B. Pearson International Airport,YYZ,Toronto,CA,"{
+  ""lat"": ""43.67720032"",
+  ""lon"": ""-79.63059998""
+}",CA-ON,Damaging Wind,5,2
+"$1,064.80 ",FALSE,Verona Villafranca Airport,VR10,Verona,IT,"{
+  ""lat"": ""45.395699"",
+  ""lon"": ""10.8885""
+}",IT-34,Thunder & Lightning,"9,525.30","5,918.75",TRUE,45,Carrier Delay,8F78911,8.687747162,521.265,Itami Airport,ITM,Osaka,JP,"{
+  ""lat"": ""34.78549957"",
+  ""lon"": ""135.4380035""
+}",SE-BD,Cloudy,5,2
+$903.69 ,FALSE,Sheremetyevo International Airport,SVO,Moscow,RU,"{
+  ""lat"": ""55.972599"",
+  ""lon"": ""37.4146""
+}",RU-MOS,Rain,"6,971.21","4,331.71",FALSE,0,No Delay,MY6KJ31,6.115100409,366.906,New Chitose Airport,CTS,Chitose / Tomakomai,JP,"{
+  ""lat"": ""42.77519989"",
+  ""lon"": ""141.6920013""
+}",SE-BD,Clear,5,2
+"$1,098.71 ",FALSE,Scott AFB/Midamerica Airport,BLV,Belleville,US,"{
+  ""lat"": ""38.5452"",
+  ""lon"": ""-89.835197""
+}",US-IL,Sunny,"7,674.69","4,768.83",FALSE,0,No Delay,EWOOQG4,9.839347654,590.361,Munich Airport,MUC,Munich,DE,"{
+  ""lat"": ""48.353802"",
+  ""lon"": ""11.7861""
+}",DE-BY,Rain,5,2
+"$1,112.58 ",FALSE,Venice Marco Polo Airport,VE05,Venice,IT,"{
+  ""lat"": ""45.505299"",
+  ""lon"": ""12.3519""
+}",IT-34,Rain,"8,532.65","5,301.94",FALSE,0,No Delay,CUDNYCS,7.110539701,426.632,King Shaka International Airport,DUR,Durban,ZA,"{
+  ""lat"": ""-29.61444444"",
+  ""lon"": ""31.11972222""
+}",SE-BD,Rain,5,2
+$967.22 ,FALSE,Vienna International Airport,VIE,Vienna,AT,"{
+  ""lat"": ""48.11029816"",
+  ""lon"": ""16.56970024""
+}",AT-9,Cloudy,568.348,353.155,FALSE,0,No Delay,LDY2AQ0,0.473623641,28.417,Bologna Guglielmo Marconi Airport,BO08,Bologna,IT,"{
+  ""lat"": ""44.5354"",
+  ""lon"": ""11.2887""
+}",IT-45,Heavy Fog,5,2
+$850.09 ,FALSE,Ciampino___G. B. Pastine International Airport,RM12,Rome,IT,"{
+  ""lat"": ""41.7994"",
+  ""lon"": ""12.5949""
+}",IT-62,Clear,"1,357.66",843.611,FALSE,0,No Delay,5DIAQ0V,2.057060428,123.424,Ataturk International Airport,IST,Istanbul,TR,"{
+  ""lat"": ""40.97689819"",
+  ""lon"": ""28.81459999""
+}",TR-34,Rain,5,2
+"$1,151.38 ",FALSE,Venice Marco Polo Airport,VE05,Venice,IT,"{
+  ""lat"": ""45.505299"",
+  ""lon"": ""12.3519""
+}",IT-34,Sunny,"8,391.62","5,214.31",FALSE,0,No Delay,B10HTDE,11.65502206,699.301,Jackson-Medgar Wiley Evers International Airport,JAN,Jackson,US,"{
+  ""lat"": ""32.31119919"",
+  ""lon"": ""-90.07589722""
+}",US-MS,Rain,5,2
+$203.27 ,FALSE,Rajiv Gandhi International Airport,HYD,Hyderabad,IN,"{
+  ""lat"": ""17.23131752"",
+  ""lon"": ""78.42985535""
+}",SE-BD,Rain,453.019,281.493,FALSE,0,No Delay,4KIHHPR,0.6863928,41.184,Kempegowda International Airport,BLR,Bangalore,IN,"{
+  ""lat"": ""13.1979"",
+  ""lon"": ""77.706299""
+}",SE-BD,Sunny,5,2
+$696.68 ,FALSE,London Heathrow Airport,LHR,London,GB,"{
+  ""lat"": ""51.4706"",
+  ""lon"": ""-0.461941""
+}",GB-ENG,Thunder & Lightning,"6,744.12","4,190.60",FALSE,0,No Delay,B6JKE1O,6.611879568,396.713,Indira Gandhi International Airport,DEL,New Delhi,IN,"{
+  ""lat"": ""28.5665"",
+  ""lon"": ""77.103104""
+}",SE-BD,Cloudy,5,2
+$682.83 ,FALSE,Winnipeg / James Armstrong Richardson International Airport,YWG,Winnipeg,CA,"{
+  ""lat"": ""49.90999985"",
+  ""lon"": ""-97.23989868""
+}",CA-MB,Heavy Fog,"7,286.13","4,527.39",FALSE,0,No Delay,YX6055R,7.143264782,428.596,Warsaw Chopin Airport,WAW,Warsaw,PL,"{
+  ""lat"": ""52.16569901"",
+  ""lon"": ""20.96710014""
+}",PL-MZ,Clear,5,2
+$704.40 ,FALSE,Jeju International Airport,CJU,Jeju City,KR,"{
+  ""lat"": ""33.51129913"",
+  ""lon"": ""126.4929962""
+}",SE-BD,Clear,"9,512.16","5,910.58",FALSE,0,No Delay,6UDK25C,8.344001389,500.64,Falcone Borsellino Airport,PA03,Palermo,IT,"{
+  ""lat"": ""38.175999"",
+  ""lon"": ""13.091""
+}",IT-82,Cloudy,5,1
+$254.77 ,FALSE,Wichita Mid Continent Airport,ICT,Wichita,US,"{
+  ""lat"": ""37.64989853"",
+  ""lon"": ""-97.43309784""
+}",US-KS,Cloudy,"2,164.50","1,344.96",FALSE,0,No Delay,T8BF3X9,2.774994768,166.5,Bradley International Airport,BDL,Hartford,US,"{
+  ""lat"": ""41.93889999"",
+  ""lon"": ""-72.68319702""
+}",US-CT,Clear,5,1
+$904.01 ,TRUE,Vienna International Airport,VIE,Vienna,AT,"{
+  ""lat"": ""48.11029816"",
+  ""lon"": ""16.56970024""
+}",AT-9,Rain,547.175,339.999,FALSE,0,No Delay,VMZMZW6,0.50664346,30.399,Berlin-Tegel Airport,TXL,Berlin,DE,"{
+  ""lat"": ""52.5597"",
+  ""lon"": ""13.2877""
+}",DE-BE,Damaging Wind,5,1
+$759.90 ,FALSE,Washington Dulles International Airport,IAD,Washington,US,"{
+  ""lat"": ""38.94449997"",
+  ""lon"": ""-77.45580292""
+}",US-DC,Rain,"6,860.80","4,263.11",FALSE,0,No Delay,G8F1PDO,8.795902246,527.754,Munich Airport,MUC,Munich,DE,"{
+  ""lat"": ""48.353802"",
+  ""lon"": ""11.7861""
+}",DE-BY,Sunny,5,1
+$740.94 ,FALSE,Des Moines International Airport,DSM,Des Moines,US,"{
+  ""lat"": ""41.5340004"",
+  ""lon"": ""-93.6631012""
+}",US-IA,Rain,"11,818.55","7,343.71",FALSE,0,No Delay,CE5KR4H,9.379802008,562.788,Chengdu Shuangliu International Airport,CTU,Chengdu,CN,"{
+  ""lat"": ""30.57850075"",
+  ""lon"": ""103.9469986""
+}",SE-BD,Cloudy,5,1
+$952.76 ,FALSE,San Francisco International Airport,SFO,San Francisco,US,"{
+  ""lat"": ""37.61899948"",
+  ""lon"": ""-122.375""
+}",US-CA,Sunny,"7,244.26","4,501.37",FALSE,0,No Delay,2DRVIFE,6.707647564,402.459,Jorge Chavez International Airport,LIM,Lima,PE,"{
+  ""lat"": ""-12.0219"",
+  ""lon"": ""-77.114304""
+}",SE-BD,Clear,5,1
+"$1,069.51 ",FALSE,San Diego International Airport,SAN,San Diego,US,"{
+  ""lat"": ""32.73360062"",
+  ""lon"": ""-117.1900024""
+}",US-CA,Damaging Wind,"9,695.35","6,024.41",FALSE,0,No Delay,OK4GWOP,7.69472461,461.683,Munich Airport,MUC,Munich,DE,"{
+  ""lat"": ""48.353802"",
+  ""lon"": ""11.7861""
+}",DE-BY,Heavy Fog,5,1
+"$1,017.54 ",FALSE,Ukrainka Air Base,XHBU,Belogorsk,RU,"{
+  ""lat"": ""51.169997"",
+  ""lon"": ""128.445007""
+}",RU-AMU,Rain,"1,536.89",954.981,FALSE,0,No Delay,KRMHCUM,1.219755939,73.185,Beijing Capital International Airport,PEK,Beijing,CN,"{
+  ""lat"": ""40.08010101"",
+  ""lon"": ""116.5849991""
+}",SE-BD,Rain,5,1
+"$1,134.40 ",FALSE,Venice Marco Polo Airport,VE05,Venice,IT,"{
+  ""lat"": ""45.505299"",
+  ""lon"": ""12.3519""
+}",IT-34,Rain,577.575,358.888,TRUE,210,Weather Delay,W8VDZE3,4.101640385,246.098,Frankfurt am Main Airport,FRA,Frankfurt am Main,DE,"{
+  ""lat"": ""50.033333"",
+  ""lon"": ""8.570556""
+}",DE-HE,Sunny,5,1
+$964.67 ,FALSE,Sheremetyevo International Airport,SVO,Moscow,RU,"{
+  ""lat"": ""55.972599"",
+  ""lon"": ""37.4146""
+}",RU-MOS,Cloudy,"2,491.05","1,547.87",TRUE,255,Carrier Delay,A7X2YXI,8.024314451,481.459,London Luton Airport,LTN,London,GB,"{
+  ""lat"": ""51.87469864"",
+  ""lon"": ""-0.368333012""
+}",GB-ENG,Clear,5,0
+"$1,080.98 ",FALSE,Raleigh Durham International Airport,RDU,Raleigh/Durham,US,"{
+  ""lat"": ""35.87760162"",
+  ""lon"": ""-78.78749847""
+}",US-NC,Sunny,"13,558.58","8,424.91",FALSE,0,No Delay,CTWUSR5,12.55423692,753.254,King Shaka International Airport,DUR,Durban,ZA,"{
+  ""lat"": ""-29.61444444"",
+  ""lon"": ""31.11972222""
+}",SE-BD,Cloudy,5,0
+$349.83 ,FALSE,Shanghai Hongqiao International Airport,SHA,Shanghai,CN,"{
+  ""lat"": ""31.19790077"",
+  ""lon"": ""121.3359985""
+}",SE-BD,Rain,"1,174.36",729.712,FALSE,0,No Delay,WJ0AQV0,1.304841656,78.29,Guangzhou Baiyun International Airport,CAN,Guangzhou,CN,"{
+  ""lat"": ""23.39240074"",
+  ""lon"": ""113.2990036""
+}",SE-BD,Clear,5,0
+$911.99 ,FALSE,Stockholm-Arlanda Airport,ARN,Stockholm,SE,"{
+  ""lat"": ""59.65190125"",
+  ""lon"": ""17.91860008""
+}",SE-AB,Cloudy,"1,429.95",888.528,FALSE,0,No Delay,88J0SEY,2.166586414,129.995,London Luton Airport,LTN,London,GB,"{
+  ""lat"": ""51.87469864"",
+  ""lon"": ""-0.368333012""
+}",GB-ENG,Clear,5,0
+$789.32 ,TRUE,Phoenix Sky Harbor International Airport,PHX,Phoenix,US,"{
+  ""lat"": ""33.43429947"",
+  ""lon"": ""-112.012001""
+}",US-AZ,Heavy Fog,"9,940.95","6,177.02",FALSE,0,No Delay,2A9QZ1W,8.284125808,497.048,Ciampino___G. B. Pastine International Airport,RM12,Rome,IT,"{
+  ""lat"": ""41.7994"",
+  ""lon"": ""12.5949""
+}",IT-62,Cloudy,5,0
+$710.69 ,TRUE,Shanghai Hongqiao International Airport,SHA,Shanghai,CN,"{
+  ""lat"": ""31.19790077"",
+  ""lon"": ""121.3359985""
+}",SE-BD,Sunny,"11,444.00","7,110.97",FALSE,0,No Delay,X0VX2GJ,9.536669536,572.2,Lester B. Pearson International Airport,YYZ,Toronto,CA,"{
+  ""lat"": ""43.67720032"",
+  ""lon"": ""-79.63059998""
+}",CA-ON,Thunder & Lightning,5,0
+$925.93 ,TRUE,Zurich Airport,ZRH,Zurich,CH,"{
+  ""lat"": ""47.464699"",
+  ""lon"": ""8.54917""
+}",CH-ZH,Clear,"7,088.60","4,404.65",FALSE,0,No Delay,RZT22CH,8.438807526,506.328,Winnipeg / James Armstrong Richardson International Airport,YWG,Winnipeg,CA,"{
+  ""lat"": ""49.90999985"",
+  ""lon"": ""-97.23989868""
+}",CA-MB,Heavy Fog,5,0
+$996.13 ,FALSE,Ottawa Macdonald-Cartier International Airport,YOW,Ottawa,CA,"{
+  ""lat"": ""45.32249832"",
+  ""lon"": ""-75.66919708""
+}",CA-ON,Sunny,"5,626.99","3,496.45",FALSE,0,No Delay,13X5SKH,4.68915646,281.349,Oslo Gardermoen Airport,OSL,Oslo,NO,"{
+  ""lat"": ""60.19390106"",
+  ""lon"": ""11.10039997""
+}",NO-02,Sunny,5,0
+"$1,061.28 ",FALSE,Winnipeg / James Armstrong Richardson International Airport,YWG,Winnipeg,CA,"{
+  ""lat"": ""49.90999985"",
+  ""lon"": ""-97.23989868""
+}",CA-MB,Rain,"7,379.45","4,585.38",FALSE,0,No Delay,1X5NZHT,7.234752961,434.085,Verona Villafranca Airport,VR10,Verona,IT,"{
+  ""lat"": ""45.395699"",
+  ""lon"": ""10.8885""
+}",IT-34,Rain,5,0
+"$1,167.85 ",FALSE,Warsaw Chopin Airport,WAW,Warsaw,PL,"{
+  ""lat"": ""52.16569901"",
+  ""lon"": ""20.96710014""
+}",PL-MZ,Clear,"1,246.30",774.418,FALSE,0,No Delay,6XJWHJ0,1.597826007,95.87,Turin Airport,TO11,Torino,IT,"{
+  ""lat"": ""45.200802"",
+  ""lon"": ""7.64963""
+}",IT-21,Clear,5,0
+"$1,072.74 ",FALSE,Jeju International Airport,CJU,Jeju City,KR,"{
+  ""lat"": ""33.51129913"",
+  ""lon"": ""126.4929962""
+}",SE-BD,Sunny,"8,925.05","5,545.77",FALSE,0,No Delay,ZHJ60WD,12.39590479,743.754,Frankfurt am Main Airport,FRA,Frankfurt am Main,DE,"{
+  ""lat"": ""50.033333"",
+  ""lon"": ""8.570556""
+}",DE-HE,Rain,5,0
+$452.58 ,FALSE,Mariscal Sucre International Airport,UIO,Quito,EC,"{
+  ""lat"": ""-0.129166667"",
+  ""lon"": ""-78.3575""
+}",EC-P,Clear,0,0,FALSE,0,No Delay,JFNKXKR,0,0,Mariscal Sucre International Airport,UIO,Quito,EC,"{
+  ""lat"": ""-0.129166667"",
+  ""lon"": ""-78.3575""
+}",EC-P,Cloudy,5,0
+$300.34 ,FALSE,Chicago O'Hare International Airport,ORD,Chicago,US,"{
+  ""lat"": ""41.97859955"",
+  ""lon"": ""-87.90480042""
+}",US-IL,Rain,"1,798.90","1,117.79",TRUE,15,Late Aircraft Delay,Y9FDTVT,2.975606544,178.536,Albuquerque International Sunport Airport,ABQ,Albuquerque,US,"{
+  ""lat"": ""35.040199"",
+  ""lon"": ""-106.609001""
+}",US-NM,Clear,5,0
+$725.19 ,FALSE,Itami Airport,ITM,Osaka,JP,"{
+  ""lat"": ""34.78549957"",
+  ""lon"": ""135.4380035""
+}",SE-BD,Sunny,"17,608.32","10,941.30",FALSE,0,No Delay,XSOOLVL,18.34199718,"1,100.52",Comodoro Arturo Merino Benitez International Airport,SCL,Santiago,CL,"{
+  ""lat"": ""-33.39300156"",
+  ""lon"": ""-70.78579712""
+}",SE-BD,Damaging Wind,5,0
+$935.23 ,FALSE,Sydney Kingsford Smith International Airport,SYD,Sydney,AU,"{
+  ""lat"": ""-33.94609833"",
+  ""lon"": ""151.177002""
+}",SE-BD,Heavy Fog,"8,309.33","5,163.18",FALSE,0,No Delay,EL5IUA2,10.6529875,639.179,Gimpo International Airport,GMP,Seoul,KR,"{
+  ""lat"": ""37.5583"",
+  ""lon"": ""126.791""
+}",SE-BD,Sunny,5,0
+$399.80 ,FALSE,Tulsa International Airport,TUL,Tulsa,US,"{
+  ""lat"": ""36.19839859"",
+  ""lon"": ""-95.88809967""
+}",US-OK,Clear,990.217,615.292,TRUE,210,Carrier Delay,LZ9HG8W,4.368611314,262.117,Minneapolis-St Paul International/Wold-Chamberlain Airport,MSP,Minneapolis,US,"{
+  ""lat"": ""44.88199997"",
+  ""lon"": ""-93.22180176""
+}",US-MN,Cloudy,5,0
+$771.39 ,FALSE,Edmonton International Airport,CYEG,Edmonton,CA,"{
+  ""lat"": ""53.30970001"",
+  ""lon"": ""-113.5800018""
+}",CA-AB,Sunny,"7,178.79","4,460.70",FALSE,0,No Delay,V1TCR2A,8.546182189,512.771,Charles de Gaulle International Airport,CDG,Paris,FR,"{
+  ""lat"": ""49.01279831"",
+  ""lon"": ""2.549999952""
+}",FR-J,Cloudy,5,0
+"$1,190.23 ",FALSE,Sheremetyevo International Airport,SVO,Moscow,RU,"{
+  ""lat"": ""55.972599"",
+  ""lon"": ""37.4146""
+}",RU-MOS,Clear,"6,865.20","4,265.84",FALSE,0,No Delay,9MUYVIG,7.151254211,429.075,Shanghai Pudong International Airport,PVG,Shanghai,CN,"{
+  ""lat"": ""31.14340019"",
+  ""lon"": ""121.8050003""
+}",SE-BD,Heavy Fog,5,0
+"$1,010.57 ",TRUE,Shanghai Hongqiao International Airport,SHA,Shanghai,CN,"{
+  ""lat"": ""31.19790077"",
+  ""lon"": ""121.3359985""
+}",SE-BD,Damaging Wind,"9,243.81","5,743.84",FALSE,0,No Delay,OS7OSHA,7.336357908,440.181,London Gatwick Airport,LGW,London,GB,"{
+  ""lat"": ""51.14810181"",
+  ""lon"": ""-0.190277994""
+}",GB-ENG,Heavy Fog,5,0
+$479.25 ,TRUE,Rochester International Airport,RST,Rochester,US,"{
+  ""lat"": ""43.90829849"",
+  ""lon"": ""-92.5""
+}",US-MN,Thunder & Lightning,"7,186.05","4,465.20",FALSE,0,No Delay,RDTJA5J,8.554817259,513.289,Berlin-Tegel Airport,TXL,Berlin,DE,"{
+  ""lat"": ""52.5597"",
+  ""lon"": ""13.2877""
+}",DE-BE,Rain,4,23
+$924.22 ,FALSE,Mariscal Sucre International Airport,UIO,Quito,EC,"{
+  ""lat"": ""-0.129166667"",
+  ""lon"": ""-78.3575""
+}",SE-BD,Thunder & Lightning,"3,766.39","2,340.33",FALSE,0,No Delay,WOCLPVJ,4.828703994,289.722,Comodoro Arturo Merino Benitez International Airport,SCL,Santiago,CL,"{
+  ""lat"": ""-33.39300156"",
+  ""lon"": ""-70.78579712""
+}",SE-BD,Rain,4,23
+$313.87 ,FALSE,Turin Airport,TO11,Torino,IT,"{
+  ""lat"": ""45.200802"",
+  ""lon"": ""7.64963""
+}",IT-21,Cloudy,818.231,508.425,TRUE,105,Late Aircraft Delay,7K350BT,2.507620957,150.457,Amsterdam Airport Schiphol,AMS,Amsterdam,NL,"{
+  ""lat"": ""52.30860138"",
+  ""lon"": ""4.76388979""
+}",NL-NH,Rain,4,23
+$734.35 ,FALSE,Oslo Gardermoen Airport,OSL,Oslo,NO,"{
+  ""lat"": ""60.19390106"",
+  ""lon"": ""11.10039997""
+}",NO-02,Damaging Wind,"7,694.32","4,781.03",TRUE,165,NAS Delay,L2UCOGQ,9.499401434,569.964,Gimpo International Airport,GMP,Seoul,KR,"{
+  ""lat"": ""37.5583"",
+  ""lon"": ""126.791""
+}",SE-BD,Thunder & Lightning,4,23
+$959.64 ,FALSE,Portland International Jetport Airport,PWM,Portland,US,"{
+  ""lat"": ""43.64619827"",
+  ""lon"": ""-70.30930328""
+}",US-ME,Clear,"9,916.29","6,161.69",FALSE,0,No Delay,6WZSVZE,10.32946443,619.768,New Chitose Airport,CTS,Chitose / Tomakomai,JP,"{
+  ""lat"": ""42.77519989"",
+  ""lon"": ""141.6920013""
+}",SE-BD,Cloudy,4,23
+$488.35 ,FALSE,Vienna International Airport,VIE,Vienna,AT,"{
+  ""lat"": ""48.11029816"",
+  ""lon"": ""16.56970024""
+}",AT-9,Rain,"7,366.69","4,577.45",FALSE,0,No Delay,R8G9L0E,9.444472103,566.668,Chengdu Shuangliu International Airport,CTU,Chengdu,CN,"{
+  ""lat"": ""30.57850075"",
+  ""lon"": ""103.9469986""
+}",SE-BD,Rain,4,23
+$940.23 ,FALSE,Venice Marco Polo Airport,VE05,Venice,IT,"{
+  ""lat"": ""45.505299"",
+  ""lon"": ""12.3519""
+}",IT-34,Rain,"7,140.67","4,437.01",FALSE,0,No Delay,DB4SPUG,9.15470635,549.282,Richmond International Airport,RIC,Richmond,US,"{
+  ""lat"": ""37.50519943"",
+  ""lon"": ""-77.31970215""
+}",US-VA,Sunny,4,23
+$987.16 ,FALSE,Oslo Gardermoen Airport,OSL,Oslo,NO,"{
+  ""lat"": ""60.19390106"",
+  ""lon"": ""11.10039997""
+}",NO-02,Clear,"1,142.37",709.834,FALSE,0,No Delay,UN9QNAQ,1.269297111,76.158,Frankfurt am Main Airport,FRA,Frankfurt am Main,DE,"{
+  ""lat"": ""50.033333"",
+  ""lon"": ""8.570556""
+}",DE-HE,Hail,4,23
+$613.66 ,TRUE,Warsaw Chopin Airport,WAW,Warsaw,PL,"{
+  ""lat"": ""52.16569901"",
+  ""lon"": ""20.96710014""
+}",PL-MZ,Rain,"8,305.76","5,160.96",FALSE,0,No Delay,1GXF2QH,8.651831019,519.11,Orlando Sanford International Airport,SFB,Orlando,US,"{
+  ""lat"": ""28.77759933"",
+  ""lon"": ""-81.23750305""
+}",US-FL,Heavy Fog,4,23
+$255.63 ,FALSE,San Antonio International Airport,SAT,San Antonio,US,"{
+  ""lat"": ""29.53370094"",
+  ""lon"": ""-98.46980286""
+}",US-TX,Sunny,"3,916.32","2,433.49",FALSE,0,No Delay,H7KZE8U,4.662286779,279.737,Mariscal Sucre International Airport,UIO,Quito,EC,"{
+  ""lat"": ""-0.129166667"",
+  ""lon"": ""-78.3575""
+}",SE-BD,Damaging Wind,4,23
+$192.02 ,FALSE,Pisa International Airport,PI05,Pisa,IT,"{
+  ""lat"": ""43.683899"",
+  ""lon"": ""10.3927""
+}",IT-52,Sunny,652.419,405.395,TRUE,90,Security Delay,M16YNRN,2.488513969,149.311,Falcone Borsellino Airport,PA03,Palermo,IT,"{
+  ""lat"": ""38.175999"",
+  ""lon"": ""13.091""
+}",IT-82,Cloudy,4,23
+$581.37 ,TRUE,Melbourne International Airport,MEL,Melbourne,AU,"{
+  ""lat"": ""-37.673302"",
+  ""lon"": ""144.843002""
+}",SE-BD,Thunder & Lightning,"13,926.16","8,653.31",FALSE,0,No Delay,FVNE2GR,13.65309416,819.186,Mariscal Sucre International Airport,UIO,Quito,EC,"{
+  ""lat"": ""-0.129166667"",
+  ""lon"": ""-78.3575""
+}",SE-BD,Damaging Wind,4,23
+$301.08 ,FALSE,OR Tambo International Airport,JNB,Johannesburg,ZA,"{
+  ""lat"": ""-26.1392"",
+  ""lon"": ""28.246""
+}",SE-BD,Cloudy,"9,287.66","5,771.08",TRUE,105,Late Aircraft Delay,A05HK6I,12.06962139,724.177,Manchester Airport,MAN,Manchester,GB,"{
+  ""lat"": ""53.35369873"",
+  ""lon"": ""-2.274950027""
+}",GB-ENG,Sunny,4,23
+$886.89 ,FALSE,Tucson International Airport,TUS,Tucson,US,"{
+  ""lat"": ""32.11610031"",
+  ""lon"": ""-110.9410019""
+}",US-AZ,Heavy Fog,"10,580.94","6,574.69",TRUE,270,Late Aircraft Delay,6REG0UW,14.29716635,857.83,Jeju International Airport,CJU,Jeju City,KR,"{
+  ""lat"": ""33.51129913"",
+  ""lon"": ""126.4929962""
+}",SE-BD,Sunny,4,23
+$639.34 ,FALSE,Sheremetyevo International Airport,SVO,Moscow,RU,"{
+  ""lat"": ""55.972599"",
+  ""lon"": ""37.4146""
+}",RU-MOS,Thunder & Lightning,"2,491.05","1,547.87",FALSE,0,No Delay,6R8YQWX,3.459788247,207.587,London Luton Airport,LTN,London,GB,"{
+  ""lat"": ""51.87469864"",
+  ""lon"": ""-0.368333012""
+}",GB-ENG,Sunny,4,22
+$827.33 ,FALSE,Ukrainka Air Base,XHBU,Belogorsk,RU,"{
+  ""lat"": ""51.169997"",
+  ""lon"": ""128.445007""
+}",RU-AMU,Rain,"9,971.76","6,196.16",FALSE,0,No Delay,9PHWZN7,7.914093009,474.846,Melbourne International Airport,MEL,Melbourne,AU,"{
+  ""lat"": ""-37.673302"",
+  ""lon"": ""144.843002""
+}",SE-BD,Rain,4,22
+$448.16 ,FALSE,General Mitchell International Airport,MKE,Milwaukee,US,"{
+  ""lat"": ""42.94720078"",
+  ""lon"": ""-87.89659882""
+}",US-WI,Hail,"4,449.19","2,764.60",FALSE,0,No Delay,24B12T8,5.296657142,317.799,El Dorado International Airport,BOG,Bogota,CO,"{
+  ""lat"": ""4.70159"",
+  ""lon"": ""-74.1469""
+}",CO-CUN,Rain,4,22
+$200.19 ,FALSE,McCarran International Airport,LAS,Las Vegas,US,"{
+  ""lat"": ""36.08010101"",
+  ""lon"": ""-115.1520004""
+}",US-NV,Damaging Wind,0,0,FALSE,0,No Delay,DW5TI7F,0,0,McCarran International Airport,LAS,Las Vegas,US,"{
+  ""lat"": ""36.08010101"",
+  ""lon"": ""-115.1520004""
+}",US-NV,Heavy Fog,4,22
+$322.59 ,FALSE,Mariscal Sucre International Airport,UIO,Quito,EC,"{
+  ""lat"": ""-0.129166667"",
+  ""lon"": ""-78.3575""
+}",SE-BD,Sunny,"6,758.48","4,199.53",FALSE,0,No Delay,6TNESBF,7.040085909,422.405,Edmonton International Airport,CYEG,Edmonton,CA,"{
+  ""lat"": ""53.30970001"",
+  ""lon"": ""-113.5800018""
+}",CA-AB,Cloudy,4,22
+$393 ,FALSE,Sheremetyevo International Airport,SVO,Moscow,RU,"{
+  ""lat"": ""55.972599"",
+  ""lon"": ""37.4146""
+}",RU-MOS,Rain,"13,481.34","8,376.92",FALSE,0,No Delay,O0INKNP,12.48272494,748.963,Ministro Pistarini International Airport,EZE,Buenos Aires,AR,"{
+  ""lat"": ""-34.8222"",
+  ""lon"": ""-58.5358""
+}",SE-BD,Rain,4,22
+$632.33 ,FALSE,Duluth International Airport,DLH,Duluth,US,"{
+  ""lat"": ""46.84209824"",
+  ""lon"": ""-92.19360352""
+}",US-MN,Rain,"7,709.00","4,790.15",FALSE,0,No Delay,86XND5D,6.42416318,385.45,Ciampino___G. B. Pastine International Airport,RM12,Rome,IT,"{
+  ""lat"": ""41.7994"",
+  ""lon"": ""12.5949""
+}",IT-62,Rain,4,22
+$919.03 ,FALSE,Wichita Mid Continent Airport,ICT,Wichita,US,"{
+  ""lat"": ""37.64989853"",
+  ""lon"": ""-97.43309784""
+}",US-KS,Cloudy,"8,351.82","5,189.58",FALSE,0,No Delay,BAFI6T0,11.59974649,695.985,Verona Villafranca Airport,VR10,Verona,IT,"{
+  ""lat"": ""45.395699"",
+  ""lon"": ""10.8885""
+}",IT-34,Clear,4,22
+$565.82 ,FALSE,San Francisco International Airport,SFO,San Francisco,US,"{
+  ""lat"": ""37.61899948"",
+  ""lon"": ""-122.375""
+}",US-CA,Clear,"9,516.35","5,913.19",FALSE,0,No Delay,Y2UAFSU,9.912864328,594.772,Beijing Capital International Airport,PEK,Beijing,CN,"{
+  ""lat"": ""40.08010101"",
+  ""lon"": ""116.5849991""
+}",SE-BD,Clear,4,22
+$434.15 ,FALSE,Oslo Gardermoen Airport,OSL,Oslo,NO,"{
+  ""lat"": ""60.19390106"",
+  ""lon"": ""11.10039997""
+}",NO-02,Hail,"1,113.76",692.056,TRUE,330,Late Aircraft Delay,42NTNA0,6.927892875,415.674,Manchester Airport,MAN,Manchester,GB,"{
+  ""lat"": ""53.35369873"",
+  ""lon"": ""-2.274950027""
+}",GB-ENG,Sunny,4,22
+$841.68 ,FALSE,Vienna International Airport,VIE,Vienna,AT,"{
+  ""lat"": ""48.11029816"",
+  ""lon"": ""16.56970024""
+}",AT-9,Clear,"8,194.79","5,092.01",TRUE,210,Late Aircraft Delay,AR2FX9Q,13.25570351,795.342,Kansas City International Airport,MCI,Kansas City,US,"{
+  ""lat"": ""39.2976"",
+  ""lon"": ""-94.713898""
+}",US-MO,Rain,4,22
+$281.97 ,FALSE,Chengdu Shuangliu International Airport,CTU,Chengdu,CN,"{
+  ""lat"": ""30.57850075"",
+  ""lon"": ""103.9469986""
+}",SE-BD,Rain,"7,633.10","4,742.99",FALSE,0,No Delay,38DL0W5,6.360915824,381.655,Bari Karol Wojty__a Airport,BA02,Bari,IT,"{
+  ""lat"": ""41.138901"",
+  ""lon"": ""16.760599""
+}",IT-75,Hail,4,22
+$751.64 ,FALSE,Quad City International Airport,MLI,Moline,US,"{
+  ""lat"": ""41.44850159"",
+  ""lon"": ""-90.50749969""
+}",US-IL,Thunder & Lightning,"11,855.12","7,366.43",FALSE,0,No Delay,PCCWV59,10.97696401,658.618,Al Maktoum International Airport,DWC,Jebel Ali,AE,"{
+  ""lat"": ""24.896356"",
+  ""lon"": ""55.161389""
+}",SE-BD,Thunder & Lightning,4,22
+$918.66 ,FALSE,Venice Marco Polo Airport,VE05,Venice,IT,"{
+  ""lat"": ""45.505299"",
+  ""lon"": ""12.3519""
+}",IT-34,Clear,"7,902.83","4,910.59",FALSE,0,No Delay,B6RUKSM,7.317437713,439.046,Beijing Capital International Airport,PEK,Beijing,CN,"{
+  ""lat"": ""40.08010101"",
+  ""lon"": ""116.5849991""
+}",SE-BD,Rain,4,22
+$872.70 ,FALSE,Mariscal Sucre International Airport,UIO,Quito,EC,"{
+  ""lat"": ""-0.129166667"",
+  ""lon"": ""-78.3575""
+}",EC-P,Clear,"4,864.95","3,022.94",FALSE,0,No Delay,8B72YLE,4.054123388,243.247,Des Moines International Airport,DSM,Des Moines,US,"{
+  ""lat"": ""41.5340004"",
+  ""lon"": ""-93.6631012""
+}",US-IA,Rain,4,22
+$469.67 ,FALSE,El Dorado International Airport,BOG,Bogota,CO,"{
+  ""lat"": ""4.70159"",
+  ""lon"": ""-74.1469""
+}",CO-CUN,Sunny,"14,429.57","8,966.12",FALSE,0,No Delay,OJF1Q3Z,15.03080573,901.848,Brisbane International Airport,BNE,Brisbane,AU,"{
+  ""lat"": ""-27.38419914"",
+  ""lon"": ""153.1170044""
+}",SE-BD,Rain,4,22
+$493.80 ,FALSE,Narita International Airport,NRT,Tokyo,JP,"{
+  ""lat"": ""35.76470184"",
+  ""lon"": ""140.3860016""
+}",SE-BD,Thunder & Lightning,"10,378.48","6,448.89",FALSE,0,No Delay,RLNIJPB,15.72496383,943.498,Montreal / Pierre Elliott Trudeau International Airport,YUL,Montreal,CA,"{
+  ""lat"": ""45.47060013"",
+  ""lon"": ""-73.74079895""
+}",CA-QC,Hail,4,21
+$565.01 ,FALSE,OR Tambo International Airport,JNB,Johannesburg,ZA,"{
+  ""lat"": ""-26.1392"",
+  ""lon"": ""28.246""
+}",SE-BD,Clear,"13,785.46","8,565.89",FALSE,0,No Delay,HH5ZKCE,19.14646981,"1,148.79",Louisville International Standiford Field,SDF,Louisville,US,"{
+  ""lat"": ""38.1744"",
+  ""lon"": ""-85.736""
+}",US-KY,Cloudy,4,21
+$931.65 ,TRUE,Mariscal Sucre International Airport,UIO,Quito,EC,"{
+  ""lat"": ""-0.129166667"",
+  ""lon"": ""-78.3575""
+}",SE-BD,Cloudy,"3,129.95","1,944.86",FALSE,0,No Delay,UA7SZ2A,2.484087557,149.045,Licenciado Benito Juarez International Airport,AICM,Mexico City,MX,"{
+  ""lat"": ""19.4363"",
+  ""lon"": ""-99.072098""
+}",MX-DIF,Heavy Fog,4,21
+$932.59 ,TRUE,Mariscal Sucre International Airport,UIO,Quito,EC,"{
+  ""lat"": ""-0.129166667"",
+  ""lon"": ""-78.3575""
+}",SE-BD,Hail,"4,864.95","3,022.94",FALSE,0,No Delay,LU2NFP0,4.054123388,243.247,Des Moines International Airport,DSM,Des Moines,US,"{
+  ""lat"": ""41.5340004"",
+  ""lon"": ""-93.6631012""
+}",US-IA,Heavy Fog,4,21
+$275.44 ,FALSE,Guangzhou Baiyun International Airport,CAN,Guangzhou,CN,"{
+  ""lat"": ""23.39240074"",
+  ""lon"": ""113.2990036""
+}",SE-BD,Clear,"5,864.80","3,644.22",FALSE,0,No Delay,BNTQC46,6.109164294,366.55,Al Maktoum International Airport,DWC,Jebel Ali,AE,"{
+  ""lat"": ""24.896356"",
+  ""lon"": ""55.161389""
+}",SE-BD,Thunder & Lightning,4,21
+$282.36 ,FALSE,Leonardo da Vinci - Fiumicino Airport,FCO,Rome,IT,"{
+  ""lat"": ""41.8002778"",
+  ""lon"": ""12.2388889""
+}",SE-BD,Rain,958.018,595.285,FALSE,0,No Delay,B6KXKYV,1.330580698,79.835,Frankfurt am Main Airport,FRA,Frankfurt am Main,DE,"{
+  ""lat"": ""50.033333"",
+  ""lon"": ""8.570556""
+}",DE-HE,Sunny,4,21
+$634.64 ,FALSE,Ministro Pistarini International Airport,EZE,Buenos Aires,AR,"{
+  ""lat"": ""-34.8222"",
+  ""lon"": ""-58.5358""
+}",SE-BD,Thunder & Lightning,"11,624.23","7,222.96",FALSE,0,No Delay,KVAQ7U5,9.686861376,581.212,Melbourne International Airport,MEL,Melbourne,AU,"{
+  ""lat"": ""-37.673302"",
+  ""lon"": ""144.843002""
+}",SE-BD,Thunder & Lightning,4,21
+$493.90 ,FALSE,Sheremetyevo International Airport,SVO,Moscow,RU,"{
+  ""lat"": ""55.972599"",
+  ""lon"": ""37.4146""
+}",RU-MOS,Sunny,"2,351.95","1,461.43",TRUE,240,Carrier Delay,KKDGFD7,7.266591608,435.995,Pisa International Airport,PI05,Pisa,IT,"{
+  ""lat"": ""43.683899"",
+  ""lon"": ""10.3927""
+}",IT-52,Sunny,4,21
+$628.94 ,TRUE,Warsaw Chopin Airport,WAW,Warsaw,PL,"{
+  ""lat"": ""52.16569901"",
+  ""lon"": ""20.96710014""
+}",PL-MZ,Thunder & Lightning,"8,427.17","5,236.40",TRUE,165,Carrier Delay,O4GG2VJ,14.45440447,867.264,Seattle Tacoma International Airport,SEA,Seattle,US,"{
+  ""lat"": ""47.44900131"",
+  ""lon"": ""-122.3089981""
+}",US-WA,Heavy Fog,4,21
+$314.48 ,FALSE,Zurich Airport,ZRH,Zurich,CH,"{
+  ""lat"": ""47.464699"",
+  ""lon"": ""8.54917""
+}",CH-ZH,Cloudy,"1,765.77","1,097.20",TRUE,45,NAS Delay,LCPRTG7,2.481144019,148.869,Ataturk International Airport,IST,Istanbul,TR,"{
+  ""lat"": ""40.97689819"",
+  ""lon"": ""28.81459999""
+}",TR-34,Cloudy,4,21
+$420.70 ,FALSE,Falcone Borsellino Airport,PA03,Palermo,IT,"{
+  ""lat"": ""38.175999"",
+  ""lon"": ""13.091""
+}",IT-82,Clear,"8,007.10","4,975.38",FALSE,0,No Delay,PM4MZFC,9.532260939,571.936,Cape Town International Airport,CPT,Cape Town,ZA,"{
+  ""lat"": ""-33.96480179"",
+  ""lon"": ""18.60169983""
+}",SE-BD,Sunny,4,21
+$128.01 ,FALSE,Zurich Airport,ZRH,Zurich,CH,"{
+  ""lat"": ""47.464699"",
+  ""lon"": ""8.54917""
+}",CH-ZH,Cloudy,0,0,FALSE,0,No Delay,SDZQJAO,0,0,Zurich Airport,ZRH,Zurich,CH,"{
+  ""lat"": ""47.464699"",
+  ""lon"": ""8.54917""
+}",CH-ZH,Hail,4,21
+$531.16 ,FALSE,Verona Villafranca Airport,VR10,Verona,IT,"{
+  ""lat"": ""45.395699"",
+  ""lon"": ""10.8885""
+}",IT-34,Cloudy,"8,899.64","5,529.98",TRUE,315,Late Aircraft Delay,MA53VN5,13.05670513,783.402,Salt Lake City International Airport,SLC,Salt Lake City,US,"{
+  ""lat"": ""40.78839874"",
+  ""lon"": ""-111.9779968""
+}",US-UT,Rain,4,21
+$371.29 ,FALSE,Pisa International Airport,PI05,Pisa,IT,"{
+  ""lat"": ""43.683899"",
+  ""lon"": ""10.3927""
+}",IT-52,Sunny,"7,201.35","4,474.71",FALSE,0,No Delay,3EGDIS0,6.316969362,379.018,Detroit Metropolitan Wayne County Airport,DTW,Detroit,US,"{
+  ""lat"": ""42.21239853"",
+  ""lon"": ""-83.35340118""
+}",US-MI,Cloudy,4,20
+$852.39 ,FALSE,Tokyo Haneda International Airport,HND,Tokyo,JP,"{
+  ""lat"": ""35.552299"",
+  ""lon"": ""139.779999""
+}",SE-BD,Clear,"9,336.57","5,801.47",FALSE,0,No Delay,FUTUF2C,11.96995478,718.197,Phoenix Sky Harbor International Airport,PHX,Phoenix,US,"{
+  ""lat"": ""33.43429947"",
+  ""lon"": ""-112.012001""
+}",US-AZ,Sunny,4,20
+$227.42 ,TRUE,Sydney Kingsford Smith International Airport,SYD,Sydney,AU,"{
+  ""lat"": ""-33.94609833"",
+  ""lon"": ""151.177002""
+}",SE-BD,Cloudy,0,0,FALSE,0,No Delay,0VJGQD3,0,0,Sydney Kingsford Smith International Airport,SYD,Sydney,AU,"{
+  ""lat"": ""-33.94609833"",
+  ""lon"": ""151.177002""
+}",SE-BD,Heavy Fog,4,20
+$152.38 ,FALSE,Turin Airport,TO11,Torino,IT,"{
+  ""lat"": ""45.200802"",
+  ""lon"": ""7.64963""
+}",IT-21,Rain,359.096,223.132,FALSE,0,No Delay,Z9OWYXU,0.352054476,21.123,Treviso-Sant'Angelo Airport,TV01,Treviso,IT,"{
+  ""lat"": ""45.648399"",
+  ""lon"": ""12.1944""
+}",IT-34,Clear,4,20
+$434.44 ,FALSE,Tokyo Haneda International Airport,HND,Tokyo,JP,"{
+  ""lat"": ""35.552299"",
+  ""lon"": ""139.779999""
+}",SE-BD,Sunny,"11,074.40","6,881.32",TRUE,120,Late Aircraft Delay,XSZW1WU,13.53583642,812.15,Piedmont Triad International Airport,GSO,Greensboro,US,"{
+  ""lat"": ""36.09780121"",
+  ""lon"": ""-79.93730164""
+}",US-NC,Sunny,4,20
+$198.98 ,FALSE,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Rain,0,0,FALSE,0,No Delay,2DHGW92,0,0,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Clear,4,20
+$788.30 ,FALSE,Copenhagen Kastrup Airport,CPH,Copenhagen,DK,"{
+  ""lat"": ""55.61790085"",
+  ""lon"": ""12.65600014""
+}",DK-84,Thunder & Lightning,"6,415.11","3,986.16",FALSE,0,No Delay,ERRNA69,9.719856069,583.191,Chhatrapati Shivaji International Airport,BOM,Mumbai,IN,"{
+  ""lat"": ""19.08869934"",
+  ""lon"": ""72.86789703""
+}",SE-BD,Heavy Fog,4,20
+$943.20 ,FALSE,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Cloudy,"18,861.02","11,719.69",FALSE,0,No Delay,6TGBC8E,14.96906337,898.144,Ministro Pistarini International Airport,EZE,Buenos Aires,AR,"{
+  ""lat"": ""-34.8222"",
+  ""lon"": ""-58.5358""
+}",AR-B,Clear,4,20
+$936.67 ,FALSE,London Luton Airport,LTN,London,GB,"{
+  ""lat"": ""51.87469864"",
+  ""lon"": ""-0.368333012""
+}",GB-ENG,Rain,"1,074.22",667.488,FALSE,0,No Delay,SBI9NWS,1.627602645,97.656,Genoa Cristoforo Colombo Airport,GE01,Genova,IT,"{
+  ""lat"": ""44.4133"",
+  ""lon"": ""8.8375""
+}",IT-42,Hail,4,20
+$198.48 ,FALSE,Verona Villafranca Airport,VR10,Verona,IT,"{
+  ""lat"": ""45.395699"",
+  ""lon"": ""10.8885""
+}",IT-34,Damaging Wind,698.987,434.33,FALSE,0,No Delay,7QO9FQX,0.97081513,58.249,Cagliari Elmas Airport,CA07,Cagliari,IT,"{
+  ""lat"": ""39.251499"",
+  ""lon"": ""9.05428""
+}",IT-88,Rain,4,20
+$585.57 ,FALSE,Zurich Airport,ZRH,Zurich,CH,"{
+  ""lat"": ""47.464699"",
+  ""lon"": ""8.54917""
+}",CH-ZH,Sunny,"4,773.28","2,965.98",FALSE,0,No Delay,V5X4PY5,6.629559958,397.774,Dubai International Airport,DXB,Dubai,AE,"{
+  ""lat"": ""25.25279999"",
+  ""lon"": ""55.36439896""
+}",SE-BD,Cloudy,4,20
+$919.69 ,FALSE,Lester B. Pearson International Airport,YYZ,Toronto,CA,"{
+  ""lat"": ""43.67720032"",
+  ""lon"": ""-79.63059998""
+}",CA-ON,Clear,"6,711.16","4,170.12",FALSE,0,No Delay,A2AI6EF,5.326317853,319.579,Genoa Cristoforo Colombo Airport,GE01,Genova,IT,"{
+  ""lat"": ""44.4133"",
+  ""lon"": ""8.8375""
+}",IT-42,Sunny,4,20
+$832.44 ,FALSE,Zurich Airport,ZRH,Zurich,CH,"{
+  ""lat"": ""47.464699"",
+  ""lon"": ""8.54917""
+}",CH-ZH,Clear,344.758,214.223,FALSE,0,No Delay,WZWKKJR,0.302419437,18.145,Treviso-Sant'Angelo Airport,TV01,Treviso,IT,"{
+  ""lat"": ""45.648399"",
+  ""lon"": ""12.1944""
+}",IT-34,Damaging Wind,4,20
+$662.92 ,FALSE,El Dorado International Airport,BOG,Bogota,CO,"{
+  ""lat"": ""4.70159"",
+  ""lon"": ""-74.1469""
+}",SE-BD,Rain,"3,452.14","2,145.06",FALSE,0,No Delay,SG52TWG,5.230513673,313.831,Birmingham-Shuttlesworth International Airport,BHM,Birmingham,US,"{
+  ""lat"": ""33.56290054"",
+  ""lon"": ""-86.75350189""
+}",US-AL,Sunny,4,20
+$705.68 ,FALSE,London Luton Airport,LTN,London,GB,"{
+  ""lat"": ""51.87469864"",
+  ""lon"": ""-0.368333012""
+}",GB-ENG,Rain,"1,471.98",914.647,TRUE,270,Carrier Delay,2JWZIQU,5.726651277,343.599,Leonardo da Vinci___Fiumicino Airport,RM11,Rome,IT,"{
+  ""lat"": ""41.8002778"",
+  ""lon"": ""12.2388889""
+}",IT-62,Cloudy,4,20
+$450.99 ,FALSE,Wichita Mid Continent Airport,ICT,Wichita,US,"{
+  ""lat"": ""37.64989853"",
+  ""lon"": ""-97.43309784""
+}",US-KS,Hail,"8,788.09","5,460.67",TRUE,45,NAS Delay,R8F5IBO,9.365776552,561.947,Sheremetyevo International Airport,SVO,Moscow,RU,"{
+  ""lat"": ""55.972599"",
+  ""lon"": ""37.4146""
+}",RU-MOS,Thunder & Lightning,4,20
+$991.18 ,FALSE,Zurich Airport,ZRH,Zurich,CH,"{
+  ""lat"": ""47.464699"",
+  ""lon"": ""8.54917""
+}",CH-ZH,Sunny,291.902,181.379,FALSE,0,No Delay,WU21VRC,0.256054142,15.363,Verona Villafranca Airport,VR10,Verona,IT,"{
+  ""lat"": ""45.395699"",
+  ""lon"": ""10.8885""
+}",IT-34,Hail,4,20
+$815.28 ,TRUE,Rajiv Gandhi International Airport,HYD,Hyderabad,IN,"{
+  ""lat"": ""17.23131752"",
+  ""lon"": ""78.42985535""
+}",SE-BD,Cloudy,"12,552.61","7,799.83",FALSE,0,No Delay,5A4KP4M,19.01910107,"1,141.15",Portland International Jetport Airport,PWM,Portland,US,"{
+  ""lat"": ""43.64619827"",
+  ""lon"": ""-70.30930328""
+}",US-ME,Damaging Wind,4,20
+$443.81 ,FALSE,Licenciado Benito Juarez International Airport,AICM,Mexico City,MX,"{
+  ""lat"": ""19.4363"",
+  ""lon"": ""-99.072098""
+}",MX-DIF,Sunny,"3,242.52","2,014.81",FALSE,0,No Delay,7YSW40X,3.002334481,180.14,Lester B. Pearson International Airport,YYZ,Toronto,CA,"{
+  ""lat"": ""43.67720032"",
+  ""lon"": ""-79.63059998""
+}",CA-ON,Rain,4,20
+$464.18 ,FALSE,Treviso-Sant'Angelo Airport,TV01,Treviso,IT,"{
+  ""lat"": ""45.648399"",
+  ""lon"": ""12.1944""
+}",IT-34,Rain,"8,997.77","5,590.95",TRUE,210,NAS Delay,SKMQOOG,12.32134203,739.281,Guangzhou Baiyun International Airport,CAN,Guangzhou,CN,"{
+  ""lat"": ""23.39240074"",
+  ""lon"": ""113.2990036""
+}",SE-BD,Sunny,4,19
+$268.61 ,FALSE,El Dorado International Airport,BOG,Bogota,CO,"{
+  ""lat"": ""4.70159"",
+  ""lon"": ""-74.1469""
+}",CO-CUN,Clear,"14,429.57","8,966.12",FALSE,0,No Delay,6CXJQ72,11.45204246,687.123,Brisbane International Airport,BNE,Brisbane,AU,"{
+  ""lat"": ""-27.38419914"",
+  ""lon"": ""153.1170044""
+}",SE-BD,Cloudy,4,19
+$658.74 ,TRUE,Mariscal Sucre International Airport,UIO,Quito,EC,"{
+  ""lat"": ""-0.129166667"",
+  ""lon"": ""-78.3575""
+}",SE-BD,Sunny,"16,625.32","10,330.49",FALSE,0,No Delay,GFM49GS,18.47257291,"1,108.35",Chengdu Shuangliu International Airport,CTU,Chengdu,CN,"{
+  ""lat"": ""30.57850075"",
+  ""lon"": ""103.9469986""
+}",SE-BD,Heavy Fog,4,19
+$560.31 ,FALSE,Mariscal Sucre International Airport,UIO,Quito,EC,"{
+  ""lat"": ""-0.129166667"",
+  ""lon"": ""-78.3575""
+}",EC-P,Sunny,"15,154.85","9,416.79",FALSE,0,No Delay,CENIKAK,16.83872191,"1,010.32",Incheon International Airport,ICN,Seoul,KR,"{
+  ""lat"": ""37.46910095"",
+  ""lon"": ""126.4509964""
+}",SE-BD,Heavy Fog,4,19
+$756.42 ,FALSE,Vienna International Airport,VIE,Vienna,AT,"{
+  ""lat"": ""48.11029816"",
+  ""lon"": ""16.56970024""
+}",AT-9,Clear,"9,165.07","5,694.91",FALSE,0,No Delay,1WKSE9V,13.8864614,833.188,Tokyo Haneda International Airport,HND,Tokyo,JP,"{
+  ""lat"": ""35.552299"",
+  ""lon"": ""139.779999""
+}",SE-BD,Rain,4,19
+$165.47 ,TRUE,Ukrainka Air Base,XHBU,Belogorsk,RU,"{
+  ""lat"": ""51.169997"",
+  ""lon"": ""128.445007""
+}",RU-AMU,Thunder & Lightning,"5,606.83","3,483.92",FALSE,0,No Delay,UPYBY0Z,5.84044378,350.427,Sheremetyevo International Airport,SVO,Moscow,RU,"{
+  ""lat"": ""55.972599"",
+  ""lon"": ""37.4146""
+}",RU-MOS,Cloudy,4,19
+$956.02 ,FALSE,Jeju International Airport,CJU,Jeju City,KR,"{
+  ""lat"": ""33.51129913"",
+  ""lon"": ""126.4929962""
+}",SE-BD,Clear,"9,286.53","5,770.38",FALSE,0,No Delay,8TMQ9NT,7.370258716,442.216,Ciampino___G. B. Pastine International Airport,RM12,Rome,IT,"{
+  ""lat"": ""41.7994"",
+  ""lon"": ""12.5949""
+}",IT-62,Clear,4,19
+$614.19 ,FALSE,Winnipeg / James Armstrong Richardson International Airport,YWG,Winnipeg,CA,"{
+  ""lat"": ""49.90999985"",
+  ""lon"": ""-97.23989868""
+}",CA-MB,Cloudy,"2,279.34","1,416.32",FALSE,0,No Delay,5GQ9US7,2.532604999,151.956,Tucson International Airport,TUS,Tucson,US,"{
+  ""lat"": ""32.11610031"",
+  ""lon"": ""-110.9410019""
+}",US-AZ,Clear,4,19
+$584.29 ,FALSE,Winnipeg / James Armstrong Richardson International Airport,YWG,Winnipeg,CA,"{
+  ""lat"": ""49.90999985"",
+  ""lon"": ""-97.23989868""
+}",CA-MB,Thunder & Lightning,"12,299.96","7,642.84",TRUE,30,NAS Delay,80OH096,16.26917777,976.151,Chhatrapati Shivaji International Airport,BOM,Mumbai,IN,"{
+  ""lat"": ""19.08869934"",
+  ""lon"": ""72.86789703""
+}",SE-BD,Cloudy,4,19
+$143.42 ,FALSE,San Antonio International Airport,SAT,San Antonio,US,"{
+  ""lat"": ""29.53370094"",
+  ""lon"": ""-98.46980286""
+}",US-TX,Sunny,"2,206.07","1,370.79",FALSE,0,No Delay,WCV807S,2.626277097,157.577,Newport News Williamsburg International Airport,PHF,Newport News,US,"{
+  ""lat"": ""37.13190079"",
+  ""lon"": ""-76.49299622""
+}",US-VA,Rain,4,18
+$956.06 ,FALSE,Shanghai Pudong International Airport,PVG,Shanghai,CN,"{
+  ""lat"": ""31.14340019"",
+  ""lon"": ""121.8050003""
+}",SE-BD,Rain,"2,182.33","1,356.04",FALSE,0,No Delay,9P7O5BC,1.732006938,103.92,New Chitose Airport,CTS,Chitose / Tomakomai,JP,"{
+  ""lat"": ""42.77519989"",
+  ""lon"": ""141.6920013""
+}",SE-BD,Clear,4,18
+$260.40 ,TRUE,Kansai International Airport,KIX,Osaka,JP,"{
+  ""lat"": ""34.4272995"",
+  ""lon"": ""135.2440033""
+}",SE-BD,Cloudy,"10,001.57","6,214.69",FALSE,0,No Delay,X49VA7L,13.89107145,833.464,Falcone Borsellino Airport,PA03,Palermo,IT,"{
+  ""lat"": ""38.175999"",
+  ""lon"": ""13.091""
+}",IT-82,Damaging Wind,4,18
+$583.91 ,FALSE,Oslo Gardermoen Airport,OSL,Oslo,NO,"{
+  ""lat"": ""60.19390106"",
+  ""lon"": ""11.10039997""
+}",NO-02,Sunny,"6,391.64","3,971.58",FALSE,0,No Delay,U4RO4JN,8.194403237,491.664,Norfolk International Airport,ORF,Norfolk,US,"{
+  ""lat"": ""36.89459991"",
+  ""lon"": ""-76.20120239""
+}",US-VA,Rain,4,18
+$628.97 ,TRUE,Spokane International Airport,GEG,Spokane,US,"{
+  ""lat"": ""47.61989975"",
+  ""lon"": ""-117.5339966""
+}",US-WA,Hail,"7,342.07","4,562.15",TRUE,195,Late Aircraft Delay,0YIVG7F,11.40785307,684.471,New Chitose Airport,CTS,Chitose / Tomakomai,JP,"{
+  ""lat"": ""42.77519989"",
+  ""lon"": ""141.6920013""
+}",SE-BD,Cloudy,4,18
+$236.48 ,TRUE,Winnipeg / James Armstrong Richardson International Airport,YWG,Winnipeg,CA,"{
+  ""lat"": ""49.90999985"",
+  ""lon"": ""-97.23989868""
+}",CA-MB,Damaging Wind,0,0,TRUE,105,Security Delay,ZTH6T9X,1.75,105,Winnipeg / James Armstrong Richardson International Airport,YWG,Winnipeg,CA,"{
+  ""lat"": ""49.90999985"",
+  ""lon"": ""-97.23989868""
+}",CA-MB,Hail,4,18
+$252.54 ,FALSE,Seattle Tacoma International Airport,SEA,Seattle,US,"{
+  ""lat"": ""47.44900131"",
+  ""lon"": ""-122.3089981""
+}",US-WA,Damaging Wind,"7,351.63","4,568.09",TRUE,315,Carrier Delay,J0S1R8K,14.00193662,840.116,Oslo Gardermoen Airport,OSL,Oslo,NO,"{
+  ""lat"": ""60.19390106"",
+  ""lon"": ""11.10039997""
+}",NO-02,Hail,4,18
+$183.87 ,TRUE,Tokyo Haneda International Airport,HND,Tokyo,JP,"{
+  ""lat"": ""35.552299"",
+  ""lon"": ""139.779999""
+}",SE-BD,Rain,59.72,37.109,FALSE,0,No Delay,I2RRBFL,0.066356019,3.981,Narita International Airport,NRT,Tokyo,JP,"{
+  ""lat"": ""35.76470184"",
+  ""lon"": ""140.3860016""
+}",SE-BD,Thunder & Lightning,4,18
+$962.02 ,FALSE,Milano Linate Airport,MI11,Milan,IT,"{
+  ""lat"": ""45.445099"",
+  ""lon"": ""9.27674""
+}",IT-25,Rain,623.244,387.266,FALSE,0,No Delay,RLJ0SQL,0.865616101,51.937,Cologne Bonn Airport,CGN,Cologne,DE,"{
+  ""lat"": ""50.86589813"",
+  ""lon"": ""7.142739773""
+}",DE-NW,Sunny,4,18
+$325.19 ,FALSE,Tucson International Airport,TUS,Tucson,US,"{
+  ""lat"": ""32.11610031"",
+  ""lon"": ""-110.9410019""
+}",US-AZ,Clear,"10,165.75","6,316.70",FALSE,0,No Delay,NGR4NHL,10.58932331,635.359,Naples International Airport,NA01,Naples,IT,"{
+  ""lat"": ""40.886002"",
+  ""lon"": ""14.2908""
+}",IT-72,Heavy Fog,4,18
+$784.02 ,FALSE,Leonardo da Vinci - Fiumicino Airport,FCO,Rome,IT,"{
+  ""lat"": ""41.8002778"",
+  ""lon"": ""12.2388889""
+}",SE-BD,Sunny,"9,171.74","5,699.06",FALSE,0,No Delay,Z3L2C08,9.553896585,573.234,Guangzhou Baiyun International Airport,CAN,Guangzhou,CN,"{
+  ""lat"": ""23.39240074"",
+  ""lon"": ""113.2990036""
+}",SE-BD,Sunny,4,17
+$954.47 ,FALSE,Warsaw Chopin Airport,WAW,Warsaw,PL,"{
+  ""lat"": ""52.16569901"",
+  ""lon"": ""20.96710014""
+}",PL-MZ,Clear,"7,314.11","4,544.78",FALSE,0,No Delay,TO2GWDX,10.15848063,609.509,Norfolk International Airport,ORF,Norfolk,US,"{
+  ""lat"": ""36.89459991"",
+  ""lon"": ""-76.20120239""
+}",US-VA,Sunny,4,17
+$804.72 ,FALSE,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Thunder & Lightning,"7,402.54","4,599.73",FALSE,0,No Delay,8B5OZWH,9.490436928,569.426,Vienna International Airport,VIE,Vienna,AT,"{
+  ""lat"": ""48.11029816"",
+  ""lon"": ""16.56970024""
+}",AT-9,Rain,4,17
+$676.13 ,FALSE,Falcone Borsellino Airport,PA03,Palermo,IT,"{
+  ""lat"": ""38.175999"",
+  ""lon"": ""13.091""
+}",IT-82,Hail,"8,367.74","5,199.47",FALSE,0,No Delay,9PL78Y4,11.62186105,697.312,Beijing Capital International Airport,PEK,Beijing,CN,"{
+  ""lat"": ""40.08010101"",
+  ""lon"": ""116.5849991""
+}",SE-BD,Sunny,4,17
+$412.82 ,FALSE,Minneapolis-St Paul International/Wold-Chamberlain Airport,MSP,Minneapolis,US,"{
+  ""lat"": ""44.88199997"",
+  ""lon"": ""-93.22180176""
+}",US-MN,Sunny,"7,289.66","4,529.58",FALSE,0,No Delay,6UEFYIN,6.39443808,383.666,Barcelona International Airport,BCN,Barcelona,ES,"{
+  ""lat"": ""41.29710007"",
+  ""lon"": ""2.078459978""
+}",ES-CT,Clear,4,17
+$814.85 ,FALSE,Tokyo Haneda International Airport,HND,Tokyo,JP,"{
+  ""lat"": ""35.552299"",
+  ""lon"": ""139.779999""
+}",SE-BD,Sunny,"1,779.88","1,105.97",FALSE,0,No Delay,1584ATW,1.561300587,93.678,Shanghai Hongqiao International Airport,SHA,Shanghai,CN,"{
+  ""lat"": ""31.19790077"",
+  ""lon"": ""121.3359985""
+}",SE-BD,Heavy Fog,4,17
+$610.82 ,FALSE,Verona Villafranca Airport,VR10,Verona,IT,"{
+  ""lat"": ""45.395699"",
+  ""lon"": ""10.8885""
+}",IT-34,Rain,"2,192.37","1,362.28",TRUE,180,Late Aircraft Delay,3OXUQWO,5.435966945,326.158,Sheremetyevo International Airport,SVO,Moscow,RU,"{
+  ""lat"": ""55.972599"",
+  ""lon"": ""37.4146""
+}",RU-MOS,Rain,4,17
+$115.84 ,TRUE,Turin Airport,TO11,Torino,IT,"{
+  ""lat"": ""45.200802"",
+  ""lon"": ""7.64963""
+}",IT-21,Hail,0,0,FALSE,0,No Delay,EOH4CTZ,0,0,Turin Airport,TO11,Torino,IT,"{
+  ""lat"": ""45.200802"",
+  ""lon"": ""7.64963""
+}",IT-21,Clear,4,17
+$690.13 ,FALSE,Turin Airport,TO11,Torino,IT,"{
+  ""lat"": ""45.200802"",
+  ""lon"": ""7.64963""
+}",IT-21,Sunny,"9,226.62","5,733.15",FALSE,0,No Delay,EX3I5IV,10.25179742,615.108,Shanghai Hongqiao International Airport,SHA,Shanghai,CN,"{
+  ""lat"": ""31.19790077"",
+  ""lon"": ""121.3359985""
+}",SE-BD,Hail,4,17
+$711.08 ,FALSE,Shanghai Hongqiao International Airport,SHA,Shanghai,CN,"{
+  ""lat"": ""31.19790077"",
+  ""lon"": ""121.3359985""
+}",SE-BD,Sunny,"9,154.13","5,688.11",FALSE,0,No Delay,3K93U65,12.71406804,762.844,Pisa International Airport,PI05,Pisa,IT,"{
+  ""lat"": ""43.683899"",
+  ""lon"": ""10.3927""
+}",IT-52,Clear,4,17
+$130 ,FALSE,Tulsa International Airport,TUL,Tulsa,US,"{
+  ""lat"": ""36.19839859"",
+  ""lon"": ""-95.88809967""
+}",US-OK,Heavy Fog,"1,539.53",956.619,FALSE,0,No Delay,BRTDNYR,1.832772447,109.966,Raleigh Durham International Airport,RDU,Raleigh/Durham,US,"{
+  ""lat"": ""35.87760162"",
+  ""lon"": ""-78.78749847""
+}",US-NC,Damaging Wind,4,17
+$748.24 ,FALSE,Newark Liberty International Airport,EWR,Newark,US,"{
+  ""lat"": ""40.69250107"",
+  ""lon"": ""-74.16870117""
+}",US-NJ,Rain,"3,255.54","2,022.90",FALSE,0,No Delay,YHSBKVY,3.875647886,232.539,Edmonton International Airport,CYEG,Edmonton,CA,"{
+  ""lat"": ""53.30970001"",
+  ""lon"": ""-113.5800018""
+}",CA-AB,Cloudy,4,17
+$895.31 ,FALSE,Narita International Airport,NRT,Tokyo,JP,"{
+  ""lat"": ""35.76470184"",
+  ""lon"": ""140.3860016""
+}",SE-BD,Clear,"10,011.88","6,221.10",FALSE,0,No Delay,7DRBUST,8.782354354,526.941,General Mitchell International Airport,MKE,Milwaukee,US,"{
+  ""lat"": ""42.94720078"",
+  ""lon"": ""-87.89659882""
+}",US-WI,Cloudy,4,17
+$396.40 ,FALSE,OR Tambo International Airport,JNB,Johannesburg,ZA,"{
+  ""lat"": ""-26.1392"",
+  ""lon"": ""28.246""
+}",SE-BD,Thunder & Lightning,"7,430.50","4,617.10",TRUE,150,Carrier Delay,Z0H9ZMF,8.692080548,521.525,Ataturk International Airport,IST,Istanbul,TR,"{
+  ""lat"": ""40.97689819"",
+  ""lon"": ""28.81459999""
+}",TR-34,Thunder & Lightning,4,17
+$683.86 ,FALSE,Venice Marco Polo Airport,VE05,Venice,IT,"{
+  ""lat"": ""45.505299"",
+  ""lon"": ""12.3519""
+}",IT-34,Rain,"8,823.40","5,482.61",FALSE,0,No Delay,ALDWAYE,7.739824685,464.389,Cape Town International Airport,CPT,Cape Town,ZA,"{
+  ""lat"": ""-33.96480179"",
+  ""lon"": ""18.60169983""
+}",SE-BD,Rain,4,16
+$686.33 ,FALSE,Oslo Gardermoen Airport,OSL,Oslo,NO,"{
+  ""lat"": ""60.19390106"",
+  ""lon"": ""11.10039997""
+}",NO-02,Cloudy,"6,631.42","4,120.57",FALSE,0,No Delay,D7QTL6D,8.501819567,510.109,Chhatrapati Shivaji International Airport,BOM,Mumbai,IN,"{
+  ""lat"": ""19.08869934"",
+  ""lon"": ""72.86789703""
+}",SE-BD,Rain,4,16
+$459.09 ,FALSE,Itami Airport,ITM,Osaka,JP,"{
+  ""lat"": ""34.78549957"",
+  ""lon"": ""135.4380035""
+}",SE-BD,Sunny,"7,726.00","4,800.71",FALSE,0,No Delay,7Q9UJPG,6.13174319,367.905,Adelaide International Airport,ADL,Adelaide,AU,"{
+  ""lat"": ""-34.945"",
+  ""lon"": ""138.531006""
+}",SE-BD,Clear,4,16
+$341.56 ,FALSE,New Chitose Airport,CTS,Chitose / Tomakomai,JP,"{
+  ""lat"": ""42.77519989"",
+  ""lon"": ""141.6920013""
+}",SE-BD,Clear,"14,960.56","9,296.06",FALSE,0,No Delay,YGFZU2M,13.12329421,787.398,Jorge Chavez International Airport,LIM,Lima,PE,"{
+  ""lat"": ""-12.0219"",
+  ""lon"": ""-77.114304""
+}",SE-BD,Sunny,4,16
+$563.14 ,FALSE,Xi'an Xianyang International Airport,XIY,Xi'an,CN,"{
+  ""lat"": ""34.447102"",
+  ""lon"": ""108.751999""
+}",SE-BD,Sunny,"7,402.54","4,599.73",FALSE,0,No Delay,HCV4RMB,5.875032384,352.502,Vienna International Airport,VIE,Vienna,AT,"{
+  ""lat"": ""48.11029816"",
+  ""lon"": ""16.56970024""
+}",AT-9,Thunder & Lightning,4,16
+$847.74 ,FALSE,Licenciado Benito Juarez International Airport,AICM,Mexico City,MX,"{
+  ""lat"": ""19.4363"",
+  ""lon"": ""-99.072098""
+}",MX-DIF,Sunny,"9,220.11","5,729.11",TRUE,30,Carrier Delay,IBRRYQV,10.10428293,606.257,Amsterdam Airport Schiphol,AMS,Amsterdam,NL,"{
+  ""lat"": ""52.30860138"",
+  ""lon"": ""4.76388979""
+}",NL-NH,Rain,4,16
+$801.88 ,TRUE,Frankfurt am Main Airport,FRA,Frankfurt am Main,DE,"{
+  ""lat"": ""50.033333"",
+  ""lon"": ""8.570556""
+}",DE-HE,Thunder & Lightning,"6,903.63","4,289.72",FALSE,0,No Delay,WCDHK3P,9.588380733,575.303,Fort Wayne International Airport,FWA,Fort Wayne,US,"{
+  ""lat"": ""40.97850037"",
+  ""lon"": ""-85.19509888""
+}",US-IN,Hail,4,16
+$753.72 ,FALSE,Warsaw Chopin Airport,WAW,Warsaw,PL,"{
+  ""lat"": ""52.16569901"",
+  ""lon"": ""20.96710014""
+}",PL-MZ,Rain,524.716,326.043,FALSE,0,No Delay,H4J2WM6,0.728771985,43.726,Berlin-Tegel Airport,TXL,Berlin,DE,"{
+  ""lat"": ""52.5597"",
+  ""lon"": ""13.2877""
+}",DE-BE,Clear,4,16
