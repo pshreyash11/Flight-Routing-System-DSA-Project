@@ -15,14 +15,6 @@ typedef struct graph{
     int numberOfNodes;
     node* nodes[MAX_NODES];
 }graph;
-typedef struct{
-    char id[SIZE];
-    int val;
-}pair;
-typedef struct{
-    pair* arr;
-    int index; 
-}map;
 
 edge* createEdge(int dest, int w);
 graph* createGraph(int numberofNodes);
