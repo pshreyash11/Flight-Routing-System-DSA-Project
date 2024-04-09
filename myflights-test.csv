@@ -59,3 +59,4 @@ source_id,source_city,destination_id,destination_city,distance,cost,date
 9,Jaipur,1,Delhi,300,1500,2024-09-27
 10,Lucknow,1,Delhi,500,2500,2024-09-28
 10,Lucknow,2,Mumbai,1100,4800,2024-09-29
+10,Lucknow,9,Jaipur,600,3000,2024-09-30
