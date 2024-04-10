@@ -58,7 +58,6 @@ static struct bucket* find_entry(hashmap* m, const void* key, size_t ksize, uint
         if(entry->key == NULL || (entry->ksize == ksize && entry->hash == hash && memcmp(entry->key, key, ksize)==0)){
             return entry;
         } 
-        printf("Collision!\n");
         index = (index + 1) % m->cap;
     } 
 }
@@ -103,7 +102,7 @@ int hashmap_size(hashmap* m){
     return m->count;
 }
 
-int main(){
+/*int main(){
     hashmap* m = hashmap_create();
     uintptr_t res;
     FILE *file = fopen("sample.txt", "r");
@@ -146,4 +145,4 @@ int main(){
     hashmap_get(m, "FVITQ", strlen("FVITQ"), &res);
     printf("value is : %d", res);
     return 0;
-}
+}*/

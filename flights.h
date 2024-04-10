@@ -1,3 +1,5 @@
+#ifndef FLIGHTS_H
+#define FLIGHTS_H
 #include<stdlib.h>
 #include<stdbool.h>
 #define MAX_NODES 20
@@ -21,3 +23,4 @@ graph* createGraph(int numberofNodes);
 void addEdge(graph* g, int src, int dest, int w);
 int minDistance(int dist[], bool sptSet[], int V);
 void dijkstra(graph* g, int src);
+#endif
