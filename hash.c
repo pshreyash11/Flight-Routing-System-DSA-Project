@@ -27,6 +27,7 @@ hashmap* hashmap_create(void){
     m->buckets = calloc(HASHMAP_DEFAULT_CAPACITY, sizeof(struct bucket));
     m->first = NULL;
     m->last = (struct bucket*)&m->first;
+    return m;
 }
 static inline uint32_t hash_data(const unsigned char* data, size_t size){
     uint64_t hash = HASHMAP_HASH_INIT;
@@ -143,6 +144,7 @@ int hashmap_size(hashmap* m){
     }
     printf("Lets check something ...\n");
     hashmap_get(m, "FVITQ", strlen("FVITQ"), &res);
-    printf("value is : %d", res);
+    printf("value is : %lu", res);
+    fclose(file);
     return 0;
 }*/
