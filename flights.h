@@ -22,5 +22,5 @@ edge* createEdge(int dest, int w);
 graph* createGraph(int numberofNodes);
 void addEdge(graph* g, int src, int dest, int w);
 int minDistance(int dist[], bool sptSet[], int V);
-void dijkstra(graph* g, int src);
+void dijkstra(graph* g, int src,int dest);
 #endif
