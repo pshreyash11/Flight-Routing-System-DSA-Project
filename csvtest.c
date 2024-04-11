@@ -184,7 +184,6 @@ void dijkstra(graph *g, int src, int dest)
     printf("Shortest path from %s to %s: ", hashtable[src], hashtable[dest]);
     int current = dest;
     int path[MAX_NODES], pathLength = 0;
-
     // Backtrack from destination to source to get the correct order of vertices
     while (parent[current] != -1)
     {
@@ -198,6 +197,7 @@ void dijkstra(graph *g, int src, int dest)
     {
         printf(" -> %s", hashtable[path[j]]);
     }
+    printf("\nCost of Shortest Path: %d\n", dist[dest]);
     printf("\n");
 }
 
@@ -387,6 +387,6 @@ int main()
     hashmap_get(m, output, strlen(output), &res);
     int end = (int)res;
     dijkstra(g, start, end);
-    // printf("Minimum money to travel is : %d\n",floydWarshall(g,start,end));
+     printf("Minimum money to travel is : %d\n",floydWarshall(g,start,end));
     return 0;
 }
