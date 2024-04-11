@@ -2,7 +2,7 @@
 #define FLIGHTS_H
 #include<stdlib.h>
 #include<stdbool.h>
-#define MAX_NODES 20
+#define MAX_NODES 40
 #define SIZE 10
 typedef struct edge{
     int dest;

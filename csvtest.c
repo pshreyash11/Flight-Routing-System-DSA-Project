@@ -5,6 +5,7 @@
 #include "flights.h"
 #include <limits.h>
 #define MAXCHAR 1000
+char hashtable[MAX_NODES][MAXCHAR];
 typedef struct info
 {
     char src[MAXCHAR];
@@ -180,7 +181,7 @@ void dijkstra(graph *g, int src, int dest)
         return;
     }
 
-    printf("Shortest path from %d to %d: ", src, dest);
+    printf("Shortest path from %s to %s: ", hashtable[src], hashtable[dest]);
     int current = dest;
     int path[MAX_NODES], pathLength = 0;
 
@@ -192,10 +193,10 @@ void dijkstra(graph *g, int src, int dest)
     }
 
     // Print the reversed path
-    printf("%d", src);
+    printf("%s", hashtable[src]);
     for (int j = pathLength - 1; j >= 0; j--)
     {
-        printf(" -> %d", path[j]);
+        printf(" -> %s", hashtable[path[j]]);
     }
     printf("\n");
 }
@@ -349,6 +350,7 @@ int main()
         {
             continue;
         }
+        strcpy(hashtable[val], table[i]);
         hashmap_set(m, table[i], strlen(table[i]), val);
         val++;
     }
