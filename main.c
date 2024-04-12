@@ -3,8 +3,9 @@
 #include"routes.c"
 
 // Function prototypes
+flightinfo airinfo[MAX_NODES];
 void printMenu();
-
+void printAirInfo(char* src, char* dest);
 
 int main()
 {
@@ -33,14 +34,25 @@ int main()
                 // printf("rtoken: %s\n", token);
                 strcpy(table[count], token);
                 strcpy(arr[count].src, token);
+                strcpy(airinfo[count].src, token);
             }
             else if (i == 3)
             {
                 strcpy(arr[count].dest, token);
+                strcpy(airinfo[count].dest, token);
+            }
+            else if(i == 4){
+                strcpy(airinfo[count].distance, token);
             }
             else if (i == 5)
             {
                 strcpy(arr[count].weight, token);
+            }
+            else if(i == 6){
+                strcpy(airinfo[count].airline, token);
+            }
+            else if(i == 7){
+                strcpy(airinfo[count].food, token);
             }
             token = strtok(NULL, ",");
             i++;
@@ -123,12 +135,15 @@ int main()
             printf("Minimum money to travel is : %d\n", floydWarshall(g, start, end));
             break;
         case 3:
+            printAirInfo(hashtable[start], hashtable[end]);
+            break;
+        case 4:
             printf("\nExiting the program. Goodbye!\n");
             break;
         default:
             printf("\nInvalid choice. Please try again.\n");
         }
-    } while (choice != 3);
+    } while (choice != 4);
 
     return 0;
 }
@@ -142,7 +157,24 @@ void printMenu()
     printf("\033[1;32m*                                                    *\033[0m\n");
     printf("\033[1;32m*   \033[1;36m1. Check all possible routes available          \033[1;32m *\033[0m\n");
     printf("\033[1;32m*   \033[1;36m2. Find the minimum cost to travel and the path \033[1;32m *\033[0m\n");
-    printf("\033[1;32m*   \033[1;36m3. Exit                                         \033[1;32m *\033[0m\n");
+    printf("\033[1;32m*   \033[1;36m3. Check non-stop flight and display its details\033[1;32m *\033[0m\n");
+    printf("\033[1;32m*   \033[1;36m4. Exit                                         \033[1;32m *\033[0m\n");
     printf("\033[1;32m*                                                    *\033[0m\n");
     printf("\033[1;32m******************************************************\033[0m\n");
+}
+
+void printAirInfo(char* src, char* dest){
+    int sz = sizeof(airinfo)/sizeof(airinfo[0]);
+    bool flag = false;
+    for(int i =0; i<sz; i++){
+        if(strcmp(airinfo[i].src, src) == 0 && strcmp(airinfo[i].dest, dest) == 0){
+            printf("-----FLIGHT FOUND-----\n");
+            printf("Total Distance: %s\n", airinfo[i].distance);
+            printf("Airline Company: %s\n", airinfo[i].airline);
+            printf("Is inflight dining available: %s\n", airinfo[i].food);
+            printf("------x----x-----x-----\n");
+            flag = true;
+        }
+    }
+    if(!flag) printf("No direct flight availble!\n");
 }

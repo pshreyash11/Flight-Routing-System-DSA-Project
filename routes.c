@@ -4,6 +4,7 @@
 #include "hash.c"
 #include "flights.h"
 #include <limits.h>
+#include <time.h>
 #define MAXCHAR 1000
 char hashtable[MAX_NODES][MAXCHAR];
 typedef struct info
@@ -334,4 +335,19 @@ void findAllPaths(graph* g, int src, int dest){
     if(!found){
         printf("No paths available\n");
     }
+}
+double measureCpuTime(void) {
+    clock_t start = clock();
+    return (double)start / CLOCKS_PER_SEC;
+}
+
+double benchmarkAlgo(void (*algo)(graph* , int, int), graph* g, int start, int end){
+    double startTime = measureCpuTime();
+    algo(g, start, end);
+    double endTime = measureCpuTime();
+    return endTime - startTime;
+}
+void floydWarshallWrapper(graph* g, int start, int end){
+    int x = floydWarshall(g, start, end);
+    return;
 }

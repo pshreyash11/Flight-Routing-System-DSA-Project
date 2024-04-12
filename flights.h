@@ -17,7 +17,13 @@ typedef struct graph{
     int numberOfNodes;
     node* nodes[MAX_NODES];
 }graph;
-
+typedef struct flightinfo{
+    char src[1000];
+    char dest[1000];
+    char distance[1000];
+    char airline[1000];
+    char food[1000];
+}flightinfo;
 edge* createEdge(int dest, int w);
 graph* createGraph(int numberofNodes);
 void addEdge(graph* g, int src, int dest, int w);
