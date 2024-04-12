@@ -387,6 +387,6 @@ int main()
     hashmap_get(m, output, strlen(output), &res);
     int end = (int)res;
     dijkstra(g, start, end);
-     printf("Minimum money to travel is : %d\n",floydWarshall(g,start,end));
+    printf("Minimum money to travel is : %d\n",floydWarshall(g,start,end));
     return 0;
 }
