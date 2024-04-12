@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include"csvtest.c"
+#include"routes.c"
 
 // Function prototypes
 void printMenu();
@@ -116,7 +116,7 @@ int main()
         switch (choice)
         {
         case 1:
-            printf("Feature Coming Soon....\n");
+            findAllPaths(g, start, end);
             break;
         case 2:
             dijkstra(g, start, end);
@@ -140,7 +140,7 @@ void printMenu()
     printf("\033[1;32m******************************************************\033[0m\n");
     printf("\033[1;32m*                      \033[1;36mMenu\033[1;32m                          *\033[0m\n");
     printf("\033[1;32m*                                                    *\033[0m\n");
-    printf("\033[1;32m*   \033[1;36m1. Check if there is a direct flight available  \033[1;32m *\033[0m\n");
+    printf("\033[1;32m*   \033[1;36m1. Check all possible routes available          \033[1;32m *\033[0m\n");
     printf("\033[1;32m*   \033[1;36m2. Find the minimum cost to travel and the path \033[1;32m *\033[0m\n");
     printf("\033[1;32m*   \033[1;36m3. Exit                                         \033[1;32m *\033[0m\n");
     printf("\033[1;32m*                                                    *\033[0m\n");

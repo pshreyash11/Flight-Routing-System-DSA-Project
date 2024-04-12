@@ -296,3 +296,42 @@ int floydWarshall(graph *g, int start, int end)
     // Return the distance from start to end
     return dist[start][end];
 }
+void printPath(int path[], int len, int cost){
+    for(int i=0; i<len; i++){
+        printf("%s ", hashtable[path[i]]);
+        if(i != len - 1) printf("-> ");
+    }
+    printf(" ====> Cost = %d", cost);
+    printf("\n");
+}
+void findPathsHelper(graph* g, int src, int dest, bool visited[], int path[], int index, int cost, bool* found){
+    visited[src] = true;
+    path[index] = src;
+    index++;
+    if(src == dest) {
+        printPath(path, index, cost);
+        *found = true;
+    } else{
+        edge* cur = g->nodes[src]->edges;
+        while(cur){
+            int c = cost;
+            if(!visited[cur->dest]){
+                c += cur->w;
+                findPathsHelper(g, cur->dest, dest, visited, path, index, c, found);
+            }
+            cur = cur->next;
+        }
+    }
+    visited[src] = false;
+}
+void findAllPaths(graph* g, int src, int dest){
+    bool visited[MAX_NODES] = {false};
+    int path[MAX_NODES];
+    int index = 0;
+    int cost = 0;
+    bool found = false;
+    findPathsHelper(g, src, dest, visited, path, index, cost, &found);
+    if(!found){
+        printf("No paths available\n");
+    }
+}
