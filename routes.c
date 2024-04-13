@@ -43,6 +43,18 @@ city cities[MAX_NODES] = {
     {26.9124, 75.7873},    // Jaipur
     {26.8467, 80.9462},    // Lucknow
 };
+// city cities[MAX_NODES] = {
+//     {2.2, 7.2},    // Delhi
+//     {2.2, 7.2},
+//     {2.2, 7.2},
+//     {2.2, 7.2},
+//     {2.2, 7.2},
+//     {2.2, 7.2},
+//     {2.2, 7.2},
+//     {2.2, 7.2},
+//     {2.2, 7.2},
+//     {2.2, 7.2},    
+// };
 bool isEmpty()
 {
     return pqSize == 0;
@@ -149,11 +161,12 @@ void aStarSearch(graph *g, int src, int dest)
             path[pathLength++] = src;
             printf("A* Search Path: ");
             for (int i = pathLength - 1; i >= 0; i--)
-            {
+            {   
                 if(i)printf("%s -> ", hashtable[path[i]]);
                 else printf("%s ", hashtable[path[i]]);
             }
-            printf("\nTotal Cost (distance + heuristic): %lf\n", fScore[u]);
+            printf("\n");
+            //printf("\nTotal Cost (distance + heuristic): %lf\n", fScore[u]);
 
             break;
         }
