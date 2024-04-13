@@ -336,17 +336,17 @@ void findAllPaths(graph* g, int src, int dest){
         printf("No paths available\n");
     }
 }
-double measureCpuTime(void) {
-    clock_t start = clock();
-    return (double)start / CLOCKS_PER_SEC;
+
+
+double measureTime(void (*algo)(graph *, int, int), graph *g, int start, int end)
+{
+    clock_t startTime = clock();
+    algo(g, start, end);
+    clock_t endTime = clock();
+    double timeTaken = ((double)(endTime - startTime)) / CLOCKS_PER_SEC;
+    return timeTaken;
 }
 
-double benchmarkAlgo(void (*algo)(graph* , int, int), graph* g, int start, int end){
-    double startTime = measureCpuTime();
-    algo(g, start, end);
-    double endTime = measureCpuTime();
-    return endTime - startTime;
-}
 void floydWarshallWrapper(graph* g, int start, int end){
     int x = floydWarshall(g, start, end);
     return;

@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string.h>
-#include"routes.c"
+#include "routes.c"
 
 // Function prototypes
 flightinfo airinfo[MAX_NODES];
 void printMenu();
-void printAirInfo(char* src, char* dest);
+void printAirInfo(char *src, char *dest);
 
 int main()
 {
@@ -41,7 +41,8 @@ int main()
                 strcpy(arr[count].dest, token);
                 strcpy(airinfo[count].dest, token);
             }
-            else if(i == 4){
+            else if (i == 4)
+            {
                 strcpy(airinfo[count].distance, token);
             }
             else if (i == 5)
@@ -49,10 +50,12 @@ int main()
                 strcpy(arr[count].weight, token);
                 strcpy(airinfo[count].cost, token);
             }
-            else if(i == 6){
+            else if (i == 6)
+            {
                 strcpy(airinfo[count].airline, token);
             }
-            else if(i == 7){
+            else if (i == 7)
+            {
                 strcpy(airinfo[count].food, token);
             }
             token = strtok(NULL, ",");
@@ -96,7 +99,6 @@ int main()
         // printf("%d %d %d \n", sr, des, w);
     }
 
-
     char input[500];
     char output[500];
     int choice;
@@ -139,12 +141,18 @@ int main()
             printAirInfo(hashtable[start], hashtable[end]);
             break;
         case 4:
+            double dijkstraTime = measureTime(dijkstra, g, start, end);
+            printf("Time taken for djikstra algorithm is %lf\n",dijkstraTime);
+            double floydWarshallTime = measureTime(floydWarshallWrapper, g, start, end);
+            printf("Time taken for floyd warshall algorithm is %lf\n",floydWarshallTime);
+            break;
+        case 5:
             printf("\nExiting the program. Goodbye!\n");
             break;
         default:
             printf("\nInvalid choice. Please try again.\n");
         }
-    } while (choice != 4);
+    } while (choice != 5);
 
     return 0;
 }
@@ -153,22 +161,26 @@ int main()
 void printMenu()
 {
     // ASCII art menu with color and border
-    printf("\033[1;32m******************************************************\033[0m\n");
-    printf("\033[1;32m*                      \033[1;36mMenu\033[1;32m                          *\033[0m\n");
-    printf("\033[1;32m*                                                    *\033[0m\n");
-    printf("\033[1;32m*   \033[1;36m1. Check all possible routes available          \033[1;32m *\033[0m\n");
-    printf("\033[1;32m*   \033[1;36m2. Find the minimum cost to travel and the path \033[1;32m *\033[0m\n");
-    printf("\033[1;32m*   \033[1;36m3. Check non-stop flight and display its details\033[1;32m *\033[0m\n");
-    printf("\033[1;32m*   \033[1;36m4. Exit                                         \033[1;32m *\033[0m\n");
-    printf("\033[1;32m*                                                    *\033[0m\n");
-    printf("\033[1;32m******************************************************\033[0m\n");
+    printf("\033[1;32m*********************************************************\033[0m\n");
+    printf("\033[1;32m*                      \033[1;36mMenu\033[1;32m                             *\033[0m\n");
+    printf("\033[1;32m*                                                       *\033[0m\n");
+    printf("\033[1;32m*   \033[1;36m1. Check all possible routes available             \033[1;32m *\033[0m\n");
+    printf("\033[1;32m*   \033[1;36m2. Find the minimum cost to travel and the path    \033[1;32m *\033[0m\n");
+    printf("\033[1;32m*   \033[1;36m3. Check non-stop flight and display its details   \033[1;32m *\033[0m\n");
+    printf("\033[1;32m*   \033[1;36m4. Compare time complexity of different algorithms   \033[1;32m *\033[0m\n");
+    printf("\033[1;32m*   \033[1;36m5. Exit                                            \033[1;32m *\033[0m\n");
+    printf("\033[1;32m*                                                       *\033[0m\n");
+    printf("\033[1;32m*********************************************************\033[0m\n");
 }
 
-void printAirInfo(char* src, char* dest){
-    int sz = sizeof(airinfo)/sizeof(airinfo[0]);
+void printAirInfo(char *src, char *dest)
+{
+    int sz = sizeof(airinfo) / sizeof(airinfo[0]);
     bool flag = false;
-    for(int i =0; i<sz; i++){
-        if(strcmp(airinfo[i].src, src) == 0 && strcmp(airinfo[i].dest, dest) == 0){
+    for (int i = 0; i < sz; i++)
+    {
+        if (strcmp(airinfo[i].src, src) == 0 && strcmp(airinfo[i].dest, dest) == 0)
+        {
             printf("-----FLIGHT FOUND-----\n");
             printf("Total Distance: %s\n", airinfo[i].distance);
             printf("Airline Company: %s\n", airinfo[i].airline);
@@ -178,5 +190,6 @@ void printAirInfo(char* src, char* dest){
             flag = true;
         }
     }
-    if(!flag) printf("No direct flight availble!\n");
+    if (!flag)
+        printf("No direct flight availble!\n");
 }
