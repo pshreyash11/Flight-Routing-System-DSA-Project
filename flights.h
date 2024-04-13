@@ -21,8 +21,11 @@ typedef struct flightinfo{
     char src[1000];
     char dest[1000];
     char distance[1000];
+    char cost[1000];
     char airline[1000];
     char food[1000];
+    float rating;
+    int totalVotes;
 }flightinfo;
 edge* createEdge(int dest, int w);
 graph* createGraph(int numberofNodes);

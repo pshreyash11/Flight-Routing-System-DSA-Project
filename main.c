@@ -47,6 +47,7 @@ int main()
             else if (i == 5)
             {
                 strcpy(arr[count].weight, token);
+                strcpy(airinfo[count].cost, token);
             }
             else if(i == 6){
                 strcpy(airinfo[count].airline, token);
@@ -171,7 +172,8 @@ void printAirInfo(char* src, char* dest){
             printf("-----FLIGHT FOUND-----\n");
             printf("Total Distance: %s\n", airinfo[i].distance);
             printf("Airline Company: %s\n", airinfo[i].airline);
-            printf("Is inflight dining available: %s\n", airinfo[i].food);
+            printf("Is inflight dining available: %s", airinfo[i].food);
+            printf("Total cost: %s\n", airinfo[i].cost);
             printf("------x----x-----x-----\n");
             flag = true;
         }
