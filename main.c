@@ -136,15 +136,20 @@ int main()
         case 2:
             dijkstra(g, start, end);
             printf("Minimum money to travel is : %d\n", floydWarshall(g, start, end));
+            printf("Testing A* algorithm: \n");
+            aStarSearch(g, start, end);
+            printf("\n");
             break;
         case 3:
             printAirInfo(hashtable[start], hashtable[end]);
             break;
         case 4:
             double dijkstraTime = measureTime(dijkstra, g, start, end);
-            printf("Time taken for djikstra algorithm is %lf\n",dijkstraTime);
+            double aStarTime = measureTime(aStarSearch, g, start, end);
             double floydWarshallTime = measureTime(floydWarshallWrapper, g, start, end);
+            printf("Time taken for djikstra algorithm is %lf\n",dijkstraTime);
             printf("Time taken for floyd warshall algorithm is %lf\n",floydWarshallTime);
+            printf("Time taken for A* search algorithm is %lf\n", aStarTime);
             break;
         case 5:
             printf("\nExiting the program. Goodbye!\n");
@@ -186,7 +191,7 @@ void printAirInfo(char *src, char *dest)
             printf("Airline Company: %s\n", airinfo[i].airline);
             printf("Is inflight dining available: %s", airinfo[i].food);
             printf("Total cost: %s\n", airinfo[i].cost);
-            printf("------x----x-----x-----\n");
+            printf("------x----x----x------\n");
             flag = true;
         }
     }

@@ -5,7 +5,13 @@
 #include "flights.h"
 #include <limits.h>
 #include <time.h>
+#include <math.h>
 #define MAXCHAR 1000
+#define R 6371
+#define MAX_PQ_SIZE 100
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
 char hashtable[MAX_NODES][MAXCHAR];
 typedef struct info
 {
@@ -13,6 +19,163 @@ typedef struct info
     char dest[MAXCHAR];
     char weight[MAXCHAR];
 } info;
+typedef struct pqNode
+{
+    int vertex;
+    double fScore;
+} pqNode;
+pqNode priorityQueue[MAX_PQ_SIZE];
+int pqSize = 0;
+typedef struct city
+{
+    double latitude;
+    double longitude;
+} city;
+city cities[MAX_NODES] = {
+    {28.7041, 77.1025},    // Delhi
+    {19.0760, 72.8777},    // Mumbai
+    {12.9716, 77.5946},    // Bangalore
+    {13.0827, 80.2707},    // Chennai
+    {22.5726, 88.3639},    // Kolkata
+    {17.3850, 78.4867},    // Hyderabad
+    {23.0225, 72.5714},    // Ahmedabad
+    {18.5204, 73.8567},    // Pune
+    {26.9124, 75.7873},    // Jaipur
+    {26.8467, 80.9462},    // Lucknow
+};
+bool isEmpty()
+{
+    return pqSize == 0;
+}
+void swap(pqNode *a, pqNode *b)
+{
+    pqNode temp = *a;
+    *a = *b;
+    *b = temp;
+}
+void heapify(int i)
+{
+    int smallest = i;
+    int left = 2 * i + 1;
+    int right = 2 * i + 2;
+
+    if (left < pqSize && priorityQueue[left].fScore < priorityQueue[smallest].fScore)
+    {
+        smallest = left;
+    }
+
+    if (right < pqSize && priorityQueue[right].fScore < priorityQueue[smallest].fScore)
+    {
+        smallest = right;
+    }
+
+    if (smallest != i)
+    {
+        swap(&priorityQueue[smallest], &priorityQueue[i]);
+        heapify(smallest);
+    }
+}
+pqNode extractMin()
+{
+    if (isEmpty())
+    {
+        printf("Error: Priority queue is empty.\n");
+        exit(1);
+    }
+    pqNode min = priorityQueue[0];
+    pqSize--;
+    priorityQueue[0] = priorityQueue[pqSize];
+    heapify(0);
+    return min;
+}
+int parent(int i)
+{
+    return (i - 1) / 2;
+}
+void insert(int vertex, double fScore)
+{
+    if (pqSize == MAX_PQ_SIZE)
+    {
+        printf("Error: Priority queue overflow.\n");
+        exit(1);
+    }
+    pqSize++;
+    int i = pqSize - 1;
+    priorityQueue[i].vertex = vertex;
+    priorityQueue[i].fScore = fScore;
+    while (i > 0 && priorityQueue[parent(i)].fScore > priorityQueue[i].fScore)
+    {
+        swap(&priorityQueue[i], &priorityQueue[parent(i)]);
+        i = parent(i);
+    }
+}
+double heuristic(city a, city b)
+{
+    double dLat = (a.latitude - b.latitude) * M_PI / 180.0;
+    double dLon = (a.longitude - b.longitude) * M_PI / 180.0;
+    double a1 = sin(dLat / 2) * sin(dLat / 2);
+    double a2 = cos(M_PI * a.latitude / 180.0) * cos(M_PI * b.latitude / 180.0) * sin(dLon / 2) * sin(dLon / 2);
+    double c = 2 * atan2(sqrt(a1 + a2), sqrt(1.0 - (a1 + a2)));
+    return R * c;
+}
+void aStarSearch(graph *g, int src, int dest)
+{
+    int V = g->numberOfNodes;
+    int parent[MAX_NODES];
+    bool closedSet[MAX_NODES];
+    double fScore[MAX_NODES];
+    pqSize = 0;
+    for (int i = 0; i < V; i++)
+    {
+        parent[i] = -1;
+        closedSet[i] = false;
+        fScore[i] = INT_MAX;
+    }
+    fScore[src] = heuristic(cities[src], cities[dest]);
+    insert(src, fScore[src]);
+    while (!isEmpty())
+    {
+        int u = extractMin().vertex;
+        if (u == dest)
+        {
+            int path[MAX_NODES];
+            int pathLength = 0;
+            int current = u;
+            while (parent[current] != -1)
+            {
+                path[pathLength++] = current;
+                current = parent[current];
+            }
+            path[pathLength++] = src;
+            printf("A* Search Path: ");
+            for (int i = pathLength - 1; i >= 0; i--)
+            {
+                if(i)printf("%s -> ", hashtable[path[i]]);
+                else printf("%s ", hashtable[path[i]]);
+            }
+            printf("\nTotal Cost (distance + heuristic): %lf\n", fScore[u]);
+
+            break;
+        }
+        closedSet[u] = true;
+        for (edge *e = g->nodes[u]->edges; e != NULL; e = e->next)
+        {
+            int v = e->dest;
+            double tentativeGScore = fScore[u] + e->w;
+            if (!closedSet[v] && tentativeGScore < fScore[v])
+            {
+                parent[v] = u;
+                fScore[v] = tentativeGScore + heuristic(cities[v], cities[dest]);
+                insert(v, fScore[v]);
+            }
+        }
+    }
+    // if (isEmpty())
+    // {
+    //     printf("No path found from %s to %s using A* search.\n", hashtable[src], hashtable[dest]);
+    // }
+}
+
 edge *createEdge(int dest, int w)
 {
     edge *temp = (edge *)malloc(sizeof(edge));
@@ -297,26 +460,35 @@ int floydWarshall(graph *g, int start, int end)
     // Return the distance from start to end
     return dist[start][end];
 }
-void printPath(int path[], int len, int cost){
-    for(int i=0; i<len; i++){
+void printPath(int path[], int len, int cost)
+{
+    for (int i = 0; i < len; i++)
+    {
         printf("%s ", hashtable[path[i]]);
-        if(i != len - 1) printf("-> ");
+        if (i != len - 1)
+            printf("-> ");
     }
     printf(" ====> Cost = %d", cost);
     printf("\n");
 }
-void findPathsHelper(graph* g, int src, int dest, bool visited[], int path[], int index, int cost, bool* found){
+void findPathsHelper(graph *g, int src, int dest, bool visited[], int path[], int index, int cost, bool *found)
+{
     visited[src] = true;
     path[index] = src;
     index++;
-    if(src == dest) {
+    if (src == dest)
+    {
         printPath(path, index, cost);
         *found = true;
-    } else{
-        edge* cur = g->nodes[src]->edges;
-        while(cur){
+    }
+    else
+    {
+        edge *cur = g->nodes[src]->edges;
+        while (cur)
+        {
             int c = cost;
-            if(!visited[cur->dest]){
+            if (!visited[cur->dest])
+            {
                 c += cur->w;
                 findPathsHelper(g, cur->dest, dest, visited, path, index, c, found);
             }
@@ -325,18 +497,19 @@ void findPathsHelper(graph* g, int src, int dest, bool visited[], int path[], in
     }
     visited[src] = false;
 }
-void findAllPaths(graph* g, int src, int dest){
+void findAllPaths(graph *g, int src, int dest)
+{
     bool visited[MAX_NODES] = {false};
     int path[MAX_NODES];
     int index = 0;
     int cost = 0;
     bool found = false;
     findPathsHelper(g, src, dest, visited, path, index, cost, &found);
-    if(!found){
+    if (!found)
+    {
         printf("No paths available\n");
     }
 }
-
 
 double measureTime(void (*algo)(graph *, int, int), graph *g, int start, int end)
 {
@@ -347,7 +520,8 @@ double measureTime(void (*algo)(graph *, int, int), graph *g, int start, int end
     return timeTaken;
 }
 
-void floydWarshallWrapper(graph* g, int start, int end){
+void floydWarshallWrapper(graph *g, int start, int end)
+{
     int x = floydWarshall(g, start, end);
     return;
 }
