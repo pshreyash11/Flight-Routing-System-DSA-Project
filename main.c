@@ -63,10 +63,12 @@ int main()
         }
         count++;
     }
-    FILE* ratingFile = fopen("ratings.csv", "r");
-    if(!ratingFile) printf("Error opening rating file\n");
+    FILE *ratingFile = fopen("ratings.csv", "r");
+    if (!ratingFile)
+        printf("Error opening rating file\n");
     int c = 0;
-    while(fscanf(ratingFile, "%f,%d\n", &airinfo[c].rating, &airinfo[c].totalVotes) == 2){
+    while (fscanf(ratingFile, "%f,%d\n", &airinfo[c].rating, &airinfo[c].totalVotes) == 2)
+    {
         c++;
     }
     fclose(ratingFile);
@@ -154,21 +156,46 @@ int main()
             double floydWarshallTime = measureTime(floydWarshallWrapper, g, start, end);
             double aStarTime = measureTime(aStarSearch, g, start, end);
             double dijkstraTime = measureTime(dijkstra, g, start, end);
-            
-            printf("Time taken for djikstra algorithm is %lf\n",dijkstraTime);
-            printf("Time taken for floyd warshall algorithm is %lf\n",floydWarshallTime);
+
+            printf("Time taken for djikstra algorithm is %lf\n", dijkstraTime);
+            printf("Time taken for floyd warshall algorithm is %lf\n", floydWarshallTime);
             printf("Time taken for A* search algorithm is %lf\n", aStarTime);
             break;
         case 5:
+            int sz = sizeof(airinfo) / sizeof(airinfo[0]);
+            bool flag = false;
+            for (int i = 0; i < sz; i++)
+            {
+                if (strcmp(airinfo[i].src, hashtable[start]) == 0 && strcmp(airinfo[i].dest, hashtable[end]) == 0)
+                {
+                    float rate;
+                    printf("Enter your rating: ");
+                    scanf("%f", &rate);
+                    airinfo[i].rating = airinfo[i].rating * airinfo[i].totalVotes + rate;
+                    airinfo[i].totalVotes++;
+                    airinfo[i].rating = airinfo[i].rating / airinfo[i].totalVotes;
+                    // printf("new rating : %f , %d \n", airinfo[i].rating, airinfo[i].totalVotes);
+                    printf("Thanks for your response :)\n");
+
+                    printf("------x----x----x------\n");
+                    flag = true;
+                }
+            }
+            if (!flag)
+                printf("Since there is no direct flight available , you can't give rating !\n");
+            break;
+        case 6:
             printf("\nExiting the program. Goodbye!\n");
             break;
         default:
             printf("\nInvalid choice. Please try again.\n");
         }
-    } while (choice != 5);
-    FILE* updateRatings = fopen("ratings.csv", "w");
-    if(!updateRatings) printf("Error updating\n");
-    for(int l = 0; l < 21; l++){
+    } while (choice != 6);
+    FILE *updateRatings = fopen("ratings.csv", "w");
+    if (!updateRatings)
+        printf("Error updating\n");
+    for (int l = 0; l < 21; l++)
+    {
         fprintf(updateRatings, "%.1f,%d\n", airinfo[l].rating, airinfo[l].totalVotes);
     }
     fclose(updateRatings);
@@ -186,7 +213,8 @@ void printMenu()
     printf("\033[1;32m*   \033[1;36m2. Find the minimum cost to travel and the path    \033[1;32m *\033[0m\n");
     printf("\033[1;32m*   \033[1;36m3. Check non-stop flight and display its details   \033[1;32m *\033[0m\n");
     printf("\033[1;32m*   \033[1;36m4. Compare time complexity of different algorithms \033[1;32m *\033[0m\n");
-    printf("\033[1;32m*   \033[1;36m5. Exit                                            \033[1;32m *\033[0m\n");
+    printf("\033[1;32m*   \033[1;36m5. Travelled before ? Give Rating .                                           \033[1;32m *\033[0m\n");
+    printf("\033[1;32m*   \033[1;36m6. Exit                                            \033[1;32m *\033[0m\n");
     printf("\033[1;32m*                                                       *\033[0m\n");
     printf("\033[1;32m*********************************************************\033[0m\n");
 }
@@ -205,19 +233,20 @@ void printAirInfo(char *src, char *dest)
             printf("Is inflight dining available: %s", airinfo[i].food);
             printf("Total cost: %s\n", airinfo[i].cost);
             printf("Rating: %.1f, TotalVotes: %d \n", airinfo[i].rating, airinfo[i].totalVotes);
-            printf("Do you want to rate?[Y/N]");
-            char ch;
-            scanf(" %c", &ch);
-            if(ch == 'Y' || ch == 'y'){
-                float rate;
-                printf("Enter your rating: ");
-                scanf("%f", &rate);
-                airinfo[i].rating = airinfo[i].rating * airinfo[i].totalVotes + rate;
-                airinfo[i].totalVotes++;
-                airinfo[i].rating = airinfo[i].rating / airinfo[i].totalVotes;
-                //printf("new rating : %f , %d \n", airinfo[i].rating, airinfo[i].totalVotes);
-                printf("Thanks for your response :)\n");
-            }
+            // printf("Do you want to rate?[Y/N]");
+            // char ch;
+            // scanf(" %c", &ch);
+            // if (ch == 'Y' || ch == 'y')
+            // {
+            //     float rate;
+            //     printf("Enter your rating: ");
+            //     scanf("%f", &rate);
+            //     airinfo[i].rating = airinfo[i].rating * airinfo[i].totalVotes + rate;
+            //     airinfo[i].totalVotes++;
+            //     airinfo[i].rating = airinfo[i].rating / airinfo[i].totalVotes;
+            //     // printf("new rating : %f , %d \n", airinfo[i].rating, airinfo[i].totalVotes);
+            //     printf("Thanks for your response :)\n");
+            // }
             printf("------x----x----x------\n");
             flag = true;
         }
