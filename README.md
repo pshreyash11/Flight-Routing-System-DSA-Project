@@ -10,7 +10,7 @@ In this repository, you'll find implementations of three popular algorithms used
 2. **Floyd-Warshall Algorithm**: An algorithm for finding shortest paths in a weighted graph with positive or negative edge weights (but with no negative cycles). It is used to find the shortest paths between all pairs of nodes in a weighted graph.
 3. **A* (A-Star) Algorithm**: A heuristic search algorithm that finds a path from a given initial node to a given goal node by using a cost-plus-heuristic function.
 
-## functionalities
+## Functionalities
 
 1. Checks all possible paths available.
 2. Minimum Cost to travel (Using all three algorithms).
@@ -22,7 +22,7 @@ In this repository, you'll find implementations of three popular algorithms used
 
 ## Contributors 
 
-This is group project with sahilpatil1804 and Sujal-424 . but if you want to add some more functionalities to this project feel free to contribute.
+This is group project with @sahilpatil1804 and @Sujal-424 . but if you want to add some more functionalities to this project feel free to contribute.
 
 ## Usage
 
