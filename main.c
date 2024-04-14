@@ -144,9 +144,9 @@ int main()
             printAirInfo(hashtable[start], hashtable[end]);
             break;
         case 4:
-            double dijkstraTime = measureTime(dijkstra, g, start, end);
             double aStarTime = measureTime(aStarSearch, g, start, end);
             double floydWarshallTime = measureTime(floydWarshallWrapper, g, start, end);
+            double dijkstraTime = measureTime(dijkstra, g, start, end);
             printf("Time taken for djikstra algorithm is %lf\n",dijkstraTime);
             printf("Time taken for floyd warshall algorithm is %lf\n",floydWarshallTime);
             printf("Time taken for A* search algorithm is %lf\n", aStarTime);
