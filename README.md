@@ -30,8 +30,8 @@ To get started with using this project, follow these steps:
 
 1. Clone the repository to your local machine using git clone command
 2. To run the program , make sure you are in right directory .
-3. i) if you are on windows -> gcc main.c<br>
-                            -> ./a.exe<br>
+3. i) if you are on windows -> gcc main.c
+    <br>                       -> ./a.exe<br>
    ii) if you are on linux -> gcc main.c -lm
-                           -> ./a.out
+    <br>                       -> ./a.out
 
