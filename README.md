@@ -14,7 +14,7 @@ In this repository, you'll find implementations of three popular algorithms used
 
 1. Checks all possible paths available.
 2. Minimum Cost to travel (Using all three algorithms).
-3. Checks if there is direct flight available , If available display its details such as<br>distance<br> cost<br> airline-company <br> availability of inflight dining available <br> rating of flight <br> no. of ratings . 
+3. Checks if there is direct flight available , If available display its details such as<br>Distance<br> Cost<br> Airline-company <br> Availability of inflight dining <br> Rating of flight <br> No. of ratings . 
 4. Give rating of flight . this rating changes and stores it even if you close the program.
 5. Compares time between all three algorithms.
 
