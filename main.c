@@ -63,6 +63,13 @@ int main()
         }
         count++;
     }
+    FILE* ratingFile = fopen("ratings.csv", "r");
+    if(!ratingFile) printf("Error opening rating file\n");
+    int c = 0;
+    while(fscanf(ratingFile, "%f,%d\n", &airinfo[c].rating, &airinfo[c].totalVotes) == 2){
+        c++;
+    }
+    fclose(ratingFile);
     hashmap *m = hashmap_create();
     uintptr_t res, res2;
     int val = 0;
@@ -159,7 +166,12 @@ int main()
             printf("\nInvalid choice. Please try again.\n");
         }
     } while (choice != 5);
-
+    FILE* updateRatings = fopen("ratings.csv", "w");
+    if(!updateRatings) printf("Error updating\n");
+    for(int l = 0; l < 21; l++){
+        fprintf(updateRatings, "%.1f,%d\n", airinfo[l].rating, airinfo[l].totalVotes);
+    }
+    fclose(updateRatings);
     return 0;
 }
 
@@ -192,6 +204,20 @@ void printAirInfo(char *src, char *dest)
             printf("Airline Company: %s\n", airinfo[i].airline);
             printf("Is inflight dining available: %s", airinfo[i].food);
             printf("Total cost: %s\n", airinfo[i].cost);
+            printf("Rating: %.1f, TotalVotes: %d \n", airinfo[i].rating, airinfo[i].totalVotes);
+            printf("Do you want to rate?[Y/N]");
+            char ch;
+            scanf(" %c", &ch);
+            if(ch == 'Y' || ch == 'y'){
+                float rate;
+                printf("Enter your rating: ");
+                scanf("%f", &rate);
+                airinfo[i].rating = airinfo[i].rating * airinfo[i].totalVotes + rate;
+                airinfo[i].totalVotes++;
+                airinfo[i].rating = airinfo[i].rating / airinfo[i].totalVotes;
+                //printf("new rating : %f , %d \n", airinfo[i].rating, airinfo[i].totalVotes);
+                printf("Thanks for your response :)\n");
+            }
             printf("------x----x----x------\n");
             flag = true;
         }
