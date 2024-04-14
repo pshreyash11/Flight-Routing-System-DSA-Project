@@ -144,9 +144,10 @@ int main()
             printAirInfo(hashtable[start], hashtable[end]);
             break;
         case 4:
-            double aStarTime = measureTime(aStarSearch, g, start, end);
             double floydWarshallTime = measureTime(floydWarshallWrapper, g, start, end);
+            double aStarTime = measureTime(aStarSearch, g, start, end);
             double dijkstraTime = measureTime(dijkstra, g, start, end);
+            
             printf("Time taken for djikstra algorithm is %lf\n",dijkstraTime);
             printf("Time taken for floyd warshall algorithm is %lf\n",floydWarshallTime);
             printf("Time taken for A* search algorithm is %lf\n", aStarTime);
@@ -172,7 +173,7 @@ void printMenu()
     printf("\033[1;32m*   \033[1;36m1. Check all possible routes available             \033[1;32m *\033[0m\n");
     printf("\033[1;32m*   \033[1;36m2. Find the minimum cost to travel and the path    \033[1;32m *\033[0m\n");
     printf("\033[1;32m*   \033[1;36m3. Check non-stop flight and display its details   \033[1;32m *\033[0m\n");
-    printf("\033[1;32m*   \033[1;36m4. Compare time complexity of different algorithms   \033[1;32m *\033[0m\n");
+    printf("\033[1;32m*   \033[1;36m4. Compare time complexity of different algorithms \033[1;32m *\033[0m\n");
     printf("\033[1;32m*   \033[1;36m5. Exit                                            \033[1;32m *\033[0m\n");
     printf("\033[1;32m*                                                       *\033[0m\n");
     printf("\033[1;32m*********************************************************\033[0m\n");
