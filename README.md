@@ -14,7 +14,7 @@ In this repository, you'll find implementations of three popular algorithms used
 
 1. Checks all possible paths available.
 2. Minimum Cost to travel (Using all three algorithms).
-3. Checks if there is direct flight available , If available display its details such as distance , cost , airline-company , availibilty of inflight dining availble or not , rating of flight , no. of ratings . 
+3. Checks if there is direct flight available , If available display its details such as<br>distance<br> cost<br> airline-company <br> availability of inflight dining available <br> rating of flight <br> no. of ratings . 
 4. Give rating of flight . this rating changes and stores it even if you close the program.
 5. Compares time between all three algorithms.
 
@@ -30,8 +30,16 @@ To get started with using this project, follow these steps:
 
 1. Clone the repository to your local machine using git clone command
 2. To run the program , make sure you are in right directory .
-3. i) if you are on windows -> gcc main.c
-    <br>                       -> ./a.exe<br>
-   ii) if you are on linux -> gcc main.c -lm
-    <br>                       -> ./a.out
+3. i) if you are on Windows:
+   ```
+   gcc main.c
+   ./a.exe
+   ```
+   
+   ii) if you are on Linux:
+   ```
+   gcc main.c -lm
+   ./a.out
+   ```
+
 
